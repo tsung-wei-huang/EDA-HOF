@@ -31,7 +31,7 @@
     background: var(--bg);
     color: var(--text);
     font-family: var(--font-body);
-    font-size: 14px;
+    font-size: 22px;
     line-height: 1.6;
     min-height: 100vh;
   }
@@ -72,15 +72,14 @@
     position: relative;
   }
   h1 {
-    font-family: var(--font-head);
+    font-family: var(--font-body);
     font-size: clamp(28px, 5vw, 48px);
-    font-weight: 400;
+    font-weight: 600;
     line-height: 1.1;
     color: var(--text);
     margin-bottom: 12px;
   }
-  h1 em {
-    font-style: italic;
+  .title-accent {
     color: var(--accent);
   }
   .subtitle {
@@ -111,6 +110,34 @@
     padding: 24px;
   }
 
+  /* ── Venue filter checkboxes ── */
+  .venue-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+  .venue-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 12px;
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    background: var(--surface);
+    cursor: pointer;
+    user-select: none;
+    font-family: var(--font-mono);
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+    transition: border-color 0.15s, color 0.15s;
+  }
+  .venue-checkbox:hover { color: var(--text); border-color: var(--accent); }
+  .venue-checkbox.active { color: var(--accent); border-color: var(--accent); background: var(--surface2); }
+  .venue-checkbox input { display: none; }
+
   /* ── Controls row ── */
   .controls {
     display: flex;
@@ -129,7 +156,7 @@
     border-radius: var(--radius);
     color: var(--text);
     font-family: var(--font-body);
-    font-size: 13px;
+    font-size: 14px;
     padding: 6px 12px 6px 32px;
     width: 220px;
     outline: none;
@@ -143,7 +170,7 @@
     top: 50%;
     transform: translateY(-50%);
     color: var(--muted);
-    font-size: 13px;
+    font-size: 18px;
     pointer-events: none;
   }
 
@@ -151,7 +178,7 @@
   .section-desc a { color: var(--muted); text-decoration: none; border-bottom: 1px solid var(--border); }
   .section-desc a:hover { color: var(--accent); }
   .section-desc {
-    font-size: 12px;
+    font-size: 14px;
     color: var(--muted);
     margin-bottom: 16px;
     line-height: 1.5;
@@ -178,7 +205,7 @@
     padding: 10px 12px;
     text-align: left;
     font-family: var(--font-mono);
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 500;
     letter-spacing: 0.12em;
     text-transform: uppercase;
@@ -229,7 +256,15 @@
     color: var(--accent);
     font-weight: 500;
   }
-  td.num.zero { color: var(--border); }
+  td.num.zero   { color: var(--border); }
+  td.affil {
+    font-size: 14px;
+    color: var(--muted);
+    white-space: normal;
+    min-width: 180px;
+    max-width: 260px;
+  }
+  td.num.dimmed { opacity: 0.3; }
 
   .badge {
     display: inline-block;
@@ -277,16 +312,16 @@
 
 <header>
   <div class="header-inner">
-    <h1>Electronic Design Automation <em>Hall of Fame</em></h1>
+    <h1>Electronic Design Automation <span class="title-accent">Hall of Fame</span></h1>
     <p class="subtitle">
-      Researchers with ≥ 50 combined papers across the premier EDA
+      Researchers with ≥ 50 papers across the premier EDA
       conferences and journals: DAC, ICCAD, TCAD, and TODAES.
     </p>
     <div class="meta-row">
-      <span>DAC · ICCAD · TCAD · TODAES</span>
+      <span><a href="https://dblp.org/db/conf/dac/" target="_blank">DAC</a> · <a href="https://dblp.org/db/conf/iccad/" target="_blank">ICCAD</a> · <a href="https://dblp.org/db/journals/tcad/" target="_blank">TCAD</a> · <a href="https://dblp.org/db/journals/todaes/" target="_blank">TODAES</a></span>
       <span>Source: <a href="https://dblp.org" target="_blank">DBLP</a> · <a href="https://api.semanticscholar.org" target="_blank">Semantic Scholar</a></span>
       <span id="last-updated">—</span>
-      <span><a href="https://github.com/" target="_blank">GitHub ↗</a></span>
+      <span><a href="https://github.com/tsung-wei-huang/EDA-HOF" target="_blank">GitHub ↗</a></span>
     </div>
   </div>
 </header>
@@ -294,6 +329,12 @@
 
 
 <main>
+  <div class="venue-filters" id="venue-filters">
+    <label class="venue-checkbox active" data-venue="dac"><input type="checkbox" checked> DAC</label>
+    <label class="venue-checkbox active" data-venue="iccad"><input type="checkbox" checked> ICCAD</label>
+    <label class="venue-checkbox active" data-venue="tcad"><input type="checkbox" checked> TCAD</label>
+    <label class="venue-checkbox active" data-venue="todaes"><input type="checkbox" checked> TODAES</label>
+  </div>
   <div class="controls">
     <div class="search-wrap">
       <span class="search-icon">🔍</span>
@@ -330,21 +371,21 @@
 <script src="data.js"></script>
 <script>
 // ── State ──────────────────────────────────────────────────────────────────
-let sortCol     = 'total';
-let sortDir     = 'desc';
-let searchQuery = '';
+let sortCol      = 'total';
+let sortDir      = 'desc';
+let searchQuery  = '';
+let activeVenues = new Set(['dac', 'iccad', 'tcad', 'todaes']);
 
 // ── Columns (always shown) ───────────────────────────────────────────────────
 const COLS = [
-  { key: 'rank',    label: '#',       sortable: false },
-  { key: 'name',    label: 'Name',    sortable: true  },
-  { key: 'total',   label: 'Total',   sortable: true  },
-  { key: 'dac',     label: 'DAC',     sortable: true  },
-  { key: 'iccad',   label: 'ICCAD',   sortable: true  },
-  { key: 'tcad',    label: 'TCAD',    sortable: true  },
-  { key: 'todaes',  label: 'TODAES',  sortable: true  },
-  { key: 'hindex',  label: 'h',       sortable: true  },
-  { key: 'citations', label: 'Cites', sortable: true  },
+  { key: 'rank',   label: '#',      sortable: false },
+  { key: 'name',        label: 'Name',        sortable: true  },
+  { key: 'affiliation', label: 'Affiliation', sortable: false },
+  { key: 'total',       label: 'Total',       sortable: true  },
+  { key: 'dac',    label: 'DAC',    sortable: true  },
+  { key: 'iccad',  label: 'ICCAD',  sortable: true  },
+  { key: 'tcad',   label: 'TCAD',   sortable: true  },
+  { key: 'todaes', label: 'TODAES', sortable: true  },
 ];
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
@@ -371,14 +412,25 @@ function nameHtml(r) {
 }
 
 // ── Render ───────────────────────────────────────────────────────────────────
+function activeTotal(r) {
+  let t = 0;
+  for (const v of activeVenues) t += (r[v] || 0);
+  return t;
+}
+
 function getSortedFiltered() {
-  let rows = RESEARCHERS.slice();
+  let rows = RESEARCHERS
+    .filter(r => activeTotal(r) >= COMBINED_THRESHOLD)
+    .map(r => ({...r, _total: activeTotal(r)}));
+
   if (searchQuery) {
     const q = searchQuery.toLowerCase();
     rows = rows.filter(r => r.name.toLowerCase().includes(q));
   }
+  const col = sortCol === 'total' ? '_total' : sortCol;
   rows.sort((a, b) => {
-    let av = a[sortCol], bv = b[sortCol];
+    let av = col === '_total' ? a._total : a[col];
+    let bv = col === '_total' ? b._total : b[col];
     if (typeof av === 'string') { av = av.toLowerCase(); bv = bv.toLowerCase(); }
     if (av < bv) return sortDir === 'asc' ? -1 : 1;
     if (av > bv) return sortDir === 'asc' ?  1 : -1;
@@ -391,12 +443,27 @@ function renderTable() {
   const rows = getSortedFiltered();
 
   // Update section description
+  // Grey out inactive venue column headers
+  document.querySelectorAll('th[data-col]').forEach(th => {
+    const v = th.dataset.col;
+    if (['dac','iccad','tcad','todaes'].includes(v)) {
+      th.style.opacity = activeVenues.has(v) ? '1' : '0.3';
+    }
+  });
+
+  const VENUE_LINKS = {
+    dac:    '<a href="https://dblp.org/db/conf/dac/" target="_blank">DAC</a>',
+    iccad:  '<a href="https://dblp.org/db/conf/iccad/" target="_blank">ICCAD</a>',
+    tcad:   '<a href="https://dblp.org/db/journals/tcad/" target="_blank">TCAD</a>',
+    todaes: '<a href="https://dblp.org/db/journals/todaes/" target="_blank">TODAES</a>',
+  };
+  const activeLinks = ['dac','iccad','tcad','todaes']
+    .filter(v => activeVenues.has(v))
+    .map(v => VENUE_LINKS[v])
+    .join(' · ');
   document.getElementById('section-desc').innerHTML =
-    `${rows.length} researchers with ≥ <strong>${COMBINED_THRESHOLD}</strong> combined papers across
-     <a href="https://dblp.org/db/conf/dac/" target="_blank">DAC</a> ·
-     <a href="https://dblp.org/db/conf/iccad/" target="_blank">ICCAD</a> ·
-     <a href="https://dblp.org/db/journals/tcad/" target="_blank">TCAD</a> ·
-     <a href="https://dblp.org/db/journals/todaes/" target="_blank">TODAES</a>
+    `${rows.length} researchers with ≥ <strong>${COMBINED_THRESHOLD}</strong> papers across
+     ${activeLinks}
      (all-time). Source: <a href="https://dblp.org" target="_blank">DBLP</a> &amp;
      <a href="https://www.semanticscholar.org" target="_blank">Semantic Scholar</a>.
      Click any column header to sort.`;
@@ -408,6 +475,7 @@ function renderTable() {
   for (const col of COLS) {
     const th = document.createElement('th');
     th.textContent = col.label;
+    th.dataset.col = col.key;
     if (col.sortable) {
       th.classList.add('sortable');
       if (col.key === sortCol) th.classList.add(sortDir === 'asc' ? 'sort-asc' : 'sort-desc');
@@ -450,9 +518,16 @@ function renderTable() {
       } else if (col.key === 'name') {
         td.className = 'name';
         td.innerHTML = nameHtml(r);
+      } else if (col.key === 'affiliation') {
+        td.className = 'affil';
+        td.textContent = r.affiliation || '';
       } else {
-        const val = r[col.key];
-        td.className = 'num' + (col.key === sortCol ? ' highlight' : '') + (val === 0 ? ' zero' : '');
+        const val = col.key === 'total' ? r._total : r[col.key];
+        const inactive = ['dac','iccad','tcad','todaes'].includes(col.key) && !activeVenues.has(col.key);
+        td.className = 'num'
+          + (col.key === sortCol || (col.key === 'total' && sortCol === 'total') ? ' highlight' : '')
+          + (val === 0 ? ' zero' : '')
+          + (inactive ? ' dimmed' : '');
         td.textContent = fmt(val);
       }
       tr2.appendChild(td);
@@ -470,6 +545,22 @@ if (typeof LAST_UPDATED !== 'undefined') {
 document.getElementById('search').addEventListener('input', e => {
   searchQuery = e.target.value.trim();
   renderTable();
+});
+
+document.querySelectorAll('.venue-checkbox').forEach(label => {
+  label.addEventListener('click', e => {
+    e.preventDefault();
+    const venue = label.dataset.venue;
+    if (activeVenues.has(venue)) {
+      if (activeVenues.size === 1) return;  // keep at least one active
+      activeVenues.delete(venue);
+      label.classList.remove('active');
+    } else {
+      activeVenues.add(venue);
+      label.classList.add('active');
+    }
+    renderTable();
+  });
 });
 
 renderTable();

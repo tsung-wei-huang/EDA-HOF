@@ -10,7 +10,9 @@ all-time publication records across the four premier EDA venues:
 | [TCAD](https://dblp.org/db/journals/tcad/) | IEEE Transactions on Computer-Aided Design | Journal | `journals/tcad` |
 | [TODAES](https://dblp.org/db/journals/todaes/) | ACM Transactions on Design Automation of Electronic Systems | Journal | `journals/todaes` |
 
-**Live site:** `https://<your-github-username>.github.io/EDA-HallOfFame/`
+**Live site:** https://tsung-wei-huang.github.io/EDA-HOF
+
+**GitHub:** https://github.com/tsung-wei-huang/EDA-HOF
 
 ---
 
@@ -20,7 +22,8 @@ A single combined threshold across all four venues:
 
 > **DAC + ICCAD + TCAD + TODAES ≥ 50 papers (all-time)**
 
-Click any column header on the site to re-sort by that venue.
+Click any column header on the site to re-sort by that venue. Use the venue
+toggle buttons to filter the ranking to a subset of venues.
 
 ---
 
@@ -126,11 +129,51 @@ GitHub Pages auto-deploys within ~60 s.
 `index.html` is a fully self-contained static page — no frameworks, no build
 step, no server. It loads `data.js` and renders everything client-side.
 
-- **Sorting:** Click any column header (Total, DAC, ICCAD, TCAD, TODAES, h, Cites)
-  to sort. Click again to reverse. The active sort column highlights in gold.
+- **Sorting:** Click any column header (Total, DAC, ICCAD, TCAD, TODAES) to
+  sort. Click again to reverse. The active sort column highlights in gold.
+- **Venue filter:** Toggle the DAC / ICCAD / TCAD / TODAES buttons to include
+  or exclude venues from the Total and ranking.
 - **Search:** Filters by researcher name in real time.
 - **Name links:** Each researcher name links to their DBLP profile page.
 - DBLP disambiguation suffixes (e.g. "Wei Li 0001") are stripped from display names.
+
+---
+
+## Affiliations
+
+Affiliations are **not fetched automatically** — automated API lookups
+(Semantic Scholar, DBLP) proved too unreliable for this data. Instead, they
+are maintained manually in the `AFFILIATION_OVERRIDES` table near the top of
+`run.py`, and applied at `data.js` generation time.
+
+The table ships with affiliations pre-filled for the initial set of 118
+researchers. When new researchers appear after a data refresh, `run.py` will
+print a reminder like:
+
+```
+Affiliation tip:
+N researchers are missing affiliations in data.js.
+Tip: paste the RESEARCHERS array into an AI assistant and ask:
+'Fill in the affiliation field with the university name for each
+ researcher based on your knowledge. Leave blank if unsure.'
+Then add the results to AFFILIATION_OVERRIDES in run.py.
+```
+
+To add or correct an affiliation, edit `AFFILIATION_OVERRIDES` in `run.py`:
+
+```python
+AFFILIATION_OVERRIDES: dict[str, str] = {
+    "Tsung-Wei Huang": "University of Wisconsin-Madison",
+    "Jason Cong":       "University of California, Los Angeles",
+    # Add entries here — key is the name WITHOUT DBLP number suffix
+}
+```
+
+Then regenerate instantly:
+
+```bash
+python run.py --skip-fetch --skip-enrich
+```
 
 ---
 
@@ -142,6 +185,7 @@ step, no server. It loads `data.js` and renders everything client-side.
 | Paper counts look too high | Cached `dblp_data.json` from old version | `rm tmp/dblp_data.json && python run.py --skip-download` |
 | All `hindex`/`citations` are 0 | Skipped enrichment | Re-run without `--skip-enrich` |
 | Same person appears twice | Name variant with no DBLP PID | See author disambiguation below |
+| Affiliation shows blank | Not yet in `AFFILIATION_OVERRIDES` | Add it manually (see Affiliations section) |
 | Site shows placeholder data | `data.js` is the stub file | Run `python run.py` |
 
 ### Author disambiguation
@@ -151,12 +195,19 @@ The pipeline uses PIDs as the primary identity key, so name variants like
 "Martin D. F. Wong" and "D. F. Wong" merge automatically when DBLP gives
 them the same PID.
 
-For the rare case where a researcher has no PID in the XML (very old papers),
-the pipeline falls back to a normalised name key (last name + first initial).
+If you still see a duplicate after re-running, both records lack a PID.
+Fix it by adding an entry to the `NAME_OVERRIDES` table near the top of `run.py`:
 
-If you still see a duplicate after re-running, it means both records genuinely
-lack a PID. Fix it by editing `tmp/dblp_data.json`: find the two entries,
-merge their paper counts into one, then re-run:
+```python
+NAME_OVERRIDES: dict[str, str] = {
+    "D. F. Wong": "w/MartinDFWong",   # exact XML name -> DBLP PID
+}
+```
+
+Find the researcher's DBLP PID from their profile URL, e.g.
+`https://dblp.org/pid/w/MartinDFWong` → PID is `w/MartinDFWong`.
+
+Then regenerate:
 
 ```bash
 python run.py --skip-fetch --skip-enrich
@@ -188,12 +239,15 @@ python run.py --skip-fetch --skip-enrich
 - **Citation metrics:** [Semantic Scholar](https://api.semanticscholar.org)
   public API — free, no key required. Only HoF-qualifying researchers are
   looked up (not all 30k+ authors in the dump).
+- **Affiliations:** Manually curated in `AFFILIATION_OVERRIDES` in `run.py`.
 
 ---
 
 ## Contributing
 
-- **Data corrections:** Open a PR editing `tmp/dblp_data.json`, then re-run
+- **Affiliation corrections:** Edit `AFFILIATION_OVERRIDES` in `run.py`, then
+  `python run.py --skip-fetch --skip-enrich` and commit `data.js`
+- **Data corrections:** Edit `tmp/dblp_data.json`, then re-run
   `python run.py --skip-fetch --skip-enrich` and commit `data.js`
 - **UI improvements:** Edit `index.html` — fully self-contained, no build step
 - **New venues:** Add an entry to the `VENUES` and `VENUE_PREFIXES` dicts

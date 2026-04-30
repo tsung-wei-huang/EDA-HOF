@@ -46,6 +46,152 @@ os.chdir(REPO_DIR)
 # ─────────────────────────────────────────────────────────────────────────────
 COMBINED_THRESHOLD = 50  # DAC + ICCAD + TCAD + TODAES combined
 
+# ── Affiliation overrides ────────────────────────────────────────────────────
+# Manually curated affiliations. Key = author name WITHOUT DBLP number suffix.
+# These take priority over anything returned by Semantic Scholar or DBLP API.
+# Add or correct entries here as needed.
+AFFILIATION_OVERRIDES: dict[str, str] = {
+    "A. Richard Newton":                  "University of California, Berkeley",
+    "Alan Mishchenko":                    "University of California, Berkeley",
+    "Alberto L. Sangiovanni-Vincentelli": "University of California, Berkeley",
+    "Anand Raghunathan":                  "Purdue University",
+    "Andrew B. Kahng":                    "University of California, San Diego",
+    "Ankur Srivastava":                   "University of Maryland",
+    "Bei Yu":                             "Chinese University of Hong Kong",
+    "Bing Li":                            "Technical University of Munich",
+    "Charles J. Alpert":                  "Cadence Design Systems",
+    "Cheng Zhuo":                         "Zhejiang University",
+    "Cheng-Kok Koh":                      "Purdue University",
+    "Chun Jason Xue":                     "City University of Hong Kong",
+    "Chung-Kuan Cheng":                   "University of California, San Diego",
+    "D. F. Wong":                         "Hong Kong Baptist University",
+    "David T. Blaauw":                    "University of Michigan",
+    "David Z. Pan":                       "University of Texas at Austin",
+    "Deming Chen":                        "University of Illinois Urbana-Champaign",
+    "Dennis Sylvester":                   "University of Michigan",
+    "Dian Zhou":                          "University of Texas at Dallas",
+    "Diana Marculescu":                   "University of Texas at Austin",
+    "Enrico Macii":                       "Politecnico di Torino",
+    "Evangeline F. Y. Young":             "Chinese University of Hong Kong",
+    "Fabio Somenzi":                      "University of Colorado Boulder",
+    "Fan Yang":                           "Fudan University",
+    "Farid N. Najm":                      "University of Toronto",
+    "Farinaz Koushanfar":                 "University of California, San Diego",
+    "Francky Catthoor":                   "KU Leuven",
+    "Gang Qu":                            "University of Maryland",
+    "Georges G. E. Gielen":               "KU Leuven",
+    "Giovanni De Micheli":                "EPFL",
+    "Hai Zhou":                           "Northwestern University",
+    "Haoxing Ren":                        "NVIDIA",
+    "Huawei Li":                          "Chinese Academy of Sciences",
+    "Huazhong Yang":                      "Tsinghua University",
+    "Igor L. Markov":                     "University of Michigan",
+    "Iris Hui-Ru Jiang":                  "National Taiwan University",
+    "Irith Pomeranz":                     "Purdue University",
+    "Jacob A. Abraham":                   "University of Texas at Austin",
+    "Jaijeet S. Roychowdhury":            "University of California, Berkeley",
+    "Janusz Rajski":                      "Siemens EDA",
+    "Jason Cong":                         "University of California, Los Angeles",
+    "Jiang Hu":                           "Texas A&M University",
+    "Jianli Chen":                        "Fudan University",
+    "Jie-Hong R. Jiang":                  "National Taiwan University",
+    "Jingtong Hu":                        "University of Pittsburgh",
+    "Jinjun Xiong":                       "University at Buffalo",
+    "John P. Hayes":                      "University of Michigan",
+    "Jordi Cortadella":                   "Universitat Politècnica de Catalunya",
+    "Jörg Henkel":                   "Karlsruhe Institute of Technology",
+    "Kaushik Roy":                        "Purdue University",
+    "Krishnendu Chakrabarty":             "Arizona State University",
+    "Kurt Keutzer":                       "University of California, Berkeley",
+    "Kwang-Ting Cheng":                   "Hong Kong University of Science and Technology",
+    "Lawrence T. Pileggi":                "Carnegie Mellon University",
+    "Lei He":                             "University of California, Los Angeles",
+    "Leibo Liu":                          "Tsinghua University",
+    "Luca Benini":                        "ETH Zurich",
+    "Luciano Lavagno":                    "Politecnico di Torino",
+    "Mahmut T. Kandemir":                 "Pennsylvania State University",
+    "Majid Sarrafzadeh":                  "University of California, Los Angeles",
+    "Malgorzata Marek-Sadowska":          "University of California, Santa Barbara",
+    "Martin D. F. Wong":                  "Hong Kong Baptist University",
+    "Massoud Pedram":                     "University of Southern California",
+    "Miodrag Potkonjak":                  "University of California, Los Angeles",
+    "Mohsen Imani":                       "University of California, Irvine",
+    "Muhammad Shafique":                  "New York University Abu Dhabi",
+    "Nikil D. Dutt":                      "University of California, Irvine",
+    "Niraj K. Jha":                       "Princeton University",
+    "Ozgur Sinanoglu":                    "New York University Abu Dhabi",
+    "Peng Li":                            "Texas A&M University",
+    "Puneet Gupta":                       "University of California, Los Angeles",
+    "Qiang Xu":                           "Chinese University of Hong Kong",
+    "Radu Marculescu":                    "University of Texas at Austin",
+    "Ramesh Karri":                       "New York University",
+    "Rob A. Rutenbar":                    "University of Illinois Urbana-Champaign",
+    "Robert K. Brayton":                  "University of California, Berkeley",
+    "Robert Wille":                       "Technical University of Munich",
+    "Rolf Drechsler":                     "University of Bremen",
+    "Ru Huang":                           "Peking University",
+    "Runsheng Wang":                      "Peking University",
+    "Ryan Kastner":                       "University of California, San Diego",
+    "Sachin S. Sapatnekar":               "University of Minnesota",
+    "Sarma B. K. Vrudhula":               "Arizona State University",
+    "Shaojun Wei":                        "Tsinghua University",
+    "Sharad Malik":                       "Princeton University",
+    "Sheldon X.-D. Tan":                  "University of California, Riverside",
+    "Shih-Chieh Chang":                   "National Tsing Hua University",
+    "Shouyi Yin":                         "Tsinghua University",
+    "Srinivas Devadas":                   "Massachusetts Institute of Technology",
+    "Subhasish Mitra":                    "Stanford University",
+    "Sudhakar M. Reddy":                  "University of Iowa",
+    "Sujit Dey":                          "University of California, San Diego",
+    "Sung Kyu Lim":                       "Georgia Institute of Technology",
+    "Sung-Mo Kang":                       "University of California, Santa Cruz",
+    "Taewhan Kim":                        "Seoul National University",
+    "Tei-Wei Kuo":                        "National Taiwan University",
+    "Tsung-Wei Huang":                    "University of Wisconsin-Madison",
+    "Tsung-Yi Ho":                        "Chinese University of Hong Kong",
+    "Ulf Schlichtmann":                   "Technical University of Munich",
+    "Valeria Bertacco":                   "University of Michigan",
+    "Vladimir Zolotov":                   "IBM Research",
+    "Xiaobo Sharon Hu":                   "University of Notre Dame",
+    "Xiaowei Li":                         "Chinese Academy of Sciences",
+    "Xin Li":                             "Duke University",
+    "Xuan Zeng":                          "Fudan University",
+    "Yanzhi Wang":                        "Northeastern University",
+    "Yao-Wen Chang":                      "National Taiwan University",
+    "Yibo Lin":                           "Peking University",
+    "Ying Wang":                          "Chinese Academy of Sciences",
+    "Yinhe Han":                          "Chinese Academy of Sciences",
+    "Yiran Chen":                         "Duke University",
+    "Yiyu Shi":                           "University of Notre Dame",
+    "Yu Wang":                            "Tsinghua University",
+    "Yuan Xie":                           "University of California, Santa Barbara",
+    "Yuan-Hao Chang":                     "National Yang Ming Chiao Tung University",
+    "Yun Liang":                          "Peking University",
+    "Yuzhe Ma":                           "Hong Kong University of Science and Technology",
+}
+
+# ── Manual name overrides ─────────────────────────────────────────────────────
+# Use this table to fix cases where the same researcher appears under two
+# different name strings in the DBLP XML, both without a PID.
+#
+# Key:   exact name string as it appears in the XML (check tmp/dblp_data.json)
+# Value: the DBLP PID  (e.g. "w/MartinDFWong") OR another name string that
+#        already has a PID — either way it becomes the identity key.
+#
+# To find a researcher's PID: visit their DBLP page and copy the path after
+# https://dblp.org/pid/  e.g. https://dblp.org/pid/w/MartinDFWong -> w/MartinDFWong
+#
+# Example:
+#   "D. F. Wong":        "w/MartinDFWong",
+#   "D.F. Wong":         "w/MartinDFWong",
+#   "Andrew Kahng":      "k/AndrewBKahng",
+NAME_OVERRIDES: dict[str, str] = {
+    # "D. F. Wong" and "Martin D. F. Wong" are the same person —
+    # both lack a DBLP PID so we pin them to the same canonical key
+    "D. F. Wong":        "w/MartinDFWong",
+    "D.F. Wong":         "w/MartinDFWong",
+}
+
 # dblp_path must match the path under https://dblp.org/db/
 VENUES = {
     "dac":    {"label": "DAC",    "type": "conf",    "dblp_path": "conf/dac"},
@@ -492,6 +638,7 @@ def ss_lookup(name: str) -> dict | None:
         return None
 
 
+
 def hof_qualifying_pids(dblp_data: dict) -> set:
     """
     Return (venue_key, pid_key) pairs for researchers who already qualify
@@ -501,7 +648,11 @@ def hof_qualifying_pids(dblp_data: dict) -> set:
     for vk in VENUES:
         for pid_key, ainfo in dblp_data[vk]["authors"].items():
             pid      = ainfo.get("pid", "")
-            identity = pid if pid else ainfo["name"]
+            name     = ainfo["name"]
+            # Apply manual override if present
+            if name in NAME_OVERRIDES:
+                pid = NAME_OVERRIDES[name]
+            identity = pid if pid else name
             if identity not in totals:
                 totals[identity] = {"dac": 0, "iccad": 0, "tcad": 0, "todaes": 0, "pairs": []}
             totals[identity][vk] += ainfo["total"]
@@ -544,63 +695,18 @@ def step_enrich(dblp_data: dict) -> dict:
         ss = cache[name]
         for vk, pid_key in locs:
             a = dblp_data[vk]["authors"][pid_key]
-            a["hindex"]    = ss.get("hIndex",        0)
-            a["citations"] = ss.get("citationCount", 0)
-            a["ss_papers"] = ss.get("paperCount",    0)
-            a["ss_id"]     = ss.get("authorId",      "")
+            a["hindex"]      = ss.get("hIndex",        0)
+            a["citations"]   = ss.get("citationCount", 0)
+            a["ss_papers"]   = ss.get("paperCount",    0)
+            a["ss_id"]       = ss.get("authorId",      "")
+            a["affiliation"] = ""   # set via AFFILIATION_OVERRIDES in build_researcher_table
+    print()
 
     out = tmpfile("enriched_data.json")
     with open(out, "w", encoding="utf-8") as f:
         json.dump(dblp_data, f, ensure_ascii=False, indent=2)
     ok(f"Saved -> {out}  (temp)")
     return dblp_data
-
-
-def _name_key(name: str) -> str:
-    """
-    Normalise an author name to a merge key robust to DBLP name variants.
-
-    The key is: lastname + sorted UNIQUE initials of given-name tokens.
-    This merges "D. F. Wong" and "Martin D. F. Wong" because:
-      "D. F. Wong"        -> initials {d, f}        -> "wong|d|f"
-      "Martin D. F. Wong" -> initials {m, d, f}     -> "wong|d|f|m"
-    These still differ by "m", so we take a SUBSET approach:
-    two names merge if one's initials are a SUBSET of the other's
-    and they share the same surname. We encode this by storing the
-    key as lastname only for the lookup, and resolve conflicts later.
-
-    Simpler practical approach that handles the DAC/EDA corpus well:
-    key = lastname + sorted(set of all initials across all given tokens)
-    where "Martin" contributes "m", "D." contributes "d", etc.
-    "D. F. Wong"        -> wong|d|f
-    "Martin D. F. Wong" -> wong|d|f|m   <- still different
-
-    The REAL fix: since DBLP assigns the same PID to both variants,
-    they merge via PID. The name key is only the fallback for empty PIDs.
-    For those rare cases we use: lastname + first initial only.
-    "D. F. Wong"        -> wong|d
-    "Martin D. F. Wong" -> wong|m   <- still different :(
-
-    Best practical heuristic: lastname + sorted initials of ALL tokens
-    except we IGNORE tokens after the first given-name token if they
-    are single letters (middle initials), keeping only surname + first initial.
-    "D. F. Wong"        -> wong|d
-    "Martin D. F. Wong" -> wong|m
-    -- This merges only if first initials match, which is safer than
-       merging everything with same surname (too aggressive).
-    """
-    import re
-    name = re.sub(r"\s+\d{4}$", "", name).strip()
-    parts = name.split()
-    if not parts:
-        return name.lower()
-    last = parts[-1].lower()
-    given = parts[:-1]
-    if not given:
-        return last
-    # First initial only — conservative but avoids false merges
-    first_initial = given[0][0].lower()
-    return last + "|" + first_initial
 
 
 def build_researcher_table(enriched: dict) -> list[dict]:
@@ -613,6 +719,7 @@ def build_researcher_table(enriched: dict) -> list[dict]:
                 "dac": 0, "iccad": 0, "tcad": 0, "todaes": 0,
                 "hindex": ainfo.get("hindex", 0),
                 "citations": ainfo.get("citations", 0),
+                "affiliation": "",
             }
         researchers[identity][venue] += ainfo["total"]
         # Prefer the longer/fuller name for display
@@ -625,6 +732,11 @@ def build_researcher_table(enriched: dict) -> list[dict]:
             researchers[identity]["hindex"]    = ainfo["hindex"]
             researchers[identity]["citations"] = ainfo.get("citations", 0)
             researchers[identity]["ss_id"]     = ainfo.get("ss_id", "")
+    # Apply manual affiliation overrides (strips DBLP number suffix for matching)
+    import re as _re
+    for r in researchers.values():
+        clean = _re.sub(r"\\s+\\d{4}$", "", r["name"]).strip()
+        r["affiliation"] = AFFILIATION_OVERRIDES.get(clean, "")
 
     for vk in VENUES:
         for pid_key, ainfo in enriched[vk]["authors"].items():
@@ -632,7 +744,7 @@ def build_researcher_table(enriched: dict) -> list[dict]:
             # Primary identity: DBLP PID (globally unique, best)
             # Fallback: normalised name key (handles variants like "D. F. Wong"
             # vs "Martin D. F. Wong" when DBLP hasn't assigned a PID)
-            identity = pid if pid else _name_key(ainfo["name"])
+            identity = pid if pid else ainfo["name"]
             upsert(identity, ainfo["name"], pid, vk, ainfo)
 
     rows = []
@@ -676,6 +788,16 @@ const YEARLY = {json.dumps(yearly, ensure_ascii=False, indent=2)};
         f.write(js)
 
     ok(f"Saved → {out}  ({len(researchers)} researchers inducted into Hall of Fame)")
+
+    missing_affil = sum(1 for r in researchers if not r.get("affiliation"))
+    if missing_affil:
+        print()
+        print(f"  {YELLOW}Affiliation tip:{RESET}")
+        print(f"  {missing_affil} researchers are missing affiliations in data.js.")
+        print(f"  Tip: paste the RESEARCHERS array into an AI assistant and ask:")
+        print(f"  'Fill in the affiliation field with the university name for each")
+        print(f"   researcher based on your knowledge. Leave blank if unsure.'")
+        print(f"  Then add the results to AFFILIATION_OVERRIDES in run.py.")
 
 
 def serve(port: int):
