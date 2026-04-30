@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>EDA Hall of Fame</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<style>
+  /* ── Design tokens ── */
+  :root {
+    --bg:        #0d0f14;
+    --surface:   #13161e;
+    --surface2:  #1a1e28;
+    --border:    #252a38;
+    --accent:    #c8a84b;        /* warm gold — EDA/silicon motif  */
+    --accent2:   #4b8ec8;        /* cool steel blue                */
+    --text:      #e8e4d8;
+    --muted:     #7a7e8e;
+  
+    --radius:    6px;
+    --font-head: 'DM Serif Display', Georgia, serif;
+    --font-body: 'DM Sans', system-ui, sans-serif;
+    --font-mono: 'DM Mono', 'Courier New', monospace;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-body);
+    font-size: 14px;
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+
+  /* ── Header ── */
+  header {
+    border-bottom: 1px solid var(--border);
+    padding: 40px 0 32px;
+    background: linear-gradient(180deg, #0a0c10 0%, var(--bg) 100%);
+    position: relative;
+    overflow: hidden;
+  }
+  header::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      repeating-linear-gradient(
+        90deg,
+        transparent,
+        transparent 80px,
+        rgba(200,168,75,0.03) 80px,
+        rgba(200,168,75,0.03) 81px
+      ),
+      repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 80px,
+        rgba(200,168,75,0.03) 80px,
+        rgba(200,168,75,0.03) 81px
+      );
+    pointer-events: none;
+  }
+  .header-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 24px;
+    position: relative;
+  }
+  h1 {
+    font-family: var(--font-head);
+    font-size: clamp(28px, 5vw, 48px);
+    font-weight: 400;
+    line-height: 1.1;
+    color: var(--text);
+    margin-bottom: 12px;
+  }
+  h1 em {
+    font-style: italic;
+    color: var(--accent);
+  }
+  .subtitle {
+    color: var(--muted);
+    font-size: 14px;
+    margin-bottom: 20px;
+    max-width: 560px;
+  }
+  .meta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .meta-row a { color: var(--muted); text-decoration: none; border-bottom: 1px solid var(--border); }
+  .meta-row a:hover { color: var(--accent); }
+
+  /* ── Legend ── */
+
+
+  /* ── Main layout ── */
+  main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 24px;
+  }
+
+  /* ── Controls row ── */
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  .search-wrap {
+    position: relative;
+  }
+  .search-wrap input {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    color: var(--text);
+    font-family: var(--font-body);
+    font-size: 13px;
+    padding: 6px 12px 6px 32px;
+    width: 220px;
+    outline: none;
+    transition: border-color 0.15s;
+  }
+  .search-wrap input::placeholder { color: var(--muted); }
+  .search-wrap input:focus { border-color: var(--accent); }
+  .search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--muted);
+    font-size: 13px;
+    pointer-events: none;
+  }
+
+  /* ── Section title ── */
+  .section-desc a { color: var(--muted); text-decoration: none; border-bottom: 1px solid var(--border); }
+  .section-desc a:hover { color: var(--accent); }
+  .section-desc {
+    font-size: 12px;
+    color: var(--muted);
+    margin-bottom: 16px;
+    line-height: 1.5;
+  }
+  .section-desc strong { color: var(--accent); }
+
+  /* ── Table ── */
+  .table-wrap {
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    overflow-x: auto;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+  }
+  thead tr {
+    background: var(--surface2);
+    border-bottom: 1px solid var(--border);
+  }
+  th {
+    padding: 10px 12px;
+    text-align: left;
+    font-family: var(--font-mono);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    white-space: nowrap;
+    user-select: none;
+  }
+  th.sortable { cursor: pointer; }
+  th.sortable:hover { color: var(--text); }
+  th.sort-asc::after  { content: ' ▲'; color: var(--accent); font-size: 9px; }
+  th.sort-desc::after { content: ' ▼'; color: var(--accent); font-size: 9px; }
+
+  tbody tr {
+    border-bottom: 1px solid var(--border);
+    transition: background 0.1s;
+  }
+  tbody tr:last-child { border-bottom: none; }
+  tbody tr:hover { background: var(--surface); }
+
+
+  td {
+    padding: 9px 12px;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  td.rank {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--muted);
+    width: 40px;
+  }
+  td.name {
+    font-weight: 500;
+    white-space: normal;
+    min-width: 180px;
+  }
+  td.name a {
+    color: var(--text);
+    text-decoration: none;
+  }
+  td.name a:hover { color: var(--accent); text-decoration: underline; }
+  td.num {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    text-align: right;
+  }
+  td.num.highlight {
+    color: var(--accent);
+    font-weight: 500;
+  }
+  td.num.zero { color: var(--border); }
+
+  .badge {
+    display: inline-block;
+    font-size: 9px;
+    font-family: var(--font-mono);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 1px 5px;
+    border-radius: 3px;
+    margin-left: 6px;
+    vertical-align: middle;
+  }
+
+  /* ── Empty state ── */
+  .empty {
+    text-align: center;
+    padding: 60px 24px;
+    color: var(--muted);
+    font-size: 14px;
+  }
+
+  /* ── Footer ── */
+  footer {
+    border-top: 1px solid var(--border);
+    padding: 24px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 12px;
+    color: var(--muted);
+    line-height: 1.8;
+  }
+  footer a { color: var(--muted); text-decoration: none; border-bottom: 1px solid var(--border); }
+  footer a:hover { color: var(--accent); }
+
+  /* ── Responsive ── */
+  @media (max-width: 640px) {
+    .controls { flex-direction: column; align-items: stretch; }
+    .search-wrap { margin-left: 0; }
+    .search-wrap input { width: 100%; }
+    td, th { padding: 8px 8px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <h1>Electronic Design Automation <em>Hall of Fame</em></h1>
+    <p class="subtitle">
+      Researchers with ≥ 50 combined papers across the premier EDA
+      conferences and journals: DAC, ICCAD, TCAD, and TODAES.
+    </p>
+    <div class="meta-row">
+      <span>DAC · ICCAD · TCAD · TODAES</span>
+      <span>Source: <a href="https://dblp.org" target="_blank">DBLP</a> · <a href="https://api.semanticscholar.org" target="_blank">Semantic Scholar</a></span>
+      <span id="last-updated">—</span>
+      <span><a href="https://github.com/" target="_blank">GitHub ↗</a></span>
+    </div>
+  </div>
+</header>
+
+
+
+<main>
+  <div class="controls">
+    <div class="search-wrap">
+      <span class="search-icon">🔍</span>
+      <input type="text" id="search" placeholder="Search researcher…" />
+    </div>
+  </div>
+
+  <p class="section-desc" id="section-desc"></p>
+
+  <div class="table-wrap">
+    <table id="hof-table">
+      <thead id="thead-row"></thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+</main>
+
+<footer>
+  <div>
+    Electronic Design Automation Hall of Fame
+  </div>
+  <div style="margin-top:6px">
+    Sources:
+    <a href="https://dblp.org/db/conf/dac/" target="_blank">DAC</a> ·
+    <a href="https://dblp.org/db/conf/iccad/" target="_blank">ICCAD</a> ·
+    <a href="https://dblp.org/db/journals/tcad/" target="_blank">TCAD</a> ·
+    <a href="https://dblp.org/db/journals/todaes/" target="_blank">TODAES</a>
+    via <a href="https://dblp.org" target="_blank">DBLP</a> &amp;
+    <a href="https://www.semanticscholar.org" target="_blank">Semantic Scholar</a>
+  </div>
+  <div style="margin-top:6px" id="footer-updated"></div>
+</footer>
+
+<script src="data.js"></script>
+<script>
+// ── State ──────────────────────────────────────────────────────────────────
+let sortCol     = 'total';
+let sortDir     = 'desc';
+let searchQuery = '';
+
+// ── Columns (always shown) ───────────────────────────────────────────────────
+const COLS = [
+  { key: 'rank',    label: '#',       sortable: false },
+  { key: 'name',    label: 'Name',    sortable: true  },
+  { key: 'total',   label: 'Total',   sortable: true  },
+  { key: 'dac',     label: 'DAC',     sortable: true  },
+  { key: 'iccad',   label: 'ICCAD',   sortable: true  },
+  { key: 'tcad',    label: 'TCAD',    sortable: true  },
+  { key: 'todaes',  label: 'TODAES',  sortable: true  },
+  { key: 'hindex',  label: 'h',       sortable: true  },
+  { key: 'citations', label: 'Cites', sortable: true  },
+];
+
+// ── Helpers ──────────────────────────────────────────────────────────────────
+function fmt(n) {
+  if (n === undefined || n === null || n === 0) return '0';
+  if (n >= 1000) return (n / 1000).toFixed(1) + 'k';
+  return String(n);
+}
+
+function escHtml(s) {
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function cleanName(name) {
+  // Strip DBLP disambiguation suffixes like " 0001", " 0002", " 0023"
+  return name.replace(/\s+\d{4}$/, '').trim();
+}
+
+function nameHtml(r) {
+  const url = r.pid
+    ? `https://dblp.org/pid/${r.pid}.html`
+    : `https://dblp.org/search?q=${encodeURIComponent(r.name)}`;
+  return `<a href="${url}" target="_blank" rel="noopener">${escHtml(cleanName(r.name))}</a>`;
+}
+
+// ── Render ───────────────────────────────────────────────────────────────────
+function getSortedFiltered() {
+  let rows = RESEARCHERS.slice();
+  if (searchQuery) {
+    const q = searchQuery.toLowerCase();
+    rows = rows.filter(r => r.name.toLowerCase().includes(q));
+  }
+  rows.sort((a, b) => {
+    let av = a[sortCol], bv = b[sortCol];
+    if (typeof av === 'string') { av = av.toLowerCase(); bv = bv.toLowerCase(); }
+    if (av < bv) return sortDir === 'asc' ? -1 : 1;
+    if (av > bv) return sortDir === 'asc' ?  1 : -1;
+    return 0;
+  });
+  return rows;
+}
+
+function renderTable() {
+  const rows = getSortedFiltered();
+
+  // Update section description
+  document.getElementById('section-desc').innerHTML =
+    `${rows.length} researchers with ≥ <strong>${COMBINED_THRESHOLD}</strong> combined papers across
+     <a href="https://dblp.org/db/conf/dac/" target="_blank">DAC</a> ·
+     <a href="https://dblp.org/db/conf/iccad/" target="_blank">ICCAD</a> ·
+     <a href="https://dblp.org/db/journals/tcad/" target="_blank">TCAD</a> ·
+     <a href="https://dblp.org/db/journals/todaes/" target="_blank">TODAES</a>
+     (all-time). Source: <a href="https://dblp.org" target="_blank">DBLP</a> &amp;
+     <a href="https://www.semanticscholar.org" target="_blank">Semantic Scholar</a>.
+     Click any column header to sort.`;
+
+  // thead
+  const thead = document.getElementById('thead-row');
+  thead.innerHTML = '';
+  const tr = document.createElement('tr');
+  for (const col of COLS) {
+    const th = document.createElement('th');
+    th.textContent = col.label;
+    if (col.sortable) {
+      th.classList.add('sortable');
+      if (col.key === sortCol) th.classList.add(sortDir === 'asc' ? 'sort-asc' : 'sort-desc');
+      th.addEventListener('click', () => {
+        if (sortCol === col.key) {
+          sortDir = sortDir === 'desc' ? 'asc' : 'desc';
+        } else {
+          sortCol = col.key;
+          sortDir = 'desc';
+        }
+        renderTable();
+      });
+    }
+    tr.appendChild(th);
+  }
+  thead.appendChild(tr);
+
+  // tbody
+  const tbody = document.getElementById('tbody');
+  tbody.innerHTML = '';
+
+  if (rows.length === 0) {
+    const tr2 = document.createElement('tr');
+    const td  = document.createElement('td');
+    td.colSpan = COLS.length;
+    td.style.cssText = 'text-align:center;padding:60px 24px;color:var(--muted)';
+    td.textContent = 'No researchers match your search.';
+    tr2.appendChild(td);
+    tbody.appendChild(tr2);
+    return;
+  }
+
+  rows.forEach((r, i) => {
+    const tr2 = document.createElement('tr');
+    for (const col of COLS) {
+      const td = document.createElement('td');
+      if (col.key === 'rank') {
+        td.className = 'rank';
+        td.textContent = i + 1;
+      } else if (col.key === 'name') {
+        td.className = 'name';
+        td.innerHTML = nameHtml(r);
+      } else {
+        const val = r[col.key];
+        td.className = 'num' + (col.key === sortCol ? ' highlight' : '') + (val === 0 ? ' zero' : '');
+        td.textContent = fmt(val);
+      }
+      tr2.appendChild(td);
+    }
+    tbody.appendChild(tr2);
+  });
+}
+
+// ── Init ─────────────────────────────────────────────────────────────────────
+if (typeof LAST_UPDATED !== 'undefined') {
+  document.getElementById('last-updated').textContent = 'Updated: ' + LAST_UPDATED;
+  document.getElementById('footer-updated').textContent = 'Last updated: ' + LAST_UPDATED;
+}
+
+document.getElementById('search').addEventListener('input', e => {
+  searchQuery = e.target.value.trim();
+  renderTable();
+});
+
+renderTable();
+</script>
+</body>
+</html>
