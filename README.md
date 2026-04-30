@@ -1,14 +1,14 @@
 # Electronic Design Automation (EDA) Hall of Fame
 
-A static GitHub Pages site recognising researchers with sustained, prolific
-contributions to the four premier EDA venues:
+A static GitHub Pages site recognising researchers with the most prolific
+all-time publication records across the four premier EDA venues:
 
-| Venue | Type | DBLP key |
-|---|---|---|
-| [DAC](https://dblp.org/db/conf/dac/) | Conference | `dac` |
-| [ICCAD](https://dblp.org/db/conf/iccad/) | Conference | `iccad` |
-| [TCAD](https://dblp.org/db/journals/tcad/) | Journal | `tcad` |
-| [TODAES](https://dblp.org/db/journals/todaes/) | Journal | `todaes` |
+| Venue | Full Name | Type | DBLP |
+|---|---|---|---|
+| [DAC](https://dblp.org/db/conf/dac/) | Design Automation Conference | Conference | `conf/dac` |
+| [ICCAD](https://dblp.org/db/conf/iccad/) | International Conference on Computer-Aided Design | Conference | `conf/iccad` |
+| [TCAD](https://dblp.org/db/journals/tcad/) | IEEE Transactions on Computer-Aided Design | Journal | `journals/tcad` |
+| [TODAES](https://dblp.org/db/journals/todaes/) | ACM Transactions on Design Automation of Electronic Systems | Journal | `journals/todaes` |
 
 **Live site:** `https://<your-github-username>.github.io/EDA-HallOfFame/`
 
@@ -16,12 +16,11 @@ contributions to the four premier EDA venues:
 
 ## Hall of Fame Criteria
 
-| Tier | Venues | Threshold |
-|---|---|---|
-| **Conference HoF** | DAC + ICCAD (combined) | ≥ 20 papers (all-time) |
-| **Journal HoF** | TCAD + TODAES (combined) | ≥ 10 papers (all-time) |
+A single combined threshold across all four venues:
 
-A researcher qualifies for the Combined view if they meet **either** threshold.
+> **DAC + ICCAD + TCAD + TODAES ≥ 50 papers (all-time)**
+
+Click any column header on the site to re-sort by that venue.
 
 ---
 
@@ -31,8 +30,14 @@ A researcher qualifies for the Combined view if they meet **either** threshold.
 EDA-HallOfFame/
 ├── index.html   # Static site — no build step needed
 ├── data.js      # Generated — commit this after each refresh
-├── run.py       # ← Single script that does everything
+├── run.py       # Single script that runs the full pipeline
+├── .gitignore
 └── README.md
+
+tmp/             # Intermediate files — created by run.py, not committed
+├── dblp.xml.gz        # DBLP bulk XML dump (~1 GB)
+├── dblp_data.json     # Parsed paper/author data per venue
+└── enriched_data.json # Same + h-index & citations from Semantic Scholar
 ```
 
 ---
@@ -43,10 +48,12 @@ EDA-HallOfFame/
 
 - Python 3.10+
 - Internet access (DBLP and Semantic Scholar public APIs — **no API keys needed**)
-- No third-party packages — only Python stdlib
+- No third-party packages required — pure Python stdlib
+- Optional: `pip install lxml` for ~4x faster XML parsing
 
 ```bash
 python --version   # confirm 3.10+
+pip install lxml   # optional but recommended
 ```
 
 ### Clone & deploy
@@ -69,37 +76,35 @@ Everything is one command:
 python run.py
 ```
 
-That's it. It runs all three stages internally with a live progress bar,
-then tells you what to commit.
+It runs all three stages internally with live progress bars, then tells you
+what to commit. All intermediate files go into `./tmp/` and are never committed.
 
-**What it does internally:**
-1. Fetches all papers from DBLP for DAC, ICCAD, TCAD, TODAES → `dblp_data.json`
-2. Enriches every author with h-index & citations from Semantic Scholar → `enriched_data.json`
-3. Applies HoF thresholds and writes → `data.js`
+### What it does
 
-**Expected time:**
-| Stage | Time |
-|---|---|
-| DBLP fetch | ~10–20 min (DAC alone has 20k+ papers) |
-| Semantic Scholar enrichment | ~1–3 h (rate-limited to ~92 req/min) |
-| Generate data.js | < 5 s |
+| Stage | Output | Time |
+|---|---|---|
+| Download DBLP XML dump (~1 GB) | `tmp/dblp.xml.gz` | ~10–20 min |
+| Parse XML, extract venue papers | `tmp/dblp_data.json` | ~2–5 min |
+| Enrich HoF qualifiers via Semantic Scholar | `tmp/enriched_data.json` | ~5 min |
+| Apply threshold, generate site data | `data.js` | < 5 s |
 
-A progress bar shows exactly where you are at all times.
+The DBLP dump is a one-time download. On subsequent refreshes use
+`--skip-download` to reuse it (see flags below).
 
-### Useful flags
+### Flags
 
 ```bash
-# Skip enrichment for a fast refresh (no h-index/citations, but much quicker)
-python run.py --skip-enrich
+# Re-parse XML without re-downloading (most common refresh)
+python run.py --skip-download
 
-# Re-generate data.js from already-fetched data (instant)
+# Skip download AND parse — reuse existing tmp/dblp_data.json
+python run.py --skip-fetch
+
+# Regenerate data.js only — no network requests at all
 python run.py --skip-fetch --skip-enrich
 
-# Preview the site locally after generation (opens browser automatically)
+# Any of the above + open browser preview when done
 python run.py --skip-fetch --skip-enrich --serve
-
-# Full pipeline + open browser when done
-python run.py --serve
 ```
 
 ### Commit and push
@@ -119,18 +124,13 @@ GitHub Pages auto-deploys within ~60 s.
 ## How the Site Works
 
 `index.html` is a fully self-contained static page — no frameworks, no build
-step. It loads `data.js` (a plain JS file that sets global variables) and
-renders everything client-side with vanilla JS.
+step, no server. It loads `data.js` and renders everything client-side.
 
-**Tabs:** Combined · DAC · ICCAD · TCAD · TODAES  
-**Sorting:** Click any column header to sort ascending/descending.  
-**Search:** Filters by researcher name in real time.  
-**Row highlighting:**
-- 🟣 Purple — qualifies in **both** Conference and Journal HoF
-- 🟡 Gold   — Conference HoF only (DAC+ICCAD ≥ 20)
-- 🔵 Blue   — Journal HoF only (TCAD+TODAES ≥ 10)
-
-Researcher names link to their DBLP profile page.
+- **Sorting:** Click any column header (Total, DAC, ICCAD, TCAD, TODAES, h, Cites)
+  to sort. Click again to reverse. The active sort column highlights in gold.
+- **Search:** Filters by researcher name in real time.
+- **Name links:** Each researcher name links to their DBLP profile page.
+- DBLP disambiguation suffixes (e.g. "Wei Li 0001") are stripped from display names.
 
 ---
 
@@ -138,46 +138,25 @@ Researcher names link to their DBLP profile page.
 
 | Problem | Likely cause | Fix |
 |---|---|---|
-| `dblp_data.json` is small / missing venue | DBLP API timeout | Re-run `python run.py` |
-| All `hindex`/`citations` are 0 | Skipped enrichment step | Re-run `python run.py` (without `--skip-enrich`) |
-| Wrong author merged (name collision) | DBLP disambiguation issue | Edit `dblp_data.json` manually, then `python run.py --skip-fetch --skip-enrich` |
-| Site shows "Run pipeline" placeholder | `data.js` is stub | Run `python run.py` |
+| `503 Service Unavailable` during download | DBLP server blip | Wait a minute and re-run |
+| Paper counts look too high | Cached `dblp_data.json` from old version | `rm tmp/dblp_data.json && python run.py --skip-download` |
+| All `hindex`/`citations` are 0 | Skipped enrichment | Re-run without `--skip-enrich` |
+| Same person appears twice | Name variant with no DBLP PID | See author disambiguation below |
+| Site shows placeholder data | `data.js` is the stub file | Run `python run.py` |
 
 ### Author disambiguation
 
-DBLP uses persistent PIDs to disambiguate authors with identical names
-(e.g. `48/389`). The fetch script stores these PIDs. When two different
-researchers share a name and DBLP has *not* yet disambiguated them, their
-paper counts will be merged.
+DBLP assigns a persistent PID (e.g. `w/MartinDFWong`) to each researcher.
+The pipeline uses PIDs as the primary identity key, so name variants like
+"Martin D. F. Wong" and "D. F. Wong" merge automatically when DBLP gives
+them the same PID.
 
-To manually correct a PID collision:
-1. Open `dblp_data.json`
-2. Find the merged entry under `dblp_data.<venue>.authors`
-3. Split it into two entries with distinct keys and corrected paper counts
-4. Re-run `generate_data_js.py`
+For the rare case where a researcher has no PID in the XML (very old papers),
+the pipeline falls back to a normalised name key (last name + first initial).
 
----
-
-## Data Sources
-
-- **Publication data:** [DBLP](https://dblp.org) public search API — free,
-  no authentication required. Please respect their [terms of use](https://dblp.org/faq/How+can+I+download+the+whole+dblp+dataset.html) and the
-  built-in rate limiting in `fetch_dblp.py`.
-- **Citation metrics:** [Semantic Scholar](https://api.semanticscholar.org)
-  public API — free, no key required for the author-search endpoint used here.
-
----
-
-## Updating Thresholds
-
-Edit the constants near the top of `run.py`:
-
-```python
-CONF_THRESHOLD    = 20   # DAC + ICCAD combined
-JOURNAL_THRESHOLD = 10   # TCAD + TODAES combined
-```
-
-Then re-generate instantly without re-fetching:
+If you still see a duplicate after re-running, it means both records genuinely
+lack a PID. Fix it by editing `tmp/dblp_data.json`: find the two entries,
+merge their paper counts into one, then re-run:
 
 ```bash
 python run.py --skip-fetch --skip-enrich
@@ -185,16 +164,45 @@ python run.py --skip-fetch --skip-enrich
 
 ---
 
+## Updating the Threshold
+
+Edit the constant near the top of `run.py`:
+
+```python
+COMBINED_THRESHOLD = 50  # DAC + ICCAD + TCAD + TODAES combined
+```
+
+Then regenerate instantly — no re-fetching needed:
+
+```bash
+python run.py --skip-fetch --skip-enrich
+```
+
+---
+
+## Data Sources
+
+- **Publication data:** [DBLP](https://dblp.org) bulk XML dump
+  (`dblp.org/xml/dblp.xml.gz`) — free, no authentication required.
+  Please respect their [terms of use](https://dblp.org/faq/How+can+I+download+the+whole+dblp+dataset.html).
+- **Citation metrics:** [Semantic Scholar](https://api.semanticscholar.org)
+  public API — free, no key required. Only HoF-qualifying researchers are
+  looked up (not all 30k+ authors in the dump).
+
+---
+
 ## Contributing
 
-- **Data corrections:** Open a PR editing `dblp_data.json` or `enriched_data.json`
-- **UI improvements:** Edit `index.html` (self-contained, no build step)
-- **New venues:** Add to the `VENUES` dict in `fetch_dblp.py` and update `generate_data_js.py`
+- **Data corrections:** Open a PR editing `tmp/dblp_data.json`, then re-run
+  `python run.py --skip-fetch --skip-enrich` and commit `data.js`
+- **UI improvements:** Edit `index.html` — fully self-contained, no build step
+- **New venues:** Add an entry to the `VENUES` and `VENUE_PREFIXES` dicts
+  in `run.py`, then re-run the full pipeline
 
 ---
 
 ## License
 
-Data: derived from [DBLP](https://dblp.org) (CC0) and
+Data derived from [DBLP](https://dblp.org) (CC0) and
 [Semantic Scholar](https://www.semanticscholar.org).  
 Code: MIT.
