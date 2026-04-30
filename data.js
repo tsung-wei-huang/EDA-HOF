@@ -15,7 +15,207 @@ const RESEARCHERS = [
     "todaes": 12,
     "hindex": 0,
     "citations": 0,
-    "affiliation": "National Taiwan University, Taipei, Taiwan",
+    "affiliation": "National Taiwan University",
+    "years": {
+      "2000": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2025": {
+        "dac": 6,
+        "iccad": 4,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 7,
+        "iccad": 0,
+        "tcad": 6,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 7,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 4,
+        "iccad": 7,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 5,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 3,
+        "iccad": 4,
+        "tcad": 11,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 8,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 2
+      },
+      "2024": {
+        "dac": 4,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2013": {
+        "dac": 7,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 5,
+        "iccad": 2,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 5,
+        "iccad": 3,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "2022": {
+        "dac": 7,
+        "iccad": 3,
+        "tcad": 8,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 4,
+        "iccad": 7,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 4,
+        "iccad": 4,
+        "tcad": 5,
+        "todaes": 1
+      },
+      "2010": {
+        "dac": 3,
+        "iccad": 7,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 3,
+        "iccad": 6,
+        "tcad": 7,
+        "todaes": 1
+      },
+      "1996": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2016": {
+        "dac": 3,
+        "iccad": 3,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 2,
+        "iccad": 4,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "2002": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "1999": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 2
+      },
+      "2019": {
+        "dac": 2,
+        "iccad": 4,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 2,
+        "iccad": 6,
+        "tcad": 6,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1993": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 181,
     "journal_total": 97,
     "total": 278
@@ -31,24 +231,203 @@ const RESEARCHERS = [
     "hindex": 2,
     "citations": 8,
     "affiliation": "Arizona State University",
+    "years": {
+      "2018": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 10,
+        "todaes": 4
+      },
+      "2002": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 8,
+        "todaes": 1
+      },
+      "2017": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 7,
+        "todaes": 1
+      },
+      "2007": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2016": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 7,
+        "todaes": 2
+      },
+      "2019": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 11,
+        "todaes": 2
+      },
+      "2014": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 10,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 1,
+        "iccad": 4,
+        "tcad": 8,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 1,
+        "iccad": 4,
+        "tcad": 8,
+        "todaes": 6
+      },
+      "2001": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2025": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 5,
+        "todaes": 2
+      },
+      "2000": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 4,
+        "todaes": 1
+      },
+      "2010": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 4,
+        "todaes": 2
+      },
+      "2004": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 2
+      },
+      "2005": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 6,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 13,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 5,
+        "todaes": 3
+      },
+      "2020": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 13,
+        "todaes": 5
+      },
+      "2009": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "2023": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 10,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 5,
+        "todaes": 2
+      },
+      "1998": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      }
+    },
     "conf_total": 68,
     "journal_total": 204,
     "total": 272
-  },
-  {
-    "name": "Martin D. F. Wong",
-    "pid": "",
-    "ss_id": "",
-    "dac": 69,
-    "iccad": 86,
-    "tcad": 92,
-    "todaes": 20,
-    "hindex": 0,
-    "citations": 0,
-    "affiliation": "Hong Kong Baptist University",
-    "conf_total": 155,
-    "journal_total": 112,
-    "total": 267
   },
   {
     "name": "Bei Yu 0001",
@@ -61,6 +440,104 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "Chinese University of Hong Kong",
+    "years": {
+      "2024": {
+        "dac": 17,
+        "iccad": 10,
+        "tcad": 10,
+        "todaes": 5
+      },
+      "2025": {
+        "dac": 9,
+        "iccad": 13,
+        "tcad": 24,
+        "todaes": 8
+      },
+      "2015": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 10,
+        "iccad": 8,
+        "tcad": 12,
+        "todaes": 2
+      },
+      "2020": {
+        "dac": 2,
+        "iccad": 4,
+        "tcad": 4,
+        "todaes": 2
+      },
+      "2021": {
+        "dac": 2,
+        "iccad": 9,
+        "tcad": 5,
+        "todaes": 1
+      },
+      "2016": {
+        "dac": 1,
+        "iccad": 6,
+        "tcad": 0,
+        "todaes": 2
+      },
+      "2017": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 4,
+        "todaes": 1
+      },
+      "2019": {
+        "dac": 7,
+        "iccad": 1,
+        "tcad": 6,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 4,
+        "iccad": 4,
+        "tcad": 13,
+        "todaes": 2
+      },
+      "2018": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 7,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 7,
+        "todaes": 5
+      }
+    },
     "conf_total": 126,
     "journal_total": 125,
     "total": 251
@@ -68,14 +545,244 @@ const RESEARCHERS = [
   {
     "name": "Alberto L. Sangiovanni-Vincentelli",
     "pid": "",
-    "ss_id": "",
+    "ss_id": "1400646910",
     "dac": 88,
     "iccad": 75,
     "tcad": 79,
     "todaes": 3,
-    "hindex": 0,
-    "citations": 0,
+    "hindex": 11,
+    "citations": 488,
     "affiliation": "University of California, Berkeley",
+    "years": {
+      "1999": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1990": {
+        "dac": 6,
+        "iccad": 9,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "1986": {
+        "dac": 5,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1992": {
+        "dac": 5,
+        "iccad": 5,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 10,
+        "iccad": 5,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 5,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 3,
+        "iccad": 6,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1989": {
+        "dac": 4,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "1982": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1991": {
+        "dac": 3,
+        "iccad": 8,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1993": {
+        "dac": 7,
+        "iccad": 5,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "1983": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1987": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2004": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 2,
+        "iccad": 4,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 6,
+        "iccad": 8,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1985": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1995": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 6,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1988": {
+        "dac": 0,
+        "iccad": 8,
+        "tcad": 7,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2024": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1984": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 163,
     "journal_total": 82,
     "total": 245
@@ -83,14 +790,232 @@ const RESEARCHERS = [
   {
     "name": "Irith Pomeranz",
     "pid": "",
-    "ss_id": "1693820",
+    "ss_id": "",
     "dac": 27,
     "iccad": 22,
     "tcad": 137,
     "todaes": 34,
-    "hindex": 49,
-    "citations": 10979,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "Purdue University",
+    "years": {
+      "2003": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 7,
+        "todaes": 1
+      },
+      "2000": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "2002": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1991": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1993": {
+        "dac": 3,
+        "iccad": 3,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "1992": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1995": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 3
+      },
+      "2022": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 7,
+        "todaes": 1
+      },
+      "2025": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 3
+      },
+      "2020": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 9,
+        "todaes": 1
+      },
+      "2012": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 1
+      },
+      "2014": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 7,
+        "todaes": 2
+      },
+      "2016": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 3
+      },
+      "2021": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 5,
+        "todaes": 3
+      },
+      "2024": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 6,
+        "todaes": 2
+      },
+      "2017": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 6,
+        "todaes": 3
+      },
+      "2009": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "2010": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "2018": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 2
+      },
+      "2019": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 3
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 2
+      },
+      "2013": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 1
+      }
+    },
     "conf_total": 49,
     "journal_total": 171,
     "total": 220
@@ -106,6 +1031,242 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "University of California, Los Angeles",
+    "years": {
+      "1993": {
+        "dac": 4,
+        "iccad": 2,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 2
+      },
+      "2010": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "1999": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "1989": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 6,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 2,
+        "iccad": 4,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "1997": {
+        "dac": 3,
+        "iccad": 4,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 3,
+        "iccad": 3,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "1998": {
+        "dac": 3,
+        "iccad": 4,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2006": {
+        "dac": 4,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 2
+      },
+      "1991": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 2,
+        "iccad": 5,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 4,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2018": {
+        "dac": 2,
+        "iccad": 4,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2012": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2024": {
+        "dac": 2,
+        "iccad": 4,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1992": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1990": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 2
+      },
+      "2002": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1995": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 0,
+        "iccad": 3,
+        "tcad": 2,
+        "todaes": 2
+      },
+      "2008": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1988": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 141,
     "journal_total": 71,
     "total": 212
@@ -121,6 +1282,224 @@ const RESEARCHERS = [
     "hindex": 9,
     "citations": 325,
     "affiliation": "University of California, San Diego",
+    "years": {
+      "2012": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 4,
+        "iccad": 1,
+        "tcad": 7,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 5,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1989": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "2008": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 6,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 3,
+        "todaes": 2
+      },
+      "2020": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "1993": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 4,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 4,
+        "iccad": 4,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1991": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 6,
+        "iccad": 3,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "2019": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 4,
+        "todaes": 1
+      },
+      "2015": {
+        "dac": 4,
+        "iccad": 5,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "1998": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 1
+      },
+      "1995": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1992": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1990": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2022": {
+        "dac": 0,
+        "iccad": 3,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 0,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2014": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 0,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 125,
     "journal_total": 86,
     "total": 211
@@ -128,17 +1507,384 @@ const RESEARCHERS = [
   {
     "name": "David Z. Pan",
     "pid": "",
-    "ss_id": "1681705",
+    "ss_id": "",
     "dac": 57,
     "iccad": 61,
     "tcad": 68,
     "todaes": 10,
-    "hindex": 64,
-    "citations": 14812,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "University of Texas at Austin",
+    "years": {
+      "2008": {
+        "dac": 3,
+        "iccad": 5,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 3,
+        "iccad": 7,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 5,
+        "iccad": 3,
+        "tcad": 4,
+        "todaes": 1
+      },
+      "2016": {
+        "dac": 2,
+        "iccad": 5,
+        "tcad": 3,
+        "todaes": 2
+      },
+      "2010": {
+        "dac": 3,
+        "iccad": 3,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 5,
+        "iccad": 6,
+        "tcad": 5,
+        "todaes": 1
+      },
+      "2017": {
+        "dac": 4,
+        "iccad": 1,
+        "tcad": 4,
+        "todaes": 2
+      },
+      "2013": {
+        "dac": 3,
+        "iccad": 4,
+        "tcad": 6,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 4,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2020": {
+        "dac": 4,
+        "iccad": 4,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 4,
+        "iccad": 3,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2012": {
+        "dac": 2,
+        "iccad": 4,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2006": {
+        "dac": 3,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 3,
+        "iccad": 5,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 7,
+        "todaes": 1
+      },
+      "2023": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      }
+    },
     "conf_total": 118,
     "journal_total": 78,
     "total": 196
+  },
+  {
+    "name": "Martin D. F. Wong",
+    "pid": "",
+    "ss_id": "",
+    "dac": 39,
+    "iccad": 51,
+    "tcad": 92,
+    "todaes": 13,
+    "hindex": 0,
+    "citations": 0,
+    "affiliation": "Hong Kong Baptist University",
+    "years": {
+      "2024": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 4,
+        "todaes": 1
+      },
+      "2010": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 4,
+        "iccad": 4,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 5,
+        "todaes": 1
+      },
+      "2011": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 7,
+        "todaes": 1
+      },
+      "2009": {
+        "dac": 4,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "2023": {
+        "dac": 4,
+        "iccad": 3,
+        "tcad": 5,
+        "todaes": 2
+      },
+      "2007": {
+        "dac": 3,
+        "iccad": 4,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 1,
+        "iccad": 4,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 1,
+        "iccad": 7,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 1,
+        "iccad": 4,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2005": {
+        "dac": 0,
+        "iccad": 5,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "1988": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 4,
+        "todaes": 3
+      },
+      "2003": {
+        "dac": 0,
+        "iccad": 4,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 6,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "1991": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 8,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "1995": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1993": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1992": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 2
+      }
+    },
+    "conf_total": 90,
+    "journal_total": 105,
+    "total": 195
   },
   {
     "name": "Massoud Pedram",
@@ -151,6 +1897,230 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "University of Southern California",
+    "years": {
+      "1997": {
+        "dac": 6,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1993": {
+        "dac": 3,
+        "iccad": 4,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2004": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1995": {
+        "dac": 5,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 6,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2013": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2003": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 4,
+        "iccad": 2,
+        "tcad": 4,
+        "todaes": 1
+      },
+      "1992": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 2
+      },
+      "2014": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 4,
+        "todaes": 1
+      },
+      "1999": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 2
+      },
+      "2023": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 2
+      },
+      "2015": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1989": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1991": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2016": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 1
+      },
+      "1990": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "2019": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1988": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 2
+      }
+    },
     "conf_total": 102,
     "journal_total": 80,
     "total": 182
@@ -166,6 +2136,212 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "University of Minnesota",
+    "years": {
+      "2005": {
+        "dac": 4,
+        "iccad": 2,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 4,
+        "iccad": 3,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2019": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2015": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 4,
+        "todaes": 1
+      },
+      "2002": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "2003": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2022": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 2
+      },
+      "2008": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 1,
+        "iccad": 5,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "1995": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 2
+      },
+      "1993": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 3
+      },
+      "1996": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 2
+      },
+      "2014": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 2
+      },
+      "1998": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1991": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      }
+    },
     "conf_total": 97,
     "journal_total": 77,
     "total": 174
@@ -173,14 +2349,136 @@ const RESEARCHERS = [
   {
     "name": "Tsung-Yi Ho",
     "pid": "",
-    "ss_id": "2069430186",
+    "ss_id": "",
     "dac": 37,
     "iccad": 40,
     "tcad": 71,
     "todaes": 18,
-    "hindex": 9,
-    "citations": 320,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "Chinese University of Hong Kong",
+    "years": {
+      "2018": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 5,
+        "todaes": 1
+      },
+      "2025": {
+        "dac": 6,
+        "iccad": 5,
+        "tcad": 11,
+        "todaes": 1
+      },
+      "2013": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 6,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 6,
+        "iccad": 2,
+        "tcad": 3,
+        "todaes": 4
+      },
+      "2014": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 6,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 3,
+        "todaes": 3
+      },
+      "2022": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "2005": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2020": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 8,
+        "todaes": 1
+      },
+      "2015": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 2,
+        "iccad": 6,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 0,
+        "iccad": 3,
+        "tcad": 2,
+        "todaes": 2
+      },
+      "2010": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 5,
+        "todaes": 4
+      }
+    },
     "conf_total": 77,
     "journal_total": 89,
     "total": 166
@@ -188,7 +2486,7 @@ const RESEARCHERS = [
   {
     "name": "Robert K. Brayton",
     "pid": "",
-    "ss_id": "",
+    "ss_id": "144679906",
     "dac": 52,
     "iccad": 72,
     "tcad": 39,
@@ -196,6 +2494,212 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "University of California, Berkeley",
+    "years": {
+      "1999": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1993": {
+        "dac": 8,
+        "iccad": 4,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1995": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1992": {
+        "dac": 5,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 8,
+        "iccad": 3,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "1990": {
+        "dac": 4,
+        "iccad": 5,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 1,
+        "iccad": 5,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "1991": {
+        "dac": 1,
+        "iccad": 10,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 3,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1989": {
+        "dac": 3,
+        "iccad": 4,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1988": {
+        "dac": 0,
+        "iccad": 5,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 0,
+        "iccad": 4,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1987": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1986": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1985": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 124,
     "journal_total": 40,
     "total": 164
@@ -203,7 +2707,7 @@ const RESEARCHERS = [
   {
     "name": "Miodrag Potkonjak",
     "pid": "",
-    "ss_id": "",
+    "ss_id": "2367241758",
     "dac": 55,
     "iccad": 47,
     "tcad": 32,
@@ -211,6 +2715,176 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "University of California, Los Angeles",
+    "years": {
+      "2001": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 7,
+        "iccad": 4,
+        "tcad": 4,
+        "todaes": 2
+      },
+      "2008": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "1997": {
+        "dac": 4,
+        "iccad": 4,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 5,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "1995": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 6,
+        "iccad": 8,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1993": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1989": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1992": {
+        "dac": 0,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1991": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 6,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 0
+      }
+    },
     "conf_total": 102,
     "journal_total": 36,
     "total": 138
@@ -218,7 +2892,7 @@ const RESEARCHERS = [
   {
     "name": "Jörg Henkel",
     "pid": "",
-    "ss_id": "",
+    "ss_id": "2406487635",
     "dac": 57,
     "iccad": 41,
     "tcad": 31,
@@ -226,6 +2900,182 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "Karlsruhe Institute of Technology",
+    "years": {
+      "2013": {
+        "dac": 5,
+        "iccad": 6,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 8,
+        "iccad": 2,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 6,
+        "iccad": 2,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 8,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 4,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 3
+      },
+      "2024": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "2020": {
+        "dac": 0,
+        "iccad": 3,
+        "tcad": 7,
+        "todaes": 1
+      },
+      "1994": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 98,
     "journal_total": 37,
     "total": 135
@@ -233,14 +3083,166 @@ const RESEARCHERS = [
   {
     "name": "Sung Kyu Lim",
     "pid": "",
-    "ss_id": "2274728635",
+    "ss_id": "",
     "dac": 35,
     "iccad": 49,
     "tcad": 42,
     "todaes": 9,
-    "hindex": 5,
-    "citations": 73,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "Georgia Institute of Technology",
+    "years": {
+      "2025": {
+        "dac": 5,
+        "iccad": 4,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 1,
+        "iccad": 4,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2013": {
+        "dac": 2,
+        "iccad": 4,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 3
+      },
+      "2024": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "2000": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 3,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2014": {
+        "dac": 4,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "2012": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 0,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2017": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      }
+    },
     "conf_total": 84,
     "journal_total": 51,
     "total": 135
@@ -248,14 +3250,274 @@ const RESEARCHERS = [
   {
     "name": "Giovanni De Micheli",
     "pid": "",
-    "ss_id": "144271464",
+    "ss_id": "",
     "dac": 44,
     "iccad": 28,
     "tcad": 53,
     "todaes": 7,
-    "hindex": 91,
-    "citations": 38090,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "EPFL",
+    "years": {
+      "2009": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "1998": {
+        "dac": 3,
+        "iccad": 4,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2006": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1992": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1983": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "1988": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1993": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "1990": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1991": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 0,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2007": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2000": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 3
+      },
+      "2025": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "1989": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "1986": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1985": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1995": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1984": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1987": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 72,
     "journal_total": 60,
     "total": 132
@@ -271,6 +3533,200 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "University of Iowa",
+    "years": {
+      "2003": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 6,
+        "todaes": 1
+      },
+      "1989": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1991": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1987": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1993": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1992": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1984": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1988": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1995": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "1985": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "1990": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 1
+      },
+      "2020": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 5,
+        "todaes": 1
+      },
+      "2010": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 2
+      },
+      "2015": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2019": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 52,
     "journal_total": 80,
     "total": 132
@@ -286,6 +3742,212 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "Purdue University",
+    "years": {
+      "2009": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1993": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 7,
+        "todaes": 1
+      },
+      "2016": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 3,
+        "iccad": 3,
+        "tcad": 5,
+        "todaes": 1
+      },
+      "2013": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2022": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2008": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1989": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1995": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      }
+    },
     "conf_total": 83,
     "journal_total": 46,
     "total": 129
@@ -301,6 +3963,170 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "Princeton University",
+    "years": {
+      "1997": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 5,
+        "iccad": 3,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 7,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 6,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 7,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1993": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 9,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1995": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1988": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 0,
+        "iccad": 4,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1992": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 0,
+        "iccad": 3,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "1989": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1991": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "1990": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "1985": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 51,
     "journal_total": 75,
     "total": 126
@@ -316,6 +4142,152 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "Fudan University",
+    "years": {
+      "2024": {
+        "dac": 4,
+        "iccad": 4,
+        "tcad": 5,
+        "todaes": 2
+      },
+      "2016": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 4,
+        "iccad": 1,
+        "tcad": 4,
+        "todaes": 2
+      },
+      "2015": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2025": {
+        "dac": 3,
+        "iccad": 4,
+        "tcad": 7,
+        "todaes": 2
+      },
+      "2011": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "2020": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "2017": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 2
+      },
+      "2014": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 6,
+        "todaes": 1
+      },
+      "2008": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "2005": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 62,
     "journal_total": 62,
     "total": 124
@@ -331,6 +4303,146 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "Technical University of Munich",
+    "years": {
+      "2018": {
+        "dac": 4,
+        "iccad": 4,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2025": {
+        "dac": 6,
+        "iccad": 3,
+        "tcad": 6,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 3,
+        "iccad": 4,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 3,
+        "iccad": 4,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 1,
+        "iccad": 6,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 3,
+        "iccad": 3,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "1992": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 5,
+        "todaes": 1
+      },
+      "2005": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 0,
+        "iccad": 4,
+        "tcad": 6,
+        "todaes": 2
+      },
+      "2009": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2012": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 73,
     "journal_total": 51,
     "total": 124
@@ -338,14 +4450,238 @@ const RESEARCHERS = [
   {
     "name": "Chung-Kuan Cheng",
     "pid": "",
-    "ss_id": "28568803",
+    "ss_id": "",
     "dac": 38,
     "iccad": 31,
     "tcad": 43,
     "todaes": 8,
-    "hindex": 5,
-    "citations": 90,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "University of California, San Diego",
+    "years": {
+      "1998": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2008": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "1994": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "1996": {
+        "dac": 4,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 4,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "1992": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1993": {
+        "dac": 4,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1988": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1991": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1995": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1990": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1989": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "2019": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2021": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1984": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2023": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 69,
     "journal_total": 51,
     "total": 120
@@ -361,6 +4697,146 @@ const RESEARCHERS = [
     "hindex": 91,
     "citations": 35417,
     "affiliation": "University of Michigan",
+    "years": {
+      "2003": {
+        "dac": 8,
+        "iccad": 6,
+        "tcad": 7,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 4,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2004": {
+        "dac": 10,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 5,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 3,
+        "iccad": 3,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 3,
+        "iccad": 4,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 4,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 1,
+        "iccad": 4,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 3,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 1,
+        "iccad": 5,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2011": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1989": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1990": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1988": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 88,
     "journal_total": 31,
     "total": 119
@@ -376,6 +4852,80 @@ const RESEARCHERS = [
     "hindex": 2,
     "citations": 23,
     "affiliation": "Peking University",
+    "years": {
+      "2024": {
+        "dac": 7,
+        "iccad": 7,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 6,
+        "iccad": 8,
+        "tcad": 8,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 4,
+        "iccad": 4,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 5,
+        "iccad": 2,
+        "tcad": 6,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 6,
+        "iccad": 3,
+        "tcad": 7,
+        "todaes": 2
+      },
+      "2021": {
+        "dac": 4,
+        "iccad": 2,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 3
+      },
+      "2018": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 1
+      }
+    },
     "conf_total": 68,
     "journal_total": 49,
     "total": 117
@@ -383,7 +4933,7 @@ const RESEARCHERS = [
   {
     "name": "Evangeline F. Y. Young",
     "pid": "",
-    "ss_id": "",
+    "ss_id": "146703155",
     "dac": 28,
     "iccad": 30,
     "tcad": 42,
@@ -391,6 +4941,164 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "Chinese University of Hong Kong",
+    "years": {
+      "2022": {
+        "dac": 4,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 1,
+        "iccad": 4,
+        "tcad": 4,
+        "todaes": 2
+      },
+      "2021": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 3,
+        "iccad": 3,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2025": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 3
+      },
+      "2010": {
+        "dac": 0,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2007": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2014": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2003": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2009": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2004": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 2
+      },
+      "2001": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 58,
     "journal_total": 55,
     "total": 113
@@ -406,6 +5114,122 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "Duke University",
+    "years": {
+      "2012": {
+        "dac": 3,
+        "iccad": 4,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 5,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 9,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 5,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 5,
+        "iccad": 4,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 3,
+        "iccad": 3,
+        "tcad": 5,
+        "todaes": 2
+      },
+      "2025": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2024": {
+        "dac": 4,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 2
+      },
+      "2009": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 2,
+        "iccad": 5,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 0,
+        "iccad": 4,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 0,
+        "iccad": 4,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      }
+    },
     "conf_total": 83,
     "journal_total": 29,
     "total": 112
@@ -421,6 +5245,164 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "University of California, Los Angeles",
+    "years": {
+      "2005": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 4,
+        "todaes": 1
+      },
+      "2004": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2018": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 3,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2025": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 2
+      },
+      "2001": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 2,
+        "iccad": 5,
+        "tcad": 7,
+        "todaes": 1
+      },
+      "2003": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 4,
+        "todaes": 1
+      },
+      "1997": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1995": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "1999": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 2
+      },
+      "2022": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 69,
     "journal_total": 42,
     "total": 111
@@ -436,6 +5418,194 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "Hong Kong University of Science and Technology",
+    "years": {
+      "1993": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "1988": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 4,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 2
+      },
+      "2014": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "1997": {
+        "dac": 4,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2025": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1995": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 4,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1990": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1991": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1992": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1989": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 75,
     "journal_total": 35,
     "total": 110
@@ -451,6 +5621,152 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "Duke University",
+    "years": {
+      "2013": {
+        "dac": 3,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 5,
+        "todaes": 2
+      },
+      "2006": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 5,
+        "iccad": 4,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "2007": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 2,
+        "iccad": 4,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 2
+      },
+      "2025": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 66,
     "journal_total": 44,
     "total": 110
@@ -458,14 +5774,196 @@ const RESEARCHERS = [
   {
     "name": "Luca Benini",
     "pid": "",
-    "ss_id": "2288812252",
+    "ss_id": "49214417",
     "dac": 43,
     "iccad": 12,
     "tcad": 45,
     "todaes": 9,
-    "hindex": 2,
-    "citations": 104,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "ETH Zurich",
+    "years": {
+      "2004": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 4,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "1998": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 3
+      },
+      "1996": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2006": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 5,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2024": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2022": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "2007": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "2005": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 55,
     "journal_total": 54,
     "total": 109
@@ -481,6 +5979,164 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "Texas A&M University",
+    "years": {
+      "2018": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2007": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 3,
+        "iccad": 4,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2022": {
+        "dac": 1,
+        "iccad": 5,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2025": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 2
+      },
+      "2009": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 0,
+        "iccad": 4,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2021": {
+        "dac": 0,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2000": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2003": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      }
+    },
     "conf_total": 60,
     "journal_total": 47,
     "total": 107
@@ -496,6 +6152,176 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "Purdue University",
+    "years": {
+      "1997": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 4,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2019": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 7,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 4,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "1998": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "1995": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      }
+    },
     "conf_total": 67,
     "journal_total": 39,
     "total": 106
@@ -511,6 +6337,194 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "University of California, Santa Barbara",
+    "years": {
+      "2012": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 6,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1995": {
+        "dac": 5,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2011": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1989": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1990": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1985": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1991": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 6,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1983": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1984": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1987": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1993": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 64,
     "journal_total": 42,
     "total": 106
@@ -518,14 +6532,190 @@ const RESEARCHERS = [
   {
     "name": "Ramesh Karri",
     "pid": "",
-    "ss_id": "",
+    "ss_id": "1707355",
     "dac": 25,
     "iccad": 18,
     "tcad": 46,
     "todaes": 14,
-    "hindex": 0,
-    "citations": 0,
+    "hindex": 62,
+    "citations": 17295,
     "affiliation": "New York University",
+    "years": {
+      "2004": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2005": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1993": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1992": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 6,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "2014": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2017": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "1995": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2020": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 3
+      },
+      "2007": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 4
+      },
+      "1999": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2011": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 43,
     "journal_total": 60,
     "total": 103
@@ -541,6 +6731,134 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "University of Notre Dame",
+    "years": {
+      "2024": {
+        "dac": 3,
+        "iccad": 5,
+        "tcad": 6,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 1,
+        "iccad": 5,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2016": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 2
+      },
+      "2020": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 4,
+        "iccad": 4,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2012": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2007": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2018": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 63,
     "journal_total": 39,
     "total": 102
@@ -556,6 +6874,134 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "University of California, Santa Barbara",
+    "years": {
+      "2014": {
+        "dac": 4,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2020": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 3
+      },
+      "2022": {
+        "dac": 4,
+        "iccad": 1,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 3,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2017": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2018": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "2011": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 65,
     "journal_total": 36,
     "total": 101
@@ -563,14 +7009,142 @@ const RESEARCHERS = [
   {
     "name": "Srinivas Devadas",
     "pid": "",
-    "ss_id": "",
+    "ss_id": "2265529418",
     "dac": 31,
     "iccad": 26,
     "tcad": 42,
     "todaes": 2,
-    "hindex": 0,
-    "citations": 0,
+    "hindex": 4,
+    "citations": 1219,
     "affiliation": "Massachusetts Institute of Technology",
+    "years": {
+      "1997": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1990": {
+        "dac": 4,
+        "iccad": 3,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "1995": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "1987": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1986": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1992": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 6,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1989": {
+        "dac": 2,
+        "iccad": 4,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1991": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 6,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1993": {
+        "dac": 0,
+        "iccad": 3,
+        "tcad": 6,
+        "todaes": 0
+      },
+      "1988": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 57,
     "journal_total": 44,
     "total": 101
@@ -586,6 +7160,134 @@ const RESEARCHERS = [
     "hindex": 2,
     "citations": 21,
     "affiliation": "Zhejiang University",
+    "years": {
+      "2025": {
+        "dac": 8,
+        "iccad": 7,
+        "tcad": 8,
+        "todaes": 2
+      },
+      "2016": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 2,
+        "iccad": 9,
+        "tcad": 3,
+        "todaes": 2
+      },
+      "2022": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "2012": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 0,
+        "iccad": 3,
+        "tcad": 6,
+        "todaes": 2
+      },
+      "2017": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 5
+      }
+    },
     "conf_total": 57,
     "journal_total": 43,
     "total": 100
@@ -601,6 +7303,140 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "Texas A&M University",
+    "years": {
+      "2013": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2008": {
+        "dac": 1,
+        "iccad": 4,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 4,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2017": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2011": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 2
+      },
+      "2004": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 3,
+        "iccad": 3,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2005": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 4,
+        "iccad": 5,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2018": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 1,
+        "iccad": 4,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 0,
+        "iccad": 4,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      }
+    },
     "conf_total": 71,
     "journal_total": 28,
     "total": 99
@@ -616,6 +7452,116 @@ const RESEARCHERS = [
     "hindex": 4,
     "citations": 149,
     "affiliation": "Carnegie Mellon University",
+    "years": {
+      "1998": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 4,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 5,
+        "iccad": 5,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 4,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1995": {
+        "dac": 3,
+        "iccad": 4,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 3,
+        "iccad": 4,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      }
+    },
     "conf_total": 69,
     "journal_total": 25,
     "total": 94
@@ -631,6 +7577,122 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "New York University Abu Dhabi",
+    "years": {
+      "2013": {
+        "dac": 4,
+        "iccad": 5,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 5,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 6,
+        "iccad": 2,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 3,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 6,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 5,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 5,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 5,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2008": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      }
+    },
     "conf_total": 74,
     "journal_total": 19,
     "total": 93
@@ -638,14 +7700,220 @@ const RESEARCHERS = [
   {
     "name": "Farid N. Najm",
     "pid": "",
-    "ss_id": "",
+    "ss_id": "2238451819",
     "dac": 30,
     "iccad": 31,
     "tcad": 30,
     "todaes": 2,
-    "hindex": 0,
-    "citations": 0,
+    "hindex": 8,
+    "citations": 476,
     "affiliation": "University of Toronto",
+    "years": {
+      "2004": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1988": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1993": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1991": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "1992": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1995": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 0,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2020": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1989": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1990": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 61,
     "journal_total": 32,
     "total": 93
@@ -661,6 +7929,206 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "University of California, Irvine",
+    "years": {
+      "2018": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2015": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1990": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 4
+      },
+      "2000": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 2
+      },
+      "2012": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2002": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2003": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 3
+      },
+      "2007": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 3
+      },
+      "1991": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2019": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1989": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1993": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "1992": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "1996": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2010": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2024": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 47,
     "journal_total": 42,
     "total": 89
@@ -668,14 +8136,160 @@ const RESEARCHERS = [
   {
     "name": "Sheldon X.-D. Tan",
     "pid": "",
-    "ss_id": "153636002",
+    "ss_id": "",
     "dac": 19,
     "iccad": 28,
     "tcad": 31,
     "todaes": 11,
-    "hindex": 6,
-    "citations": 95,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "University of California, Riverside",
+    "years": {
+      "2016": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 2
+      },
+      "2004": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2007": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2006": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2008": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 0,
+        "iccad": 3,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 0,
+        "iccad": 3,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 2
+      },
+      "2024": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2000": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 3
+      }
+    },
     "conf_total": 47,
     "journal_total": 42,
     "total": 89
@@ -683,14 +8297,190 @@ const RESEARCHERS = [
   {
     "name": "Rolf Drechsler",
     "pid": "",
-    "ss_id": "2165797449",
+    "ss_id": "",
     "dac": 25,
     "iccad": 21,
     "tcad": 35,
     "todaes": 5,
-    "hindex": 12,
-    "citations": 359,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "University of Bremen",
+    "years": {
+      "2010": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2024": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 3
+      },
+      "2004": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2012": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1995": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 46,
     "journal_total": 40,
     "total": 86
@@ -706,6 +8496,176 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "Northwestern University",
+    "years": {
+      "2006": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 2,
+        "iccad": 5,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 2
+      },
+      "2025": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "1998": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2008": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 2
+      },
+      "2000": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 6,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "2001": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 0,
+        "iccad": 4,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2002": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2015": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 48,
     "journal_total": 38,
     "total": 86
@@ -713,14 +8673,118 @@ const RESEARCHERS = [
   {
     "name": "Dennis Sylvester",
     "pid": "",
-    "ss_id": "",
+    "ss_id": "2304767726",
     "dac": 40,
     "iccad": 21,
     "tcad": 22,
     "todaes": 1,
-    "hindex": 0,
-    "citations": 0,
+    "hindex": 1,
+    "citations": 2,
     "affiliation": "University of Michigan",
+    "years": {
+      "2005": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 6,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 3,
+        "iccad": 3,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 9,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 3,
+        "iccad": 3,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 4,
+        "iccad": 3,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2011": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      }
+    },
     "conf_total": 61,
     "journal_total": 23,
     "total": 84
@@ -736,6 +8800,104 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "Chinese Academy of Sciences",
+    "years": {
+      "2017": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 6,
+        "iccad": 3,
+        "tcad": 6,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 5,
+        "iccad": 3,
+        "tcad": 2,
+        "todaes": 2
+      },
+      "2019": {
+        "dac": 4,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "2011": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2022": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "2014": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2008": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      }
+    },
     "conf_total": 47,
     "journal_total": 37,
     "total": 84
@@ -751,6 +8913,188 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "Princeton University",
+    "years": {
+      "2000": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2012": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2002": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1993": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "1995": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1992": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2023": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 2
+      },
+      "2001": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "1991": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2016": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1990": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2006": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1988": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 2
+      },
+      "2007": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 54,
     "journal_total": 30,
     "total": 84
@@ -766,6 +9110,194 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "University of Illinois Urbana-Champaign",
+    "years": {
+      "2008": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 4,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1986": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1985": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 3,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1982": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1989": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 1,
+        "iccad": 4,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1988": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1992": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1990": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1987": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1991": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1995": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1993": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1984": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 59,
     "journal_total": 24,
     "total": 83
@@ -781,6 +9313,98 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "Fudan University",
+    "years": {
+      "2024": {
+        "dac": 5,
+        "iccad": 5,
+        "tcad": 5,
+        "todaes": 3
+      },
+      "2016": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 8,
+        "todaes": 3
+      },
+      "2023": {
+        "dac": 4,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 3
+      },
+      "2015": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 5,
+        "todaes": 1
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 2
+      }
+    },
     "conf_total": 41,
     "journal_total": 42,
     "total": 83
@@ -796,6 +9420,116 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "Tsinghua University",
+    "years": {
+      "2016": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "2012": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2025": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 2
+      },
+      "2022": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 4,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 2,
+        "todaes": 2
+      },
+      "2020": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 5,
+        "iccad": 2,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 47,
     "journal_total": 35,
     "total": 82
@@ -803,14 +9537,148 @@ const RESEARCHERS = [
   {
     "name": "Igor L. Markov",
     "pid": "",
-    "ss_id": "",
+    "ss_id": "2064751613",
     "dac": 24,
     "iccad": 27,
     "tcad": 24,
     "todaes": 7,
-    "hindex": 0,
-    "citations": 0,
+    "hindex": 5,
+    "citations": 60,
     "affiliation": "University of Michigan",
+    "years": {
+      "1999": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 4,
+        "todaes": 2
+      },
+      "2013": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2003": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2020": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "1998": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2011": {
+        "dac": 0,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 0,
+        "iccad": 4,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "2025": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 51,
     "journal_total": 31,
     "total": 82
@@ -826,6 +9694,158 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "University of California, Berkeley",
+    "years": {
+      "2005": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1990": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2001": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1992": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 6,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1993": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "1991": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "1995": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1988": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1987": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1989": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2009": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 53,
     "journal_total": 27,
     "total": 80
@@ -833,14 +9853,124 @@ const RESEARCHERS = [
   {
     "name": "Robert Wille",
     "pid": "",
-    "ss_id": "",
+    "ss_id": "144385184",
     "dac": 22,
     "iccad": 19,
     "tcad": 34,
     "todaes": 5,
-    "hindex": 0,
-    "citations": 0,
+    "hindex": 50,
+    "citations": 11190,
     "affiliation": "Technical University of Munich",
+    "years": {
+      "2010": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 4,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 1
+      },
+      "2014": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 4,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2015": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 6,
+        "todaes": 1
+      },
+      "2025": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 0,
+        "iccad": 3,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 4,
+        "todaes": 2
+      },
+      "2016": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 41,
     "journal_total": 39,
     "total": 80
@@ -856,6 +9986,128 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "University of California, Los Angeles",
+    "years": {
+      "2003": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "1995": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1991": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 3,
+        "iccad": 3,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1993": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "1992": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 0,
+        "iccad": 5,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "1994": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "1989": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1990": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1987": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      }
+    },
     "conf_total": 40,
     "journal_total": 39,
     "total": 79
@@ -871,6 +10123,116 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "National Yang Ming Chiao Tung University",
+    "years": {
+      "2011": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2009": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 3,
+        "iccad": 3,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 5,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2017": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2013": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2007": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2020": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 7,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 0,
+        "iccad": 3,
+        "tcad": 6,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 43,
     "journal_total": 35,
     "total": 78
@@ -886,6 +10248,146 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "Cadence Design Systems",
+    "years": {
+      "2005": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1993": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 6,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1995": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 0,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 44,
     "journal_total": 33,
     "total": 77
@@ -901,6 +10403,92 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "Chinese Academy of Sciences",
+    "years": {
+      "2017": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 4,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 6,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 4,
+        "iccad": 1,
+        "tcad": 6,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 4,
+        "todaes": 1
+      },
+      "2018": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 0,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 2
+      },
+      "2014": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      }
+    },
     "conf_total": 48,
     "journal_total": 28,
     "total": 76
@@ -916,6 +10504,176 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "KU Leuven",
+    "years": {
+      "2002": {
+        "dac": 5,
+        "iccad": 2,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 4,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "1995": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "2005": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1991": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2020": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 44,
     "journal_total": 31,
     "total": 75
@@ -931,6 +10689,152 @@ const RESEARCHERS = [
     "hindex": 68,
     "citations": 30000,
     "affiliation": "University of California, San Diego",
+    "years": {
+      "2008": {
+        "dac": 4,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 3
+      },
+      "2005": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2001": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 4,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2014": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 4,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2010": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2019": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 62,
     "journal_total": 12,
     "total": 74
@@ -946,6 +10850,86 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "Chinese Academy of Sciences",
+    "years": {
+      "2017": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2020": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 5,
+        "iccad": 4,
+        "tcad": 6,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 3,
+        "iccad": 3,
+        "tcad": 2,
+        "todaes": 3
+      },
+      "2022": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2014": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      }
+    },
     "conf_total": 39,
     "journal_total": 34,
     "total": 73
@@ -961,21 +10945,396 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "University of Texas at Dallas",
+    "years": {
+      "2024": {
+        "dac": 4,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "2016": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "2023": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1993": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "2017": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 2
+      },
+      "2022": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 4,
+        "todaes": 1
+      },
+      "2004": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1989": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2007": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 31,
     "journal_total": 42,
     "total": 73
   },
   {
+    "name": "D. F. Wong 0001",
+    "pid": "",
+    "ss_id": "",
+    "dac": 30,
+    "iccad": 35,
+    "tcad": 0,
+    "todaes": 7,
+    "hindex": 0,
+    "citations": 0,
+    "affiliation": "Hong Kong Baptist University",
+    "years": {
+      "1989": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1991": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 3,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 2
+      },
+      "1988": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1993": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1995": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 2,
+        "iccad": 5,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2002": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 2,
+        "iccad": 5,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2000": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "1987": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1986": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1992": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "1990": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
+    "conf_total": 65,
+    "journal_total": 7,
+    "total": 72
+  },
+  {
     "name": "Sujit Dey",
     "pid": "",
-    "ss_id": "144771291",
+    "ss_id": "",
     "dac": 30,
     "iccad": 16,
     "tcad": 22,
     "todaes": 2,
-    "hindex": 9,
-    "citations": 174,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "University of California, San Diego",
+    "years": {
+      "2020": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 8,
+        "todaes": 0
+      },
+      "1990": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2000": {
+        "dac": 4,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 4,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1993": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1995": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "1992": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 46,
     "journal_total": 24,
     "total": 70
@@ -991,6 +11350,104 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "Tsinghua University",
+    "years": {
+      "2012": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 4,
+        "iccad": 2,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "2015": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 2
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 38,
     "journal_total": 32,
     "total": 70
@@ -1006,6 +11463,158 @@ const RESEARCHERS = [
     "hindex": 50,
     "citations": 10673,
     "affiliation": "University of Colorado Boulder",
+    "years": {
+      "2009": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1992": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1993": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1983": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1988": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1995": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1991": {
+        "dac": 0,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1990": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1989": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1984": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1987": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 51,
     "journal_total": 19,
     "total": 70
@@ -1013,14 +11622,154 @@ const RESEARCHERS = [
   {
     "name": "Deming Chen",
     "pid": "",
-    "ss_id": "2080862700",
+    "ss_id": "",
     "dac": 28,
     "iccad": 19,
     "tcad": 17,
     "todaes": 5,
-    "hindex": 1,
-    "citations": 2,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "University of Illinois Urbana-Champaign",
+    "years": {
+      "2021": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2007": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2024": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2013": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2017": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2012": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 47,
     "journal_total": 22,
     "total": 69
@@ -1036,6 +11785,140 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "Chinese University of Hong Kong",
+    "years": {
+      "2013": {
+        "dac": 5,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2007": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 50,
     "journal_total": 19,
     "total": 69
@@ -1043,14 +11926,220 @@ const RESEARCHERS = [
   {
     "name": "Janusz Rajski",
     "pid": "",
-    "ss_id": "1740420",
+    "ss_id": "",
     "dac": 12,
     "iccad": 9,
     "tcad": 48,
     "todaes": 0,
-    "hindex": 51,
-    "citations": 10161,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "Siemens EDA",
+    "years": {
+      "1995": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1991": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1988": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1990": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1992": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1993": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 21,
     "journal_total": 48,
     "total": 69
@@ -1066,6 +12155,134 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "National Taiwan University",
+    "years": {
+      "2020": {
+        "dac": 3,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2014": {
+        "dac": 1,
+        "iccad": 4,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2016": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2009": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2017": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2019": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2024": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 3
+      },
+      "2006": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 43,
     "journal_total": 25,
     "total": 68
@@ -1081,6 +12298,176 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "University of Maryland",
+    "years": {
+      "2025": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2003": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2015": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2014": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 46,
     "journal_total": 21,
     "total": 67
@@ -1096,6 +12483,80 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "Fudan University",
+    "years": {
+      "2021": {
+        "dac": 6,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2023": {
+        "dac": 5,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2025": {
+        "dac": 3,
+        "iccad": 5,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 4,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 5,
+        "todaes": 1
+      },
+      "2017": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 1,
+        "iccad": 5,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 0,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 46,
     "journal_total": 20,
     "total": 66
@@ -1103,14 +12564,130 @@ const RESEARCHERS = [
   {
     "name": "A. Richard Newton",
     "pid": "",
-    "ss_id": "49888285",
+    "ss_id": "",
     "dac": 25,
     "iccad": 13,
     "tcad": 28,
     "todaes": 0,
-    "hindex": 7,
-    "citations": 151,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "University of California, Berkeley",
+    "years": {
+      "2000": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1990": {
+        "dac": 7,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1986": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1982": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1987": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1984": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1980": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1988": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "1991": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 7,
+        "todaes": 0
+      },
+      "1992": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 0,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1989": {
+        "dac": 0,
+        "iccad": 3,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1983": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1993": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 38,
     "journal_total": 28,
     "total": 66
@@ -1126,6 +12703,104 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "City University of Hong Kong",
+    "years": {
+      "2016": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2025": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 4,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 6,
+        "todaes": 2
+      },
+      "2024": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 27,
     "journal_total": 39,
     "total": 66
@@ -1141,6 +12816,134 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "University of California, Santa Cruz",
+    "years": {
+      "1997": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1993": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1992": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1991": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "1998": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1982": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1990": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1989": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1988": {
+        "dac": 0,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1995": {
+        "dac": 0,
+        "iccad": 3,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2011": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1987": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "1983": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 34,
     "journal_total": 32,
     "total": 66
@@ -1148,14 +12951,172 @@ const RESEARCHERS = [
   {
     "name": "Xiaobo Sharon Hu",
     "pid": "",
-    "ss_id": "2125111542",
+    "ss_id": "",
     "dac": 10,
     "iccad": 27,
     "tcad": 24,
     "todaes": 5,
-    "hindex": 5,
-    "citations": 69,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "University of Notre Dame",
+    "years": {
+      "2013": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2004": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2008": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 0,
+        "iccad": 4,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2000": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2005": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 37,
     "journal_total": 29,
     "total": 66
@@ -1171,6 +13132,194 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "KU Leuven",
+    "years": {
+      "2004": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "1999": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2021": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 2
+      },
+      "1991": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1992": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2008": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 2
+      },
+      "2013": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2024": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1989": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1993": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1995": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1990": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 3
+      },
+      "2017": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "1996": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2018": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2009": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 4
+      },
+      "2015": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2016": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 29,
     "journal_total": 36,
     "total": 65
@@ -1186,6 +13335,170 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "Seoul National University",
+    "years": {
+      "2011": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2003": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2024": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1993": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2010": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "1991": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "1994": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 34,
     "journal_total": 30,
     "total": 64
@@ -1201,6 +13514,128 @@ const RESEARCHERS = [
     "hindex": 4,
     "citations": 31,
     "affiliation": "Pennsylvania State University",
+    "years": {
+      "2011": {
+        "dac": 2,
+        "iccad": 5,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 2,
+        "iccad": 6,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2008": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 2
+      },
+      "2001": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 6,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 2
+      },
+      "2000": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 53,
     "journal_total": 10,
     "total": 63
@@ -1216,6 +13651,122 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "National Taiwan University",
+    "years": {
+      "2011": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 4,
+        "iccad": 1,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2015": {
+        "dac": 2,
+        "iccad": 4,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2007": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 6,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2017": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 37,
     "journal_total": 25,
     "total": 62
@@ -1231,6 +13782,158 @@ const RESEARCHERS = [
     "hindex": 3,
     "citations": 32,
     "affiliation": "University of California, Berkeley",
+    "years": {
+      "2018": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 40,
     "journal_total": 22,
     "total": 62
@@ -1246,6 +13949,68 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "University of California, Irvine",
+    "years": {
+      "2023": {
+        "dac": 5,
+        "iccad": 4,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 6,
+        "iccad": 4,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 5,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 4,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2015": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      }
+    },
     "conf_total": 46,
     "journal_total": 15,
     "total": 61
@@ -1261,6 +14026,206 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "University of Michigan",
+    "years": {
+      "2015": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1976": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "1997": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2009": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "1992": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1982": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1987": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1991": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1984": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1995": {
+        "dac": 0,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1988": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "1998": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "1996": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1986": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1990": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2022": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 34,
     "journal_total": 27,
     "total": 61
@@ -1276,6 +14241,146 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "National Tsing Hua University",
+    "years": {
+      "1999": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "1995": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2000": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "1997": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2002": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 35,
     "journal_total": 26,
     "total": 61
@@ -1291,6 +14396,92 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "Tsinghua University",
+    "years": {
+      "2019": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 5,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 4,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 36,
     "journal_total": 24,
     "total": 60
@@ -1306,6 +14497,170 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "Arizona State University",
+    "years": {
+      "2012": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1993": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 4,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2004": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2003": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 39,
     "journal_total": 21,
     "total": 60
@@ -1321,6 +14676,170 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "Politecnico di Torino",
+    "years": {
+      "1997": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2019": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 2
+      },
+      "2007": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1993": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "1995": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1992": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2009": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 31,
     "journal_total": 28,
     "total": 59
@@ -1336,6 +14855,134 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "",
+    "years": {
+      "1992": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1989": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1982": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1993": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1988": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1995": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "1987": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1983": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1986": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1990": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1984": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1991": {
+        "dac": 0,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 0,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2002": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2003": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 40,
     "journal_total": 19,
     "total": 59
@@ -1351,6 +14998,170 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "University of Maryland",
+    "years": {
+      "2010": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2017": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2018": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2009": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2011": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 2
+      },
+      "2006": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2025": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 0,
+        "iccad": 4,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2016": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 29,
     "journal_total": 30,
     "total": 59
@@ -1366,6 +15177,146 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "University of California, Los Angeles",
+    "years": {
+      "2016": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2021": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 2
+      },
+      "2018": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      }
+    },
     "conf_total": 29,
     "journal_total": 29,
     "total": 58
@@ -1373,14 +15324,166 @@ const RESEARCHERS = [
   {
     "name": "Cheng-Kok Koh",
     "pid": "",
-    "ss_id": "",
+    "ss_id": "143988876",
     "dac": 8,
     "iccad": 22,
     "tcad": 22,
     "todaes": 6,
-    "hindex": 0,
-    "citations": 0,
+    "hindex": 37,
+    "citations": 4429,
     "affiliation": "Purdue University",
+    "years": {
+      "2004": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2003": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 0,
+        "iccad": 4,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 0,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2007": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "1995": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2016": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2011": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 30,
     "journal_total": 28,
     "total": 58
@@ -1396,6 +15499,104 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "Peking University",
+    "years": {
+      "2017": {
+        "dac": 4,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 3,
+        "iccad": 4,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 2,
+        "iccad": 5,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      }
+    },
     "conf_total": 41,
     "journal_total": 16,
     "total": 57
@@ -1403,7 +15604,7 @@ const RESEARCHERS = [
   {
     "name": "Yuzhe Ma",
     "pid": "",
-    "ss_id": "",
+    "ss_id": "102687853",
     "dac": 14,
     "iccad": 13,
     "tcad": 24,
@@ -1411,6 +15612,68 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "Hong Kong University of Science and Technology",
+    "years": {
+      "2024": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 4,
+        "todaes": 1
+      },
+      "2020": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "2021": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2019": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 3,
+        "iccad": 3,
+        "tcad": 3,
+        "todaes": 2
+      },
+      "2023": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 6,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 27,
     "journal_total": 30,
     "total": 57
@@ -1426,6 +15689,158 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "University of California, San Diego",
+    "years": {
+      "2021": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2003": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2010": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2006": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2016": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2020": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2008": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 34,
     "journal_total": 23,
     "total": 57
@@ -1433,14 +15848,136 @@ const RESEARCHERS = [
   {
     "name": "Subhasish Mitra",
     "pid": "",
-    "ss_id": "2095356840",
+    "ss_id": "",
     "dac": 24,
     "iccad": 10,
     "tcad": 22,
     "todaes": 0,
-    "hindex": 2,
-    "citations": 167,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "Stanford University",
+    "years": {
+      "2009": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 34,
     "journal_total": 22,
     "total": 56
@@ -1456,6 +15993,98 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "Chinese Academy of Sciences",
+    "years": {
+      "2015": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2020": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 3,
+        "todaes": 3
+      },
+      "2024": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2013": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2021": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 3,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      }
+    },
     "conf_total": 34,
     "journal_total": 21,
     "total": 55
@@ -1471,6 +16100,50 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "Peking University",
+    "years": {
+      "2025": {
+        "dac": 9,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "2023": {
+        "dac": 4,
+        "iccad": 4,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 6,
+        "iccad": 13,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      }
+    },
     "conf_total": 44,
     "journal_total": 11,
     "total": 55
@@ -1478,14 +16151,112 @@ const RESEARCHERS = [
   {
     "name": "Vladimir Zolotov",
     "pid": "",
-    "ss_id": "1745662",
+    "ss_id": "",
     "dac": 20,
     "iccad": 20,
     "tcad": 13,
     "todaes": 2,
-    "hindex": 30,
-    "citations": 3542,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "IBM Research",
+    "years": {
+      "2005": {
+        "dac": 2,
+        "iccad": 4,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 2,
+        "iccad": 4,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2008": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 40,
     "journal_total": 15,
     "total": 55
@@ -1501,6 +16272,50 @@ const RESEARCHERS = [
     "hindex": 2,
     "citations": 14,
     "affiliation": "Peking University",
+    "years": {
+      "2025": {
+        "dac": 7,
+        "iccad": 7,
+        "tcad": 4,
+        "todaes": 1
+      },
+      "2023": {
+        "dac": 3,
+        "iccad": 4,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 3,
+        "iccad": 13,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      }
+    },
     "conf_total": 41,
     "journal_total": 14,
     "total": 55
@@ -1516,6 +16331,86 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "Tsinghua University",
+    "years": {
+      "2019": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 6,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 27,
     "journal_total": 27,
     "total": 54
@@ -1531,6 +16426,158 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "University of Texas at Austin",
+    "years": {
+      "1986": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1993": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1988": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1989": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1990": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1992": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1982": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1991": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "1985": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1987": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 37,
     "journal_total": 17,
     "total": 54
@@ -1546,6 +16593,98 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "Northeastern University",
+    "years": {
+      "2018": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2024": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2015": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 39,
     "journal_total": 15,
     "total": 54
@@ -1561,6 +16700,110 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "Technical University of Munich",
+    "years": {
+      "2018": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 3,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2021": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 29,
     "journal_total": 25,
     "total": 54
@@ -1576,6 +16819,80 @@ const RESEARCHERS = [
     "hindex": 2,
     "citations": 180,
     "affiliation": "Tsinghua University",
+    "years": {
+      "2015": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 5,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 5,
+        "todaes": 0
+      }
+    },
     "conf_total": 31,
     "journal_total": 22,
     "total": 53
@@ -1591,6 +16908,98 @@ const RESEARCHERS = [
     "hindex": 4,
     "citations": 293,
     "affiliation": "NVIDIA",
+    "years": {
+      "2020": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 5,
+        "iccad": 6,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2005": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 3,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2021": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2004": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 44,
     "journal_total": 9,
     "total": 53
@@ -1606,6 +17015,152 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "University of Texas at Austin",
+    "years": {
+      "2006": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2020": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 2
+      },
+      "2004": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 2
+      },
+      "1996": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1995": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2005": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2000": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 30,
     "journal_total": 23,
     "total": 53
@@ -1613,14 +17168,142 @@ const RESEARCHERS = [
   {
     "name": "Jinjun Xiong",
     "pid": "",
-    "ss_id": "",
+    "ss_id": "145042856",
     "dac": 13,
     "iccad": 20,
     "tcad": 17,
     "todaes": 3,
-    "hindex": 0,
-    "citations": 0,
+    "hindex": 21,
+    "citations": 1346,
     "affiliation": "University at Buffalo",
+    "years": {
+      "2011": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2012": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2021": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2024": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 33,
     "journal_total": 20,
     "total": 53
@@ -1636,6 +17319,164 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "University of Texas at Austin",
+    "years": {
+      "2006": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "1997": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "1996": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1995": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2019": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 0,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 34,
     "journal_total": 18,
     "total": 52
@@ -1643,14 +17484,124 @@ const RESEARCHERS = [
   {
     "name": "Ozgur Sinanoglu",
     "pid": "",
-    "ss_id": "48010993",
+    "ss_id": "",
     "dac": 7,
     "iccad": 14,
     "tcad": 28,
     "todaes": 3,
-    "hindex": 43,
-    "citations": 7772,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "New York University Abu Dhabi",
+    "years": {
+      "2018": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 2
+      },
+      "2024": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 5,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 5,
+        "todaes": 1
+      },
+      "2011": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      }
+    },
     "conf_total": 21,
     "journal_total": 31,
     "total": 52
@@ -1666,6 +17617,146 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "University of Michigan",
+    "years": {
+      "2009": {
+        "dac": 4,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2022": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2002": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 1
+      },
+      "2013": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 39,
     "journal_total": 12,
     "total": 51
@@ -1673,14 +17764,118 @@ const RESEARCHERS = [
   {
     "name": "Tsung-Wei Huang",
     "pid": "",
-    "ss_id": "",
+    "ss_id": "1703761",
     "dac": 17,
     "iccad": 18,
     "tcad": 15,
     "todaes": 1,
-    "hindex": 0,
-    "citations": 0,
+    "hindex": 19,
+    "citations": 1353,
     "affiliation": "University of Wisconsin-Madison",
+    "years": {
+      "2025": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 4,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 35,
     "journal_total": 16,
     "total": 51
@@ -1688,14 +17883,160 @@ const RESEARCHERS = [
   {
     "name": "Jordi Cortadella",
     "pid": "",
-    "ss_id": "2257241640",
+    "ss_id": "",
     "dac": 15,
     "iccad": 17,
     "tcad": 18,
     "todaes": 1,
-    "hindex": 2,
-    "citations": 26,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "Universitat Politècnica de Catalunya",
+    "years": {
+      "2019": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 3,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1995": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1993": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 1
+      },
+      "2014": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 32,
     "journal_total": 19,
     "total": 51
@@ -1711,6 +18052,122 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "University of California, Berkeley",
+    "years": {
+      "1996": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1991": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1992": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 40,
     "journal_total": 10,
     "total": 50
@@ -1726,6 +18183,92 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "University of Pittsburgh",
+    "years": {
+      "2024": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 5,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "2016": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "2013": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 24,
     "journal_total": 26,
     "total": 50
@@ -1741,6 +18284,140 @@ const RESEARCHERS = [
     "hindex": 5,
     "citations": 499,
     "affiliation": "Politecnico di Torino",
+    "years": {
+      "2019": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2007": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1998": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "1992": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1995": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "1991": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2001": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1990": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2005": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2002": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 1
+      }
+    },
     "conf_total": 30,
     "journal_total": 20,
     "total": 50
@@ -1756,6 +18433,98 @@ const RESEARCHERS = [
     "hindex": 0,
     "citations": 0,
     "affiliation": "National Taiwan University",
+    "years": {
+      "2019": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2011": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      }
+    },
     "conf_total": 39,
     "journal_total": 11,
     "total": 50

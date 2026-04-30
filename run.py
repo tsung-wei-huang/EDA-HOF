@@ -720,8 +720,16 @@ def build_researcher_table(enriched: dict) -> list[dict]:
                 "hindex": ainfo.get("hindex", 0),
                 "citations": ainfo.get("citations", 0),
                 "affiliation": "",
+                "years": {},  # {year: {dac,iccad,tcad,todaes}}
             }
         researchers[identity][venue] += ainfo["total"]
+        # Accumulate per-year counts for sparkline
+        for yr, cnt in ainfo.get("years", {}).items():
+            yr_str = str(yr)
+            if yr_str not in researchers[identity]["years"]:
+                researchers[identity]["years"][yr_str] = {"dac":0,"iccad":0,"tcad":0,"todaes":0}
+            researchers[identity]["years"][yr_str][venue] = \
+                researchers[identity]["years"][yr_str].get(venue, 0) + cnt
         # Prefer the longer/fuller name for display
         if len(name) > len(researchers[identity]["name"]):
             researchers[identity]["name"] = name
