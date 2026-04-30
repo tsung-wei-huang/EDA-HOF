@@ -33,6 +33,7 @@ toggle buttons to filter the ranking to a subset of venues.
 EDA-HallOfFame/
 ├── index.html   # Static site — no build step needed
 ├── data.js      # Generated — commit this after each refresh
+├── favicon.svg  # Site favicon
 ├── run.py       # Single script that runs the full pipeline
 ├── .gitignore
 └── README.md
@@ -178,7 +179,6 @@ python run.py --skip-fetch --skip-enrich
 | Affiliation shows blank | Not yet in `AFFILIATION_OVERRIDES` | Add it manually (see Affiliations section) |
 | Site shows placeholder data | `data.js` is the stub file | Run `python run.py` |
 
-
 ---
 
 ## Updating the Threshold
@@ -207,10 +207,15 @@ python run.py --skip-fetch --skip-enrich
   looked up (not all 30k+ authors in the dump).
 - **Affiliations:** Manually curated in `AFFILIATION_OVERRIDES` in `run.py`.
 
-
+---
 
 ## License
 
+MIT License
+
+Copyright (c) 2026 [Tsung-Wei Huang](https://tsung-wei-huang.github.io)
+
+Built with the assistance of [Anthropic Claude](https://claude.ai).
+
 Data derived from [DBLP](https://dblp.org) (CC0) and
-[Semantic Scholar](https://www.semanticscholar.org).  
-Code: MIT.
+[Semantic Scholar](https://www.semanticscholar.org).
