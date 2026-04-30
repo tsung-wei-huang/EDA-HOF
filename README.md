@@ -59,16 +59,6 @@ python --version   # confirm 3.10+
 pip install lxml   # optional but recommended
 ```
 
-### Clone & deploy
-
-```bash
-git clone https://github.com/<you>/EDA-HallOfFame.git
-cd EDA-HallOfFame
-```
-
-Enable GitHub Pages in your repo settings:
-`Settings → Pages → Source: Deploy from branch → Branch: main / root`
-
 ---
 
 ## Data Pipeline (Manual Refresh)
@@ -188,30 +178,6 @@ python run.py --skip-fetch --skip-enrich
 | Affiliation shows blank | Not yet in `AFFILIATION_OVERRIDES` | Add it manually (see Affiliations section) |
 | Site shows placeholder data | `data.js` is the stub file | Run `python run.py` |
 
-### Author disambiguation
-
-DBLP assigns a persistent PID (e.g. `w/MartinDFWong`) to each researcher.
-The pipeline uses PIDs as the primary identity key, so name variants like
-"Martin D. F. Wong" and "D. F. Wong" merge automatically when DBLP gives
-them the same PID.
-
-If you still see a duplicate after re-running, both records lack a PID.
-Fix it by adding an entry to the `NAME_OVERRIDES` table near the top of `run.py`:
-
-```python
-NAME_OVERRIDES: dict[str, str] = {
-    "D. F. Wong": "w/MartinDFWong",   # exact XML name -> DBLP PID
-}
-```
-
-Find the researcher's DBLP PID from their profile URL, e.g.
-`https://dblp.org/pid/w/MartinDFWong` → PID is `w/MartinDFWong`.
-
-Then regenerate:
-
-```bash
-python run.py --skip-fetch --skip-enrich
-```
 
 ---
 
@@ -241,19 +207,7 @@ python run.py --skip-fetch --skip-enrich
   looked up (not all 30k+ authors in the dump).
 - **Affiliations:** Manually curated in `AFFILIATION_OVERRIDES` in `run.py`.
 
----
 
-## Contributing
-
-- **Affiliation corrections:** Edit `AFFILIATION_OVERRIDES` in `run.py`, then
-  `python run.py --skip-fetch --skip-enrich` and commit `data.js`
-- **Data corrections:** Edit `tmp/dblp_data.json`, then re-run
-  `python run.py --skip-fetch --skip-enrich` and commit `data.js`
-- **UI improvements:** Edit `index.html` — fully self-contained, no build step
-- **New venues:** Add an entry to the `VENUES` and `VENUE_PREFIXES` dicts
-  in `run.py`, then re-run the full pipeline
-
----
 
 ## License
 
