@@ -58,9 +58,10 @@ AFFILIATION_OVERRIDES: dict[str, str] = {
     "Andrew B. Kahng":                    "University of California, San Diego",
     "Ankur Srivastava":                   "University of Maryland",
     "Bei Yu":                             "Chinese University of Hong Kong",
-    "Bing Li":                            "Technical University of Munich",
+    "Bing Li": "Technische Universität Ilmenau",
     "Charles J. Alpert":                  "Cadence Design Systems",
     "Cheng Zhuo":                         "Zhejiang University",
+    "C. L. Liu":                          "National Tsing Hua University",
     "Cheng-Kok Koh":                      "Purdue University",
     "Chun Jason Xue":                     "City University of Hong Kong",
     "Chung-Kuan Cheng":                   "University of California, San Diego",
@@ -85,7 +86,7 @@ AFFILIATION_OVERRIDES: dict[str, str] = {
     "Haoxing Ren":                        "NVIDIA",
     "Huawei Li":                          "Chinese Academy of Sciences",
     "Huazhong Yang":                      "Tsinghua University",
-    "Igor L. Markov":                     "University of Michigan",
+    "Igor L. Markov": "Synopsys",
     "Iris Hui-Ru Jiang":                  "National Taiwan University",
     "Irith Pomeranz":                     "Purdue University",
     "Jacob A. Abraham":                   "University of Texas at Austin",
@@ -96,7 +97,7 @@ AFFILIATION_OVERRIDES: dict[str, str] = {
     "Jianli Chen":                        "Fudan University",
     "Jie-Hong R. Jiang":                  "National Taiwan University",
     "Jingtong Hu":                        "University of Pittsburgh",
-    "Jinjun Xiong":                       "University at Buffalo",
+    "Jinjun Xiong": "University of Texas at San Antonio",
     "John P. Hayes":                      "University of Michigan",
     "Jordi Cortadella":                   "Universitat Politècnica de Catalunya",
     "Jörg Henkel":                   "Karlsruhe Institute of Technology",
@@ -120,12 +121,12 @@ AFFILIATION_OVERRIDES: dict[str, str] = {
     "Nikil D. Dutt":                      "University of California, Irvine",
     "Niraj K. Jha":                       "Princeton University",
     "Ozgur Sinanoglu":                    "New York University Abu Dhabi",
-    "Peng Li":                            "Texas A&M University",
+    "Peng Li": "University of California, Santa Barbara",
     "Puneet Gupta":                       "University of California, Los Angeles",
     "Qiang Xu":                           "Chinese University of Hong Kong",
     "Radu Marculescu":                    "University of Texas at Austin",
     "Ramesh Karri":                       "New York University",
-    "Rob A. Rutenbar":                    "University of Illinois Urbana-Champaign",
+    "Rob A. Rutenbar": "University of Pittsburgh",
     "Robert K. Brayton":                  "University of California, Berkeley",
     "Robert Wille":                       "Technical University of Munich",
     "Rolf Drechsler":                     "University of Bremen",
@@ -143,7 +144,7 @@ AFFILIATION_OVERRIDES: dict[str, str] = {
     "Subhasish Mitra":                    "Stanford University",
     "Sudhakar M. Reddy":                  "University of Iowa",
     "Sujit Dey":                          "University of California, San Diego",
-    "Sung Kyu Lim":                       "Georgia Institute of Technology",
+    "Sung Kyu Lim": "University of Southern California",
     "Sung-Mo Kang":                       "University of California, Santa Cruz",
     "Taewhan Kim":                        "Seoul National University",
     "Tei-Wei Kuo":                        "National Taiwan University",
@@ -164,7 +165,7 @@ AFFILIATION_OVERRIDES: dict[str, str] = {
     "Yiran Chen":                         "Duke University",
     "Yiyu Shi":                           "University of Notre Dame",
     "Yu Wang":                            "Tsinghua University",
-    "Yuan Xie":                           "University of California, Santa Barbara",
+    "Yuan Xie": "Hong Kong University of Science and Technology",
     "Yuan-Hao Chang":                     "National Yang Ming Chiao Tung University",
     "Yun Liang":                          "Peking University",
     "Yuzhe Ma":                           "Hong Kong University of Science and Technology",
@@ -748,12 +749,13 @@ def build_researcher_table(enriched: dict) -> list[dict]:
 
     for vk in VENUES:
         for pid_key, ainfo in enriched[vk]["authors"].items():
-            pid = ainfo.get("pid", "")
-            # Primary identity: DBLP PID (globally unique, best)
-            # Fallback: normalised name key (handles variants like "D. F. Wong"
-            # vs "Martin D. F. Wong" when DBLP hasn't assigned a PID)
-            identity = pid if pid else ainfo["name"]
-            upsert(identity, ainfo["name"], pid, vk, ainfo)
+            pid  = ainfo.get("pid", "")
+            name = ainfo["name"]
+            # Apply NAME_OVERRIDES before identity assignment
+            if name in NAME_OVERRIDES:
+                pid = NAME_OVERRIDES[name]
+            identity = pid if pid else name
+            upsert(identity, name, pid, vk, ainfo)
 
     rows = []
     for r in researchers.values():
