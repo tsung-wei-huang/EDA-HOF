@@ -190,7 +190,9 @@ NAME_OVERRIDES: dict[str, str] = {
     # "D. F. Wong" and "Martin D. F. Wong" are the same person —
     # both lack a DBLP PID so we pin them to the same canonical key
     "D. F. Wong":        "w/MartinDFWong",
+    "D. F. Wong 0001":   "w/MartinDFWong",
     "D.F. Wong":         "w/MartinDFWong",
+    "Martin D. F. Wong": "w/MartinDFWong",
 }
 
 # dblp_path must match the path under https://dblp.org/db/
@@ -651,8 +653,11 @@ def hof_qualifying_pids(dblp_data: dict) -> set:
             pid      = ainfo.get("pid", "")
             name     = ainfo["name"]
             # Apply manual override if present
+            _name_stripped = re.sub(r"\s+\d{4}$", "", name).strip()
             if name in NAME_OVERRIDES:
                 pid = NAME_OVERRIDES[name]
+            elif _name_stripped in NAME_OVERRIDES:
+                pid = NAME_OVERRIDES[_name_stripped]
             identity = pid if pid else name
             if identity not in totals:
                 totals[identity] = {"dac": 0, "iccad": 0, "tcad": 0, "todaes": 0, "pairs": []}
@@ -752,8 +757,12 @@ def build_researcher_table(enriched: dict) -> list[dict]:
             pid  = ainfo.get("pid", "")
             name = ainfo["name"]
             # Apply NAME_OVERRIDES before identity assignment
+            # Try exact name first, then strip DBLP number suffix
+            _name_stripped = re.sub(r"\s+\d{4}$", "", name).strip()
             if name in NAME_OVERRIDES:
                 pid = NAME_OVERRIDES[name]
+            elif _name_stripped in NAME_OVERRIDES:
+                pid = NAME_OVERRIDES[_name_stripped]
             identity = pid if pid else name
             upsert(identity, name, pid, vk, ainfo)
 

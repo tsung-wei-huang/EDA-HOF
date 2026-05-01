@@ -11,7 +11,7 @@ const RESEARCHERS = [
     "ss_id": "",
     "dac": 101,
     "iccad": 80,
-    "tcad": 85,
+    "tcad": 88,
     "todaes": 12,
     "hindex": 0,
     "citations": 0,
@@ -206,7 +206,7 @@ const RESEARCHERS = [
       "2026": {
         "dac": 0,
         "iccad": 0,
-        "tcad": 1,
+        "tcad": 4,
         "todaes": 0
       },
       "1997": {
@@ -217,19 +217,19 @@ const RESEARCHERS = [
       }
     },
     "conf_total": 181,
-    "journal_total": 97,
-    "total": 278
+    "journal_total": 100,
+    "total": 281
   },
   {
     "name": "Krishnendu Chakrabarty",
     "pid": "",
-    "ss_id": "2081122218",
+    "ss_id": "",
     "dac": 29,
     "iccad": 39,
     "tcad": 168,
     "todaes": 36,
-    "hindex": 2,
-    "citations": 8,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "Arizona State University",
     "years": {
       "2018": {
@@ -431,7 +431,7 @@ const RESEARCHERS = [
   },
   {
     "name": "Martin D. F. Wong",
-    "pid": "",
+    "pid": "w/MartinDFWong",
     "ss_id": "",
     "dac": 69,
     "iccad": 86,
@@ -555,58 +555,16 @@ const RESEARCHERS = [
         "tcad": 1,
         "todaes": 1
       },
-      "2005": {
-        "dac": 0,
-        "iccad": 5,
-        "tcad": 1,
-        "todaes": 1
-      },
-      "1988": {
-        "dac": 1,
-        "iccad": 2,
-        "tcad": 1,
-        "todaes": 0
-      },
-      "2008": {
-        "dac": 0,
+      "1989": {
+        "dac": 2,
         "iccad": 1,
-        "tcad": 4,
-        "todaes": 3
-      },
-      "2003": {
-        "dac": 1,
-        "iccad": 4,
-        "tcad": 4,
-        "todaes": 1
-      },
-      "2002": {
-        "dac": 2,
-        "iccad": 3,
-        "tcad": 2,
+        "tcad": 0,
         "todaes": 0
-      },
-      "1997": {
-        "dac": 2,
-        "iccad": 3,
-        "tcad": 6,
-        "todaes": 1
-      },
-      "2001": {
-        "dac": 0,
-        "iccad": 2,
-        "tcad": 4,
-        "todaes": 1
       },
       "1991": {
         "dac": 2,
         "iccad": 2,
         "tcad": 4,
-        "todaes": 0
-      },
-      "1999": {
-        "dac": 2,
-        "iccad": 3,
-        "tcad": 8,
         "todaes": 0
       },
       "1996": {
@@ -615,27 +573,9 @@ const RESEARCHERS = [
         "tcad": 3,
         "todaes": 2
       },
-      "1998": {
-        "dac": 2,
-        "iccad": 5,
-        "tcad": 4,
-        "todaes": 1
-      },
-      "1995": {
+      "1988": {
         "dac": 1,
-        "iccad": 3,
-        "tcad": 4,
-        "todaes": 0
-      },
-      "2000": {
-        "dac": 3,
-        "iccad": 0,
-        "tcad": 3,
-        "todaes": 1
-      },
-      "1994": {
-        "dac": 2,
-        "iccad": 5,
+        "iccad": 2,
         "tcad": 1,
         "todaes": 0
       },
@@ -645,23 +585,47 @@ const RESEARCHERS = [
         "tcad": 2,
         "todaes": 0
       },
-      "1992": {
+      "1995": {
         "dac": 1,
-        "iccad": 1,
+        "iccad": 3,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "1994": {
+        "dac": 2,
+        "iccad": 5,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 6,
+        "todaes": 1
+      },
+      "2002": {
+        "dac": 2,
+        "iccad": 3,
         "tcad": 2,
         "todaes": 0
       },
-      "2026": {
-        "dac": 0,
-        "iccad": 0,
-        "tcad": 0,
-        "todaes": 2
-      },
-      "1989": {
+      "1999": {
         "dac": 2,
-        "iccad": 1,
-        "tcad": 0,
+        "iccad": 3,
+        "tcad": 8,
         "todaes": 0
+      },
+      "1998": {
+        "dac": 2,
+        "iccad": 5,
+        "tcad": 4,
+        "todaes": 1
+      },
+      "2000": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 1
       },
       "1987": {
         "dac": 1,
@@ -675,11 +639,47 @@ const RESEARCHERS = [
         "tcad": 0,
         "todaes": 0
       },
+      "1992": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2003": {
+        "dac": 1,
+        "iccad": 4,
+        "tcad": 4,
+        "todaes": 1
+      },
       "1990": {
         "dac": 2,
         "iccad": 3,
         "tcad": 0,
         "todaes": 0
+      },
+      "2005": {
+        "dac": 0,
+        "iccad": 5,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2008": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 4,
+        "todaes": 3
+      },
+      "2001": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 4,
+        "todaes": 1
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 2
       }
     },
     "conf_total": 155,
@@ -692,7 +692,7 @@ const RESEARCHERS = [
     "ss_id": "",
     "dac": 62,
     "iccad": 64,
-    "tcad": 97,
+    "tcad": 98,
     "todaes": 28,
     "hindex": 0,
     "citations": 0,
@@ -791,24 +791,24 @@ const RESEARCHERS = [
       "2026": {
         "dac": 0,
         "iccad": 0,
-        "tcad": 7,
+        "tcad": 8,
         "todaes": 5
       }
     },
     "conf_total": 126,
-    "journal_total": 125,
-    "total": 251
+    "journal_total": 126,
+    "total": 252
   },
   {
     "name": "Alberto L. Sangiovanni-Vincentelli",
     "pid": "",
-    "ss_id": "1400646910",
+    "ss_id": "",
     "dac": 88,
     "iccad": 75,
     "tcad": 79,
     "todaes": 3,
-    "hindex": 11,
-    "citations": 488,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "University of California, Berkeley",
     "years": {
       "1999": {
@@ -1050,7 +1050,7 @@ const RESEARCHERS = [
     "ss_id": "",
     "dac": 27,
     "iccad": 22,
-    "tcad": 137,
+    "tcad": 138,
     "todaes": 34,
     "hindex": 0,
     "citations": 0,
@@ -1263,7 +1263,7 @@ const RESEARCHERS = [
       "2026": {
         "dac": 0,
         "iccad": 0,
-        "tcad": 2,
+        "tcad": 3,
         "todaes": 2
       },
       "2013": {
@@ -1274,8 +1274,8 @@ const RESEARCHERS = [
       }
     },
     "conf_total": 49,
-    "journal_total": 171,
-    "total": 220
+    "journal_total": 172,
+    "total": 221
   },
   {
     "name": "Jason Cong",
@@ -1531,13 +1531,13 @@ const RESEARCHERS = [
   {
     "name": "Andrew B. Kahng",
     "pid": "",
-    "ss_id": "2265247027",
+    "ss_id": "",
     "dac": 65,
     "iccad": 60,
     "tcad": 76,
     "todaes": 10,
-    "hindex": 9,
-    "citations": 325,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "University of California, San Diego",
     "years": {
       "2012": {
@@ -1913,7 +1913,7 @@ const RESEARCHERS = [
   {
     "name": "Massoud Pedram",
     "pid": "",
-    "ss_id": "2066423399",
+    "ss_id": "",
     "dac": 59,
     "iccad": 43,
     "tcad": 64,
@@ -2376,7 +2376,7 @@ const RESEARCHERS = [
     "ss_id": "",
     "dac": 37,
     "iccad": 40,
-    "tcad": 71,
+    "tcad": 72,
     "todaes": 18,
     "hindex": 0,
     "citations": 0,
@@ -2499,18 +2499,18 @@ const RESEARCHERS = [
       "2026": {
         "dac": 0,
         "iccad": 0,
-        "tcad": 5,
+        "tcad": 6,
         "todaes": 4
       }
     },
     "conf_total": 77,
-    "journal_total": 89,
-    "total": 166
+    "journal_total": 90,
+    "total": 167
   },
   {
     "name": "Robert K. Brayton",
     "pid": "",
-    "ss_id": "144679906",
+    "ss_id": "",
     "dac": 52,
     "iccad": 72,
     "tcad": 39,
@@ -2731,7 +2731,7 @@ const RESEARCHERS = [
   {
     "name": "Miodrag Potkonjak",
     "pid": "",
-    "ss_id": "2367241758",
+    "ss_id": "",
     "dac": 55,
     "iccad": 47,
     "tcad": 32,
@@ -2916,7 +2916,7 @@ const RESEARCHERS = [
   {
     "name": "Jörg Henkel",
     "pid": "",
-    "ss_id": "2406487635",
+    "ss_id": "",
     "dac": 57,
     "iccad": 41,
     "tcad": 31,
@@ -4161,7 +4161,7 @@ const RESEARCHERS = [
     "ss_id": "",
     "dac": 36,
     "iccad": 26,
-    "tcad": 49,
+    "tcad": 50,
     "todaes": 13,
     "hindex": 0,
     "citations": 0,
@@ -4302,7 +4302,7 @@ const RESEARCHERS = [
       "2026": {
         "dac": 0,
         "iccad": 0,
-        "tcad": 3,
+        "tcad": 4,
         "todaes": 1
       },
       "2005": {
@@ -4313,13 +4313,13 @@ const RESEARCHERS = [
       }
     },
     "conf_total": 62,
-    "journal_total": 62,
-    "total": 124
+    "journal_total": 63,
+    "total": 125
   },
   {
     "name": "Ulf Schlichtmann",
     "pid": "",
-    "ss_id": "71032298",
+    "ss_id": "",
     "dac": 34,
     "iccad": 39,
     "tcad": 45,
@@ -4713,13 +4713,13 @@ const RESEARCHERS = [
   {
     "name": "David T. Blaauw",
     "pid": "",
-    "ss_id": "1687117",
+    "ss_id": "",
     "dac": 54,
     "iccad": 34,
     "tcad": 29,
     "todaes": 2,
-    "hindex": 91,
-    "citations": 35417,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "University of Michigan",
     "years": {
       "2003": {
@@ -4868,13 +4868,13 @@ const RESEARCHERS = [
   {
     "name": "Yibo Lin",
     "pid": "",
-    "ss_id": "2416893282",
+    "ss_id": "",
     "dac": 36,
     "iccad": 32,
     "tcad": 43,
     "todaes": 6,
-    "hindex": 2,
-    "citations": 23,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "Peking University",
     "years": {
       "2024": {
@@ -4957,7 +4957,7 @@ const RESEARCHERS = [
   {
     "name": "Evangeline F. Y. Young",
     "pid": "",
-    "ss_id": "146703155",
+    "ss_id": "",
     "dac": 28,
     "iccad": 30,
     "tcad": 42,
@@ -5798,7 +5798,7 @@ const RESEARCHERS = [
   {
     "name": "Luca Benini",
     "pid": "",
-    "ss_id": "49214417",
+    "ss_id": "",
     "dac": 43,
     "iccad": 12,
     "tcad": 45,
@@ -6556,13 +6556,13 @@ const RESEARCHERS = [
   {
     "name": "Ramesh Karri",
     "pid": "",
-    "ss_id": "1707355",
+    "ss_id": "",
     "dac": 25,
     "iccad": 18,
     "tcad": 46,
     "todaes": 14,
-    "hindex": 62,
-    "citations": 17295,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "New York University",
     "years": {
       "2004": {
@@ -7033,13 +7033,13 @@ const RESEARCHERS = [
   {
     "name": "Srinivas Devadas",
     "pid": "",
-    "ss_id": "2265529418",
+    "ss_id": "",
     "dac": 31,
     "iccad": 26,
     "tcad": 42,
     "todaes": 2,
-    "hindex": 4,
-    "citations": 1219,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "Massachusetts Institute of Technology",
     "years": {
       "1997": {
@@ -7176,13 +7176,13 @@ const RESEARCHERS = [
   {
     "name": "Cheng Zhuo",
     "pid": "",
-    "ss_id": "2113279153",
+    "ss_id": "",
     "dac": 19,
     "iccad": 38,
     "tcad": 31,
     "todaes": 12,
-    "hindex": 2,
-    "citations": 21,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "Zhejiang University",
     "years": {
       "2025": {
@@ -7468,13 +7468,13 @@ const RESEARCHERS = [
   {
     "name": "Lawrence T. Pileggi",
     "pid": "",
-    "ss_id": "2261058103",
+    "ss_id": "",
     "dac": 43,
     "iccad": 26,
     "tcad": 25,
     "todaes": 0,
-    "hindex": 4,
-    "citations": 149,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "Carnegie Mellon University",
     "years": {
       "1998": {
@@ -7724,13 +7724,13 @@ const RESEARCHERS = [
   {
     "name": "Farid N. Najm",
     "pid": "",
-    "ss_id": "2238451819",
+    "ss_id": "",
     "dac": 30,
     "iccad": 31,
     "tcad": 30,
     "todaes": 2,
-    "hindex": 8,
-    "citations": 476,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "University of Toronto",
     "years": {
       "2004": {
@@ -8695,15 +8695,122 @@ const RESEARCHERS = [
     "total": 86
   },
   {
+    "name": "Fan Yang 0001",
+    "pid": "",
+    "ss_id": "",
+    "dac": 27,
+    "iccad": 14,
+    "tcad": 32,
+    "todaes": 12,
+    "hindex": 0,
+    "citations": 0,
+    "affiliation": "Fudan University",
+    "years": {
+      "2024": {
+        "dac": 5,
+        "iccad": 5,
+        "tcad": 5,
+        "todaes": 3
+      },
+      "2016": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 8,
+        "todaes": 3
+      },
+      "2023": {
+        "dac": 4,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 3
+      },
+      "2015": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2009": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 5,
+        "todaes": 1
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 6,
+        "todaes": 2
+      }
+    },
+    "conf_total": 41,
+    "journal_total": 44,
+    "total": 85
+  },
+  {
     "name": "Dennis Sylvester",
     "pid": "",
-    "ss_id": "2304767726",
+    "ss_id": "",
     "dac": 40,
     "iccad": 21,
     "tcad": 22,
     "todaes": 1,
-    "hindex": 1,
-    "citations": 2,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "University of Michigan",
     "years": {
       "2005": {
@@ -9327,113 +9434,6 @@ const RESEARCHERS = [
     "total": 83
   },
   {
-    "name": "Fan Yang 0001",
-    "pid": "",
-    "ss_id": "",
-    "dac": 27,
-    "iccad": 14,
-    "tcad": 30,
-    "todaes": 12,
-    "hindex": 0,
-    "citations": 0,
-    "affiliation": "Fudan University",
-    "years": {
-      "2024": {
-        "dac": 5,
-        "iccad": 5,
-        "tcad": 5,
-        "todaes": 3
-      },
-      "2016": {
-        "dac": 2,
-        "iccad": 0,
-        "tcad": 0,
-        "todaes": 0
-      },
-      "2025": {
-        "dac": 2,
-        "iccad": 2,
-        "tcad": 8,
-        "todaes": 3
-      },
-      "2023": {
-        "dac": 4,
-        "iccad": 1,
-        "tcad": 3,
-        "todaes": 3
-      },
-      "2015": {
-        "dac": 1,
-        "iccad": 0,
-        "tcad": 1,
-        "todaes": 0
-      },
-      "2019": {
-        "dac": 2,
-        "iccad": 1,
-        "tcad": 0,
-        "todaes": 0
-      },
-      "2012": {
-        "dac": 2,
-        "iccad": 0,
-        "tcad": 0,
-        "todaes": 0
-      },
-      "2018": {
-        "dac": 1,
-        "iccad": 1,
-        "tcad": 1,
-        "todaes": 0
-      },
-      "2020": {
-        "dac": 2,
-        "iccad": 1,
-        "tcad": 0,
-        "todaes": 0
-      },
-      "2021": {
-        "dac": 1,
-        "iccad": 3,
-        "tcad": 1,
-        "todaes": 0
-      },
-      "2014": {
-        "dac": 1,
-        "iccad": 0,
-        "tcad": 0,
-        "todaes": 0
-      },
-      "2009": {
-        "dac": 1,
-        "iccad": 0,
-        "tcad": 0,
-        "todaes": 0
-      },
-      "2017": {
-        "dac": 1,
-        "iccad": 0,
-        "tcad": 2,
-        "todaes": 0
-      },
-      "2022": {
-        "dac": 2,
-        "iccad": 0,
-        "tcad": 5,
-        "todaes": 1
-      },
-      "2026": {
-        "dac": 0,
-        "iccad": 0,
-        "tcad": 4,
-        "todaes": 2
-      }
-    },
-    "conf_total": 41,
-    "journal_total": 42,
-    "total": 83
-  },
-  {
     "name": "Huazhong Yang",
     "pid": "",
     "ss_id": "",
@@ -9561,13 +9561,13 @@ const RESEARCHERS = [
   {
     "name": "Igor L. Markov",
     "pid": "",
-    "ss_id": "2064751613",
+    "ss_id": "",
     "dac": 24,
     "iccad": 27,
     "tcad": 24,
     "todaes": 7,
-    "hindex": 5,
-    "citations": 60,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "Synopsys",
     "years": {
       "1999": {
@@ -9877,13 +9877,13 @@ const RESEARCHERS = [
   {
     "name": "Robert Wille",
     "pid": "",
-    "ss_id": "144385184",
+    "ss_id": "",
     "dac": 22,
     "iccad": 19,
     "tcad": 34,
     "todaes": 5,
-    "hindex": 50,
-    "citations": 11190,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "Technical University of Munich",
     "years": {
       "2010": {
@@ -10523,7 +10523,7 @@ const RESEARCHERS = [
     "ss_id": "",
     "dac": 24,
     "iccad": 20,
-    "tcad": 28,
+    "tcad": 29,
     "todaes": 3,
     "hindex": 0,
     "citations": 0,
@@ -10688,7 +10688,7 @@ const RESEARCHERS = [
       "2026": {
         "dac": 0,
         "iccad": 0,
-        "tcad": 2,
+        "tcad": 3,
         "todaes": 1
       },
       "2020": {
@@ -10699,19 +10699,19 @@ const RESEARCHERS = [
       }
     },
     "conf_total": 44,
-    "journal_total": 31,
-    "total": 75
+    "journal_total": 32,
+    "total": 76
   },
   {
     "name": "Farinaz Koushanfar",
     "pid": "",
-    "ss_id": "3018662",
+    "ss_id": "",
     "dac": 37,
     "iccad": 25,
     "tcad": 5,
     "todaes": 7,
-    "hindex": 68,
-    "citations": 30000,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "University of California, San Diego",
     "years": {
       "2008": {
@@ -11354,13 +11354,13 @@ const RESEARCHERS = [
   {
     "name": "Fabio Somenzi",
     "pid": "",
-    "ss_id": "1693050",
+    "ss_id": "",
     "dac": 23,
     "iccad": 28,
     "tcad": 19,
     "todaes": 0,
-    "hindex": 50,
-    "citations": 10673,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "University of Colorado Boulder",
     "years": {
       "2009": {
@@ -13023,7 +13023,7 @@ const RESEARCHERS = [
   {
     "name": "Francky Catthoor",
     "pid": "",
-    "ss_id": "145410655",
+    "ss_id": "",
     "dac": 19,
     "iccad": 10,
     "tcad": 16,
@@ -13405,13 +13405,13 @@ const RESEARCHERS = [
   {
     "name": "Mahmut T. Kandemir",
     "pid": "",
-    "ss_id": "2065377004",
+    "ss_id": "",
     "dac": 27,
     "iccad": 26,
     "tcad": 5,
     "todaes": 5,
-    "hindex": 4,
-    "citations": 31,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "Pennsylvania State University",
     "years": {
       "2011": {
@@ -13673,13 +13673,13 @@ const RESEARCHERS = [
   {
     "name": "Alan Mishchenko",
     "pid": "",
-    "ss_id": "2257344601",
+    "ss_id": "",
     "dac": 19,
     "iccad": 21,
     "tcad": 21,
     "todaes": 1,
-    "hindex": 3,
-    "citations": 32,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "University of California, Berkeley",
     "years": {
       "2018": {
@@ -14287,7 +14287,7 @@ const RESEARCHERS = [
   {
     "name": "Shaojun Wei",
     "pid": "",
-    "ss_id": "1699590720",
+    "ss_id": "",
     "dac": 31,
     "iccad": 5,
     "tcad": 24,
@@ -15066,6 +15066,125 @@ const RESEARCHERS = [
     "total": 59
   },
   {
+    "name": "Yun Liang 0001",
+    "pid": "",
+    "ss_id": "",
+    "dac": 23,
+    "iccad": 18,
+    "tcad": 17,
+    "todaes": 0,
+    "hindex": 0,
+    "citations": 0,
+    "affiliation": "Peking University",
+    "years": {
+      "2017": {
+        "dac": 4,
+        "iccad": 3,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2023": {
+        "dac": 3,
+        "iccad": 4,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2024": {
+        "dac": 2,
+        "iccad": 5,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2010": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2018": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      }
+    },
+    "conf_total": 41,
+    "journal_total": 17,
+    "total": 58
+  },
+  {
     "name": "Puneet Gupta 0001",
     "pid": "",
     "ss_id": "",
@@ -15223,13 +15342,13 @@ const RESEARCHERS = [
   {
     "name": "Cheng-Kok Koh",
     "pid": "",
-    "ss_id": "143988876",
+    "ss_id": "",
     "dac": 8,
     "iccad": 22,
     "tcad": 22,
     "todaes": 6,
-    "hindex": 37,
-    "citations": 4429,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "Purdue University",
     "years": {
       "2004": {
@@ -15388,122 +15507,9 @@ const RESEARCHERS = [
     "total": 58
   },
   {
-    "name": "Yun Liang 0001",
-    "pid": "",
-    "ss_id": "",
-    "dac": 23,
-    "iccad": 18,
-    "tcad": 16,
-    "todaes": 0,
-    "hindex": 0,
-    "citations": 0,
-    "affiliation": "Peking University",
-    "years": {
-      "2017": {
-        "dac": 4,
-        "iccad": 3,
-        "tcad": 1,
-        "todaes": 0
-      },
-      "2023": {
-        "dac": 3,
-        "iccad": 4,
-        "tcad": 1,
-        "todaes": 0
-      },
-      "2024": {
-        "dac": 2,
-        "iccad": 5,
-        "tcad": 1,
-        "todaes": 0
-      },
-      "2010": {
-        "dac": 1,
-        "iccad": 0,
-        "tcad": 0,
-        "todaes": 0
-      },
-      "2014": {
-        "dac": 1,
-        "iccad": 0,
-        "tcad": 0,
-        "todaes": 0
-      },
-      "2013": {
-        "dac": 2,
-        "iccad": 1,
-        "tcad": 0,
-        "todaes": 0
-      },
-      "2019": {
-        "dac": 2,
-        "iccad": 1,
-        "tcad": 0,
-        "todaes": 0
-      },
-      "2008": {
-        "dac": 1,
-        "iccad": 0,
-        "tcad": 0,
-        "todaes": 0
-      },
-      "2018": {
-        "dac": 1,
-        "iccad": 1,
-        "tcad": 1,
-        "todaes": 0
-      },
-      "2020": {
-        "dac": 1,
-        "iccad": 1,
-        "tcad": 3,
-        "todaes": 0
-      },
-      "2016": {
-        "dac": 1,
-        "iccad": 0,
-        "tcad": 2,
-        "todaes": 0
-      },
-      "2012": {
-        "dac": 1,
-        "iccad": 0,
-        "tcad": 0,
-        "todaes": 0
-      },
-      "2021": {
-        "dac": 1,
-        "iccad": 0,
-        "tcad": 1,
-        "todaes": 0
-      },
-      "2025": {
-        "dac": 1,
-        "iccad": 1,
-        "tcad": 1,
-        "todaes": 0
-      },
-      "2022": {
-        "dac": 1,
-        "iccad": 1,
-        "tcad": 3,
-        "todaes": 0
-      },
-      "2015": {
-        "dac": 0,
-        "iccad": 0,
-        "tcad": 2,
-        "todaes": 0
-      }
-    },
-    "conf_total": 41,
-    "journal_total": 16,
-    "total": 57
-  },
-  {
     "name": "Yuzhe Ma",
     "pid": "",
-    "ss_id": "102687853",
+    "ss_id": "",
     "dac": 14,
     "iccad": 13,
     "tcad": 24,
@@ -16163,13 +16169,13 @@ const RESEARCHERS = [
   {
     "name": "Runsheng Wang",
     "pid": "",
-    "ss_id": "2316583655",
+    "ss_id": "",
     "dac": 14,
     "iccad": 27,
     "tcad": 13,
     "todaes": 1,
-    "hindex": 2,
-    "citations": 14,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "Peking University",
     "years": {
       "2025": {
@@ -16710,13 +16716,13 @@ const RESEARCHERS = [
   {
     "name": "Shouyi Yin",
     "pid": "",
-    "ss_id": "70004654",
+    "ss_id": "",
     "dac": 25,
     "iccad": 6,
     "tcad": 22,
     "todaes": 0,
-    "hindex": 2,
-    "citations": 180,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "Tsinghua University",
     "years": {
       "2015": {
@@ -16799,13 +16805,13 @@ const RESEARCHERS = [
   {
     "name": "Haoxing Ren",
     "pid": "",
-    "ss_id": "2242389593",
+    "ss_id": "",
     "dac": 20,
     "iccad": 24,
     "tcad": 5,
     "todaes": 4,
-    "hindex": 4,
-    "citations": 293,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "NVIDIA",
     "years": {
       "2020": {
@@ -17067,13 +17073,13 @@ const RESEARCHERS = [
   {
     "name": "Jinjun Xiong",
     "pid": "",
-    "ss_id": "145042856",
+    "ss_id": "",
     "dac": 13,
     "iccad": 20,
     "tcad": 17,
     "todaes": 3,
-    "hindex": 21,
-    "citations": 1346,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "University of Texas at San Antonio",
     "years": {
       "2011": {
@@ -17663,13 +17669,13 @@ const RESEARCHERS = [
   {
     "name": "Tsung-Wei Huang",
     "pid": "",
-    "ss_id": "1703761",
+    "ss_id": "",
     "dac": 17,
     "iccad": 18,
     "tcad": 15,
     "todaes": 1,
-    "hindex": 19,
-    "citations": 1353,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "University of Wisconsin-Madison",
     "years": {
       "2025": {
@@ -18175,13 +18181,13 @@ const RESEARCHERS = [
   {
     "name": "Luciano Lavagno",
     "pid": "",
-    "ss_id": "2245910995",
+    "ss_id": "",
     "dac": 19,
     "iccad": 11,
     "tcad": 18,
     "todaes": 2,
-    "hindex": 5,
-    "citations": 499,
+    "hindex": 0,
+    "citations": 0,
     "affiliation": "Politecnico di Torino",
     "years": {
       "2019": {
@@ -18580,7 +18586,7 @@ const YEARLY = {
     "2023": 418,
     "2024": 388,
     "2025": 385,
-    "2026": 172
+    "2026": 209
   },
   "todaes": {
     "1996": 20,
