@@ -83,7 +83,7 @@ AFFILIATION_OVERRIDES: dict[str, str] = {
     "Georges G. E. Gielen":               "KU Leuven",
     "Giovanni De Micheli":                "EPFL",
     "Hai Zhou":                           "Northwestern University",
-    "Haoxing Ren":                        "NVIDIA",
+    "Haoxing Ren":                        "Agentrys",
     "Huawei Li":                          "Chinese Academy of Sciences",
     "Huazhong Yang":                      "Tsinghua University",
     "Igor L. Markov": "Synopsys",
@@ -166,7 +166,7 @@ AFFILIATION_OVERRIDES: dict[str, str] = {
     "Yiyu Shi":                           "University of Notre Dame",
     "Yu Wang":                            "Tsinghua University",
     "Yuan Xie": "Hong Kong University of Science and Technology",
-    "Yuan-Hao Chang":                     "National Yang Ming Chiao Tung University",
+    "Yuan-Hao Chang":                     "National Taiwan University",
     "Yun Liang":                          "Peking University",
     "Yuzhe Ma":                           "Hong Kong University of Science and Technology",
 }

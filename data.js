@@ -10146,7 +10146,7 @@ const RESEARCHERS = [
     "todaes": 5,
     "hindex": 0,
     "citations": 0,
-    "affiliation": "National Yang Ming Chiao Tung University",
+    "affiliation": "National Taiwan University",
     "years": {
       "2011": {
         "dac": 1,
@@ -16812,7 +16812,7 @@ const RESEARCHERS = [
     "todaes": 4,
     "hindex": 0,
     "citations": 0,
-    "affiliation": "NVIDIA",
+    "affiliation": "Agentrys",
     "years": {
       "2020": {
         "dac": 2,
