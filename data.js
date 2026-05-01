@@ -430,6 +430,263 @@ const RESEARCHERS = [
     "total": 272
   },
   {
+    "name": "Martin D. F. Wong",
+    "pid": "",
+    "ss_id": "",
+    "dac": 69,
+    "iccad": 86,
+    "tcad": 92,
+    "todaes": 20,
+    "hindex": 0,
+    "citations": 0,
+    "affiliation": "Hong Kong Baptist University",
+    "years": {
+      "2024": {
+        "dac": 3,
+        "iccad": 1,
+        "tcad": 4,
+        "todaes": 1
+      },
+      "2010": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2022": {
+        "dac": 4,
+        "iccad": 4,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2014": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2025": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 5,
+        "todaes": 1
+      },
+      "2011": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2006": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 7,
+        "todaes": 1
+      },
+      "2009": {
+        "dac": 4,
+        "iccad": 1,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "2023": {
+        "dac": 4,
+        "iccad": 3,
+        "tcad": 5,
+        "todaes": 2
+      },
+      "2007": {
+        "dac": 3,
+        "iccad": 4,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2015": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2017": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "2016": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2012": {
+        "dac": 1,
+        "iccad": 4,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2021": {
+        "dac": 1,
+        "iccad": 7,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2004": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2019": {
+        "dac": 2,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2020": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2013": {
+        "dac": 1,
+        "iccad": 4,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "2005": {
+        "dac": 0,
+        "iccad": 5,
+        "tcad": 1,
+        "todaes": 1
+      },
+      "1988": {
+        "dac": 1,
+        "iccad": 2,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "2008": {
+        "dac": 0,
+        "iccad": 1,
+        "tcad": 4,
+        "todaes": 3
+      },
+      "2003": {
+        "dac": 1,
+        "iccad": 4,
+        "tcad": 4,
+        "todaes": 1
+      },
+      "2002": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1997": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 6,
+        "todaes": 1
+      },
+      "2001": {
+        "dac": 0,
+        "iccad": 2,
+        "tcad": 4,
+        "todaes": 1
+      },
+      "1991": {
+        "dac": 2,
+        "iccad": 2,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "1999": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 8,
+        "todaes": 0
+      },
+      "1996": {
+        "dac": 3,
+        "iccad": 3,
+        "tcad": 3,
+        "todaes": 2
+      },
+      "1998": {
+        "dac": 2,
+        "iccad": 5,
+        "tcad": 4,
+        "todaes": 1
+      },
+      "1995": {
+        "dac": 1,
+        "iccad": 3,
+        "tcad": 4,
+        "todaes": 0
+      },
+      "2000": {
+        "dac": 3,
+        "iccad": 0,
+        "tcad": 3,
+        "todaes": 1
+      },
+      "1994": {
+        "dac": 2,
+        "iccad": 5,
+        "tcad": 1,
+        "todaes": 0
+      },
+      "1993": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "1992": {
+        "dac": 1,
+        "iccad": 1,
+        "tcad": 2,
+        "todaes": 0
+      },
+      "2026": {
+        "dac": 0,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 2
+      },
+      "1989": {
+        "dac": 2,
+        "iccad": 1,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1987": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1986": {
+        "dac": 1,
+        "iccad": 0,
+        "tcad": 0,
+        "todaes": 0
+      },
+      "1990": {
+        "dac": 2,
+        "iccad": 3,
+        "tcad": 0,
+        "todaes": 0
+      }
+    },
+    "conf_total": 155,
+    "journal_total": 112,
+    "total": 267
+  },
+  {
     "name": "Bei Yu 0001",
     "pid": "",
     "ss_id": "",
@@ -1652,239 +1909,6 @@ const RESEARCHERS = [
     "conf_total": 118,
     "journal_total": 78,
     "total": 196
-  },
-  {
-    "name": "Martin D. F. Wong",
-    "pid": "",
-    "ss_id": "",
-    "dac": 39,
-    "iccad": 51,
-    "tcad": 92,
-    "todaes": 13,
-    "hindex": 0,
-    "citations": 0,
-    "affiliation": "Hong Kong Baptist University",
-    "years": {
-      "2024": {
-        "dac": 3,
-        "iccad": 1,
-        "tcad": 4,
-        "todaes": 1
-      },
-      "2010": {
-        "dac": 2,
-        "iccad": 2,
-        "tcad": 1,
-        "todaes": 0
-      },
-      "2022": {
-        "dac": 4,
-        "iccad": 4,
-        "tcad": 0,
-        "todaes": 0
-      },
-      "2014": {
-        "dac": 2,
-        "iccad": 3,
-        "tcad": 0,
-        "todaes": 0
-      },
-      "2025": {
-        "dac": 2,
-        "iccad": 0,
-        "tcad": 5,
-        "todaes": 1
-      },
-      "2011": {
-        "dac": 2,
-        "iccad": 1,
-        "tcad": 2,
-        "todaes": 0
-      },
-      "2006": {
-        "dac": 2,
-        "iccad": 0,
-        "tcad": 7,
-        "todaes": 1
-      },
-      "2009": {
-        "dac": 4,
-        "iccad": 1,
-        "tcad": 3,
-        "todaes": 1
-      },
-      "2023": {
-        "dac": 4,
-        "iccad": 3,
-        "tcad": 5,
-        "todaes": 2
-      },
-      "2007": {
-        "dac": 3,
-        "iccad": 4,
-        "tcad": 1,
-        "todaes": 0
-      },
-      "2015": {
-        "dac": 1,
-        "iccad": 1,
-        "tcad": 0,
-        "todaes": 0
-      },
-      "2017": {
-        "dac": 1,
-        "iccad": 1,
-        "tcad": 0,
-        "todaes": 0
-      },
-      "2016": {
-        "dac": 2,
-        "iccad": 0,
-        "tcad": 2,
-        "todaes": 0
-      },
-      "2012": {
-        "dac": 1,
-        "iccad": 4,
-        "tcad": 2,
-        "todaes": 0
-      },
-      "2021": {
-        "dac": 1,
-        "iccad": 7,
-        "tcad": 2,
-        "todaes": 0
-      },
-      "2004": {
-        "dac": 1,
-        "iccad": 3,
-        "tcad": 2,
-        "todaes": 0
-      },
-      "2019": {
-        "dac": 2,
-        "iccad": 0,
-        "tcad": 1,
-        "todaes": 0
-      },
-      "2020": {
-        "dac": 1,
-        "iccad": 0,
-        "tcad": 1,
-        "todaes": 0
-      },
-      "2013": {
-        "dac": 1,
-        "iccad": 4,
-        "tcad": 1,
-        "todaes": 1
-      },
-      "2005": {
-        "dac": 0,
-        "iccad": 5,
-        "tcad": 1,
-        "todaes": 1
-      },
-      "1988": {
-        "dac": 0,
-        "iccad": 2,
-        "tcad": 1,
-        "todaes": 0
-      },
-      "2008": {
-        "dac": 0,
-        "iccad": 1,
-        "tcad": 4,
-        "todaes": 3
-      },
-      "2003": {
-        "dac": 0,
-        "iccad": 4,
-        "tcad": 4,
-        "todaes": 0
-      },
-      "2002": {
-        "dac": 0,
-        "iccad": 0,
-        "tcad": 2,
-        "todaes": 0
-      },
-      "1997": {
-        "dac": 0,
-        "iccad": 0,
-        "tcad": 6,
-        "todaes": 0
-      },
-      "2001": {
-        "dac": 0,
-        "iccad": 0,
-        "tcad": 4,
-        "todaes": 0
-      },
-      "1991": {
-        "dac": 0,
-        "iccad": 0,
-        "tcad": 4,
-        "todaes": 0
-      },
-      "1999": {
-        "dac": 0,
-        "iccad": 0,
-        "tcad": 8,
-        "todaes": 0
-      },
-      "1996": {
-        "dac": 0,
-        "iccad": 0,
-        "tcad": 3,
-        "todaes": 0
-      },
-      "1998": {
-        "dac": 0,
-        "iccad": 0,
-        "tcad": 4,
-        "todaes": 0
-      },
-      "1995": {
-        "dac": 0,
-        "iccad": 0,
-        "tcad": 4,
-        "todaes": 0
-      },
-      "2000": {
-        "dac": 0,
-        "iccad": 0,
-        "tcad": 3,
-        "todaes": 0
-      },
-      "1994": {
-        "dac": 0,
-        "iccad": 0,
-        "tcad": 1,
-        "todaes": 0
-      },
-      "1993": {
-        "dac": 0,
-        "iccad": 0,
-        "tcad": 2,
-        "todaes": 0
-      },
-      "1992": {
-        "dac": 0,
-        "iccad": 0,
-        "tcad": 2,
-        "todaes": 0
-      },
-      "2026": {
-        "dac": 0,
-        "iccad": 0,
-        "tcad": 0,
-        "todaes": 2
-      }
-    },
-    "conf_total": 90,
-    "journal_total": 105,
-    "total": 195
   },
   {
     "name": "Massoud Pedram",
@@ -11076,131 +11100,6 @@ const RESEARCHERS = [
     "conf_total": 31,
     "journal_total": 42,
     "total": 73
-  },
-  {
-    "name": "D. F. Wong 0001",
-    "pid": "",
-    "ss_id": "",
-    "dac": 30,
-    "iccad": 35,
-    "tcad": 0,
-    "todaes": 7,
-    "hindex": 0,
-    "citations": 0,
-    "affiliation": "Hong Kong Baptist University",
-    "years": {
-      "1989": {
-        "dac": 2,
-        "iccad": 1,
-        "tcad": 0,
-        "todaes": 0
-      },
-      "1991": {
-        "dac": 2,
-        "iccad": 2,
-        "tcad": 0,
-        "todaes": 0
-      },
-      "1996": {
-        "dac": 3,
-        "iccad": 3,
-        "tcad": 0,
-        "todaes": 2
-      },
-      "1988": {
-        "dac": 1,
-        "iccad": 0,
-        "tcad": 0,
-        "todaes": 0
-      },
-      "1993": {
-        "dac": 2,
-        "iccad": 1,
-        "tcad": 0,
-        "todaes": 0
-      },
-      "1995": {
-        "dac": 1,
-        "iccad": 3,
-        "tcad": 0,
-        "todaes": 0
-      },
-      "1994": {
-        "dac": 2,
-        "iccad": 5,
-        "tcad": 0,
-        "todaes": 0
-      },
-      "1997": {
-        "dac": 2,
-        "iccad": 3,
-        "tcad": 0,
-        "todaes": 1
-      },
-      "2002": {
-        "dac": 2,
-        "iccad": 3,
-        "tcad": 0,
-        "todaes": 0
-      },
-      "1999": {
-        "dac": 2,
-        "iccad": 3,
-        "tcad": 0,
-        "todaes": 0
-      },
-      "1998": {
-        "dac": 2,
-        "iccad": 5,
-        "tcad": 0,
-        "todaes": 1
-      },
-      "2000": {
-        "dac": 3,
-        "iccad": 0,
-        "tcad": 0,
-        "todaes": 1
-      },
-      "1987": {
-        "dac": 1,
-        "iccad": 0,
-        "tcad": 0,
-        "todaes": 0
-      },
-      "1986": {
-        "dac": 1,
-        "iccad": 0,
-        "tcad": 0,
-        "todaes": 0
-      },
-      "1992": {
-        "dac": 1,
-        "iccad": 1,
-        "tcad": 0,
-        "todaes": 0
-      },
-      "2003": {
-        "dac": 1,
-        "iccad": 0,
-        "tcad": 0,
-        "todaes": 1
-      },
-      "1990": {
-        "dac": 2,
-        "iccad": 3,
-        "tcad": 0,
-        "todaes": 0
-      },
-      "2001": {
-        "dac": 0,
-        "iccad": 2,
-        "tcad": 0,
-        "todaes": 1
-      }
-    },
-    "conf_total": 65,
-    "journal_total": 7,
-    "total": 72
   },
   {
     "name": "Sujit Dey",
