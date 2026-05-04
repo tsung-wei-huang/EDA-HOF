@@ -529,6 +529,7 @@
   <div class="main-tabs">
     <button class="main-tab active" id="tab-overview">Overview</button>
     <button class="main-tab" id="tab-history">History</button>
+    <button class="main-tab" id="tab-acrate">Acceptance Rate</button>
   </div>
 
   <!-- Overview panel -->
@@ -561,7 +562,7 @@
     <div class="history-controls">
       <!-- Author selector -->
       <div class="history-control-group">
-        <div class="history-control-label">Researchers (max 8)</div>
+        <div class="history-control-label">Researchers (max 10)</div>
         <div class="author-dropdown" id="author-dropdown">
           <button class="author-dropdown-btn" id="author-dropdown-btn">
             <span id="author-dropdown-label">5 selected</span>
@@ -608,6 +609,24 @@
     <div id="history-legend" style="display:flex;flex-wrap:wrap;gap:16px;margin-top:14px;font-size:18px;color:var(--muted)"></div>
   </div><!-- /history-panel -->
 
+  <!-- AC Rate panel -->
+  <div class="history-panel" id="acrate-panel">
+    <div class="history-controls" style="margin-bottom:8px">
+      <div class="view-toggle">
+        <button class="view-btn active" id="acrate-btn-dac">DAC</button>
+        <button class="view-btn" id="acrate-btn-iccad">ICCAD</button>
+      </div>
+    </div>
+    <div class="history-chart-wrap" style="position:relative">
+      <canvas id="acrate-canvas"></canvas>
+      <div class="history-tooltip" id="acrate-tooltip">
+        <div class="history-tooltip-title" id="acrate-tt-year"></div>
+        <div id="acrate-tt-rows"></div>
+      </div>
+    </div>
+    <div id="acrate-legend" style="display:flex;flex-wrap:wrap;gap:16px;margin-top:14px;font-size:18px;color:var(--muted)"></div>
+  </div>
+
 </main>
 
 <footer>
@@ -630,6 +649,7 @@
   </div>
 </footer>
 
+<script src="acceptance_rates.js"></script>
 <script src="data.js"></script>
 <script>
 // ── State ──────────────────────────────────────────────────────────────────
@@ -882,7 +902,7 @@ function buildCheckboxList(filter='') {
       e.stopPropagation();
       const wasChecked = cb.checked;
       if (!wasChecked) {
-        if (selectedAuthors.length >= 8) return;
+        if (selectedAuthors.length >= 10) return;
         cb.checked = true;
         const nextColor = HISTORY_COLORS[selectedAuthors.length % HISTORY_COLORS.length];
         selectedAuthors.push({ name: cname, raw: r, color: nextColor });
@@ -1084,17 +1104,19 @@ document.getElementById('history-canvas').addEventListener('mouseleave', functio
 
 // ── Tab switching ─────────────────────────────────────────────────────────────
 document.getElementById('tab-overview').addEventListener('click', function() {
+  ['tab-overview','tab-history','tab-acrate'].forEach(id => document.getElementById(id).classList.remove('active'));
+  ['history-panel','acrate-panel'].forEach(id => { document.getElementById(id).classList.remove('active'); document.getElementById(id).classList.add('hidden'); });
   document.getElementById('tab-overview').classList.add('active');
-  document.getElementById('tab-history').classList.remove('active');
   document.getElementById('overview-panel').classList.remove('hidden');
-  document.getElementById('history-panel').classList.remove('active');
 });
 
 document.getElementById('tab-history').addEventListener('click', function() {
+  ['tab-overview','tab-history','tab-acrate'].forEach(id => document.getElementById(id).classList.remove('active'));
+  ['overview-panel','history-panel','acrate-panel'].forEach(id => { document.getElementById(id).classList.remove('active'); document.getElementById(id).classList.add('hidden'); });
   document.getElementById('tab-history').classList.add('active');
-  document.getElementById('tab-overview').classList.remove('active');
-  document.getElementById('overview-panel').classList.add('hidden');
+  document.getElementById('history-panel').classList.remove('hidden');
   document.getElementById('history-panel').classList.add('active');
+  syncHVenueButtons();
   drawHistoryChart();
 });
 
@@ -1161,6 +1183,176 @@ document.getElementById('btn-peryear').addEventListener('click', function() {
 initDefaultAuthors();
 updateDropdownLabel();
 syncHVenueButtons();  // sync venue button visual state on page load
+
+// ── AC Rate Tab ──────────────────────────────────────────────────────────────
+let acRateVenue = 'dac';
+
+function drawAcRateChart() {
+  const canvas = document.getElementById('acrate-canvas');
+  const ctx    = canvas.getContext('2d');
+  const wrap   = canvas.parentElement;
+  const data   = AC_RATE_DATA[acRateVenue];
+
+  const dpr = window.devicePixelRatio || 1;
+  const W   = wrap.clientWidth - 32;
+  const H   = 420;
+  canvas.width  = W * dpr;
+  canvas.height = H * dpr;
+  canvas.style.width  = W + 'px';
+  canvas.style.height = H + 'px';
+  ctx.scale(dpr, dpr);
+  ctx.clearRect(0, 0, W, H);
+
+  const PAD_T = 20, PAD_B = 44, PAD_R = 80;  // PAD_R leaves room for right y-axis
+  const n = data.length;
+
+  // Metrics to draw
+  const LINES = [
+    { key: 'submitted', label: '#Submitted', color: '#4b8ec8' },
+    { key: 'accepted',  label: '#Accepted',  color: '#34d399' },
+    { key: 'rate',      label: 'Acceptance Rate (%)', color: '#c8a84b', rightAxis: true },
+  ];
+
+  // Compute left axis max (submitted/accepted) and right axis range (rate)
+  const maxLeft  = Math.max(...data.map(d => d.submitted));
+  const minRate  = Math.floor(Math.min(...data.map(d => d.rate)) - 1);
+  const maxRate  = Math.ceil(Math.max(...data.map(d => d.rate)) + 1);
+
+  // Measure left y-label width
+  ctx.font = '14px monospace';
+  const PAD_L = Math.ceil(ctx.measureText(String(maxLeft)).width) + 16;
+  const cW = W - PAD_L - PAD_R;
+  const cH = H - PAD_T - PAD_B;
+  const slotW = cW / n;
+
+  // Left y-axis gridlines + labels
+  const steps = 5;
+  for (let i = 0; i <= steps; i++) {
+    const y = PAD_T + cH - (i / steps) * cH;
+    ctx.strokeStyle = 'rgba(255,255,255,0.06)';
+    ctx.lineWidth = 1;
+    ctx.beginPath(); ctx.moveTo(PAD_L, y); ctx.lineTo(W - PAD_R, y); ctx.stroke();
+    ctx.fillStyle = 'rgba(180,190,210,0.5)';
+    ctx.font = '14px monospace'; ctx.textAlign = 'right';
+    ctx.fillText(Math.round(maxLeft * i / steps), PAD_L - 6, y + 4);
+  }
+
+  // Right y-axis labels (acceptance rate)
+  ctx.fillStyle = '#c8a84b';
+  ctx.font = '14px monospace'; ctx.textAlign = 'left';
+  for (let i = 0; i <= steps; i++) {
+    const y = PAD_T + cH - (i / steps) * cH;
+    const val = minRate + (maxRate - minRate) * i / steps;
+    ctx.fillText(val.toFixed(1) + '%', W - PAD_R + 6, y + 4);
+  }
+
+  // X-axis labels
+  ctx.fillStyle = 'rgba(180,190,210,0.5)';
+  ctx.font = '14px monospace'; ctx.textAlign = 'center';
+  data.forEach((d, xi) => {
+    const x = PAD_L + slotW * 0.5 + xi * slotW;
+    ctx.fillText(d.year, x, H - PAD_B + 20);
+  });
+
+  // Draw lines
+  LINES.forEach(line => {
+    ctx.strokeStyle = line.color;
+    ctx.lineWidth   = 2.5;
+    ctx.lineJoin    = 'round';
+    ctx.beginPath();
+    data.forEach((d, xi) => {
+      const x = PAD_L + slotW * 0.5 + xi * slotW;
+      let y;
+      if (line.rightAxis) {
+        y = PAD_T + cH - ((d.rate - minRate) / (maxRate - minRate)) * cH;
+      } else {
+        y = PAD_T + cH - (d[line.key] / maxLeft) * cH;
+      }
+      xi === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+    });
+    ctx.stroke();
+    // Dots
+    data.forEach((d, xi) => {
+      const x = PAD_L + slotW * 0.5 + xi * slotW;
+      let y;
+      if (line.rightAxis) {
+        y = PAD_T + cH - ((d.rate - minRate) / (maxRate - minRate)) * cH;
+      } else {
+        y = PAD_T + cH - (d[line.key] / maxLeft) * cH;
+      }
+      ctx.fillStyle = line.color;
+      ctx.beginPath(); ctx.arc(x, y, 4, 0, Math.PI * 2); ctx.fill();
+    });
+  });
+
+  // Store for tooltip
+  canvas._data   = data;
+  canvas._params = { PAD_L, PAD_R, PAD_T, PAD_B, cW, cH, n, slotW, maxLeft, minRate, maxRate };
+
+  // Legend
+  const legend = document.getElementById('acrate-legend');
+  legend.innerHTML = '';
+  LINES.forEach(line => {
+    const el = document.createElement('span');
+    el.style.cssText = 'display:flex;align-items:center;gap:8px';
+    el.innerHTML = '<span style="display:inline-block;width:24px;height:3px;background:' +
+      line.color + ';border-radius:2px"></span>' + line.label;
+    legend.appendChild(el);
+  });
+}
+
+// Tooltip
+document.getElementById('acrate-canvas').addEventListener('mousemove', function(e) {
+  const canvas  = this;
+  const tooltip = document.getElementById('acrate-tooltip');
+  if (!canvas._data) { tooltip.style.display = 'none'; return; }
+
+  const rect = canvas.getBoundingClientRect();
+  const mx   = (e.clientX - rect.left) * (canvas.width / rect.width) / (window.devicePixelRatio || 1);
+  const { PAD_L, slotW, n } = canvas._params;
+  const xi = Math.round((mx - PAD_L - slotW * 0.5) / slotW);
+  if (xi < 0 || xi >= n) { tooltip.style.display = 'none'; return; }
+
+  const d = canvas._data[xi];
+  document.getElementById('acrate-tt-year').textContent = d.year;
+  document.getElementById('acrate-tt-rows').innerHTML =
+    '<div class="history-tooltip-row" style="color:#4b8ec8">Submitted: <strong style="color:var(--text)">' + d.submitted + '</strong></div>' +
+    '<div class="history-tooltip-row" style="color:#34d399">Accepted: <strong style="color:var(--text)">' + d.accepted + '</strong></div>' +
+    '<div class="history-tooltip-row" style="color:#c8a84b">Acc. Rate: <strong style="color:var(--text)">' + d.rate.toFixed(2) + '%</strong></div>';
+
+  const tx = Math.min(e.clientX - rect.left + 12, rect.width - 200);
+  const ty = Math.max(e.clientY - rect.top - 10, 0);
+  tooltip.style.left    = tx + 'px';
+  tooltip.style.top     = ty + 'px';
+  tooltip.style.display = 'block';
+});
+document.getElementById('acrate-canvas').addEventListener('mouseleave', function() {
+  document.getElementById('acrate-tooltip').style.display = 'none';
+});
+
+// Tab switch
+document.getElementById('tab-acrate').addEventListener('click', function() {
+  ['tab-overview','tab-history','tab-acrate'].forEach(id => document.getElementById(id).classList.remove('active'));
+  ['overview-panel','history-panel','acrate-panel'].forEach(id => { document.getElementById(id).classList.remove('active'); document.getElementById(id).classList.add('hidden'); });
+  document.getElementById('tab-acrate').classList.add('active');
+  document.getElementById('acrate-panel').classList.remove('hidden');
+  document.getElementById('acrate-panel').classList.add('active');
+  drawAcRateChart();
+});
+
+// Venue toggle
+document.getElementById('acrate-btn-dac').addEventListener('click', function() {
+  acRateVenue = 'dac';
+  this.classList.add('active');
+  document.getElementById('acrate-btn-iccad').classList.remove('active');
+  drawAcRateChart();
+});
+document.getElementById('acrate-btn-iccad').addEventListener('click', function() {
+  acRateVenue = 'iccad';
+  this.classList.add('active');
+  document.getElementById('acrate-btn-dac').classList.remove('active');
+  drawAcRateChart();
+});
 
 // ── Init ─────────────────────────────────────────────────────────────────────
 if (typeof LAST_UPDATED !== 'undefined') {
