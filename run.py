@@ -83,7 +83,7 @@ AFFILIATION_OVERRIDES: dict[str, str] = {
     "Georges G. E. Gielen":               "KU Leuven",
     "Giovanni De Micheli":                "EPFL",
     "Hai Zhou":                           "Northwestern University",
-    "Haoxing Ren":                        "Agentrys",
+    "Haoxing Ren":                        "NVIDIA",
     "Huawei Li":                          "Chinese Academy of Sciences",
     "Huazhong Yang":                      "Tsinghua University",
     "Igor L. Markov": "Synopsys",
@@ -166,7 +166,7 @@ AFFILIATION_OVERRIDES: dict[str, str] = {
     "Yiyu Shi":                           "University of Notre Dame",
     "Yu Wang":                            "Tsinghua University",
     "Yuan Xie": "Hong Kong University of Science and Technology",
-    "Yuan-Hao Chang":                     "National Taiwan University",
+    "Yuan-Hao Chang":                     "National Yang Ming Chiao Tung University",
     "Yun Liang":                          "Peking University",
     "Yuzhe Ma":                           "Hong Kong University of Science and Technology",
 }
@@ -746,12 +746,6 @@ def build_researcher_table(enriched: dict) -> list[dict]:
             researchers[identity]["hindex"]    = ainfo["hindex"]
             researchers[identity]["citations"] = ainfo.get("citations", 0)
             researchers[identity]["ss_id"]     = ainfo.get("ss_id", "")
-    # Apply manual affiliation overrides (strips DBLP number suffix for matching)
-    import re as _re
-    for r in researchers.values():
-        clean = _re.sub(r"\\s+\\d{4}$", "", r["name"]).strip()
-        r["affiliation"] = AFFILIATION_OVERRIDES.get(clean, "")
-
     for vk in VENUES:
         for pid_key, ainfo in enriched[vk]["authors"].items():
             pid  = ainfo.get("pid", "")
@@ -765,6 +759,12 @@ def build_researcher_table(enriched: dict) -> list[dict]:
                 pid = NAME_OVERRIDES[_name_stripped]
             identity = pid if pid else name
             upsert(identity, name, pid, vk, ainfo)
+
+    # Apply manual affiliation overrides AFTER venue loop
+    import re as _re
+    for r in researchers.values():
+        _clean = _re.sub(r"\s+\d{4}$", "", r["name"]).strip()
+        r["affiliation"] = AFFILIATION_OVERRIDES.get(_clean, "")
 
     rows = []
     for r in researchers.values():

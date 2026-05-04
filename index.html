@@ -88,8 +88,10 @@
     color: var(--muted);
     font-size: 14px;
     margin-bottom: 20px;
-    max-width: 560px;
+    max-width: 600px;
   }
+  .subtitle a { color: var(--muted); text-decoration: none; border-bottom: 1px solid var(--border); }
+  .subtitle a:hover { color: var(--accent); }
   .meta-row {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +114,166 @@
     padding: 24px;
     position: relative;
   }
+
+  /* ── Main tabs (Overview / History) ── */
+  .main-tabs {
+    display: flex;
+    gap: 4px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 24px;
+  }
+  .main-tab {
+    padding: 10px 24px;
+    border: none;
+    background: transparent;
+    color: var(--muted);
+    font-family: var(--font-body);
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .main-tab:hover { color: var(--text); }
+  .main-tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+
+  /* ── History tab ── */
+  .history-panel { display: none; }
+  .history-panel.active { display: block; }
+  .overview-panel { display: block; }
+  .overview-panel.hidden { display: none; }
+
+  .history-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  .history-control-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .history-control-label {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .author-dropdown {
+    position: relative;
+  }
+  .author-dropdown-btn {
+    padding: 7px 14px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    color: var(--text);
+    font-family: var(--font-body);
+    font-size: 14px;
+    cursor: pointer;
+    min-width: 220px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .author-dropdown-btn:hover { border-color: var(--accent); }
+  .author-dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 50;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    min-width: 260px;
+    max-height: 320px;
+    overflow-y: auto;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+    margin-top: 4px;
+  }
+  .author-dropdown-menu.open { display: block; }
+  .author-dropdown-search {
+    padding: 8px 12px;
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    background: var(--surface2);
+  }
+  .author-dropdown-search input {
+    width: 100%;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    color: var(--text);
+    font-size: 13px;
+    padding: 4px 8px;
+    outline: none;
+  }
+  .author-dropdown-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 7px 14px;
+    cursor: pointer;
+    font-size: 14px;
+    color: var(--text);
+    transition: background 0.1s;
+  }
+  .author-dropdown-item:hover { background: var(--surface); }
+  .author-dropdown-item input[type=checkbox] { accent-color: var(--accent); cursor: pointer; }
+  .author-color-dot {
+    width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0;
+  }
+  .view-toggle {
+    display: flex;
+    gap: 4px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 3px;
+  }
+  .view-btn {
+    padding: 5px 14px;
+    border-radius: 4px;
+    border: none;
+    background: transparent;
+    color: var(--muted);
+    font-size: 14px;
+    font-family: var(--font-body);
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s;
+  }
+  .view-btn.active { background: var(--accent); color: #0d0f14; }
+
+  /* Chart canvas */
+  .history-chart-wrap {
+    position: relative;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 16px;
+  }
+  #history-canvas { display: block; width: 100%; }
+  .history-tooltip {
+    position: absolute;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 13px;
+    pointer-events: none;
+    display: none;
+    z-index: 10;
+    min-width: 160px;
+  }
+  .history-tooltip-title { font-weight: 600; margin-bottom: 4px; color: var(--text); }
+  .history-tooltip-row { color: var(--muted); font-family: var(--font-mono); font-size: 12px; }
 
   /* ── Venue filter checkboxes ── */
   .venue-filters {
@@ -293,6 +455,28 @@
   }
 
 
+  /* ── History venue buttons ── */
+  .history-venue-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 12px;
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    background: var(--surface);
+    cursor: pointer;
+    user-select: none;
+    font-family: var(--font-mono);
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+    transition: border-color 0.15s, color 0.15s;
+    position: static;
+  }
+  .history-venue-btn:hover { color: var(--text); border-color: var(--accent); }
+  .history-venue-btn.active { color: var(--accent); border-color: var(--accent); background: var(--surface2); }
+
   /* ── Footer ── */
   footer {
     border-top: 1px solid var(--border);
@@ -324,11 +508,13 @@
   <div class="header-inner">
     <h1>Electronic Design Automation <span class="title-accent">Hall of Fame</span></h1>
     <p class="subtitle">
-      Researchers with ≥ 50 papers across the premier EDA
-      conferences and journals: DAC, ICCAD, TCAD, and TODAES.
+      Researchers with ≥ 50 papers across the premier EDA conferences and journals:
+      <span style="white-space:nowrap"><a href="https://dblp.org/db/conf/dac/" target="_blank">DAC</a>,
+      <a href="https://dblp.org/db/conf/iccad/" target="_blank">ICCAD</a>,
+      <a href="https://dblp.org/db/journals/tcad/" target="_blank">TCAD</a>, and
+      <a href="https://dblp.org/db/journals/todaes/" target="_blank">TODAES</a>.</span>
     </p>
     <div class="meta-row">
-      <span><a href="https://dblp.org/db/conf/dac/" target="_blank">DAC</a> · <a href="https://dblp.org/db/conf/iccad/" target="_blank">ICCAD</a> · <a href="https://dblp.org/db/journals/tcad/" target="_blank">TCAD</a> · <a href="https://dblp.org/db/journals/todaes/" target="_blank">TODAES</a></span>
       <span>Source: <a href="https://dblp.org" target="_blank">DBLP</a> · <a href="https://api.semanticscholar.org" target="_blank">Semantic Scholar</a></span>
       <span id="last-updated">—</span>
       <span><a href="https://github.com/tsung-wei-huang/EDA-HOF" target="_blank">GitHub ↗</a></span>
@@ -339,6 +525,14 @@
 
 
 <main>
+  <!-- Main tabs -->
+  <div class="main-tabs">
+    <button class="main-tab active" id="tab-overview">Overview</button>
+    <button class="main-tab" id="tab-history">History</button>
+  </div>
+
+  <!-- Overview panel -->
+  <div class="overview-panel" id="overview-panel">
   <div class="venue-filters" id="venue-filters">
     <label class="venue-checkbox active" data-venue="dac">DAC</label>
     <label class="venue-checkbox active" data-venue="iccad">ICCAD</label>
@@ -360,6 +554,60 @@
       <tbody id="tbody"></tbody>
     </table>
   </div>
+  </div><!-- /overview-panel -->
+
+  <!-- History panel -->
+  <div class="history-panel" id="history-panel">
+    <div class="history-controls">
+      <!-- Author selector -->
+      <div class="history-control-group">
+        <div class="history-control-label">Researchers (max 8)</div>
+        <div class="author-dropdown" id="author-dropdown">
+          <button class="author-dropdown-btn" id="author-dropdown-btn">
+            <span id="author-dropdown-label">5 selected</span>
+            <span>▾</span>
+          </button>
+          <div class="author-dropdown-menu" id="author-dropdown-menu">
+            <div class="author-dropdown-search">
+              <input type="text" id="author-search-input" placeholder="Search author…">
+            </div>
+            <div id="author-checkbox-list"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Venue filter -->
+      <div class="history-control-group">
+        <div class="history-control-label">Venues</div>
+        <div class="venue-filters" style="margin-bottom:0">
+          <label class="history-venue-btn" data-hvenue="dac">DAC</label>
+          <label class="history-venue-btn" data-hvenue="iccad">ICCAD</label>
+          <label class="history-venue-btn" data-hvenue="tcad">TCAD</label>
+          <label class="history-venue-btn" data-hvenue="todaes">TODAES</label>
+        </div>
+      </div>
+      <!-- Cumulative / Per-year toggle -->
+      <div class="history-control-group">
+        <div class="history-control-label">View</div>
+        <div class="view-toggle">
+          <button class="view-btn active" id="btn-cumulative">Cumulative</button>
+          <button class="view-btn" id="btn-peryear">Per Year</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Chart -->
+    <div class="history-chart-wrap">
+      <canvas id="history-canvas" height="420"></canvas>
+      <div class="history-tooltip" id="history-tooltip">
+        <div class="history-tooltip-title" id="tt-year"></div>
+        <div id="tt-rows"></div>
+      </div>
+    </div>
+
+    <!-- Legend -->
+    <div id="history-legend" style="display:flex;flex-wrap:wrap;gap:16px;margin-top:14px;font-size:18px;color:var(--muted)"></div>
+  </div><!-- /history-panel -->
+
 </main>
 
 <footer>
@@ -471,8 +719,8 @@ function renderTable() {
     .filter(v => activeVenues.has(v)).map(v => VENUE_LINKS[v]).join(' \u00b7 ');
   document.getElementById('section-desc').innerHTML =
     rows.length + ' researchers with \u2265 <strong>' + COMBINED_THRESHOLD + '</strong> papers across ' +
-    activeLinks + ' (all-time). Source: <a href="https://dblp.org" target="_blank">DBLP</a> &amp; ' +
-    '<a href="https://www.semanticscholar.org" target="_blank">Semantic Scholar</a>.';
+    'the premier EDA conferences and journals: ' + activeLinks + ' (all-time).<br>' +
+    '';
 
   // thead
   const thead = document.getElementById('thead-row');
@@ -544,9 +792,379 @@ function renderTable() {
 }
 
 
+// ── History Tab ──────────────────────────────────────────────────────────────
+const HISTORY_COLORS = [
+  '#c8a84b','#4b8ec8','#a78bfa','#34d399','#f87171',
+  '#fb923c','#38bdf8','#e879f9','#a3e635','#f472b6'
+];
+
+const CUR_YEAR     = new Date().getFullYear();
+const HISTORY_SPAN = 30;
+const YEAR_START   = CUR_YEAR - HISTORY_SPAN;
+const ALL_YEARS    = Array.from({length: HISTORY_SPAN + 1}, (_, i) => YEAR_START + i);
+
+// State
+let historyView    = 'cumulative';   // 'cumulative' | 'peryear'
+let activeHVenues  = new Set(['dac','iccad','tcad','todaes']);
+let selectedAuthors = [];            // [{name, color, data:{year->count}}]
+
+function authorYearCount(r, year) {
+  const y = r.years ? (r.years[String(year)] || {}) : {};
+  let n = 0;
+  activeHVenues.forEach(v => { n += (y[v] || 0); });
+  return n;
+}
+
+function buildAuthorSeries(r) {
+  // Returns {year: count} for per-year, or cumulative running total
+  const perYear = {};
+  ALL_YEARS.forEach(yr => { perYear[yr] = authorYearCount(r, yr); });
+
+  if (historyView === 'peryear') return perYear;
+
+  // Cumulative — sum all papers up to and including each year
+  // We start from the researcher's first ever paper (pre-YEAR_START too)
+  let cumBefore = 0;
+  if (r.years) {
+    Object.keys(r.years).forEach(yr => {
+      if (parseInt(yr) < YEAR_START) {
+        const y = r.years[yr];
+        activeHVenues.forEach(v => { cumBefore += (y[v] || 0); });
+      }
+    });
+  }
+  const cumul = {};
+  let running = cumBefore;
+  ALL_YEARS.forEach(yr => {
+    running += perYear[yr];
+    cumul[yr] = running;
+  });
+  return cumul;
+}
+
+function initDefaultAuthors() {
+  // Top 5 by current activeHVenues total
+  const top5 = (RESEARCHERS || [])
+    .map(r => ({r, total: ALL_YEARS.reduce((s,yr) => s + authorYearCount(r,yr), 0)}))
+    .sort((a,b) => b.total - a.total)
+    .slice(0, 5)
+    .map(x => x.r);
+  selectedAuthors = top5.map((r, i) => ({
+    name:  cleanName(r.name),
+    raw:   r,
+    color: HISTORY_COLORS[i],
+  }));
+}
+
+function buildCheckboxList(filter='') {
+  const list = document.getElementById('author-checkbox-list');
+  list.innerHTML = '';
+  const selectedNames = new Set(selectedAuthors.map(a => a.name));
+  const q = filter.toLowerCase();
+  (RESEARCHERS || []).forEach(r => {
+    const cname = cleanName(r.name);
+    if (q && !cname.toLowerCase().includes(q)) return;
+    const isSelected = selectedNames.has(cname);
+    const colorIdx   = selectedAuthors.findIndex(a => a.name === cname);
+    const color      = colorIdx >= 0 ? HISTORY_COLORS[colorIdx] : '#555';
+
+    const item = document.createElement('div');
+    item.className = 'author-dropdown-item';
+    item.innerHTML =
+      '<input type="checkbox"' + (isSelected ? ' checked' : '') + '>' +
+      '<span class="author-color-dot" style="background:' + (isSelected ? color : 'transparent') +
+        ';border:1px solid ' + (isSelected ? color : '#555') + '"></span>' +
+      '<span>' + escHtml(cname) + '</span>';
+
+    const cb = item.querySelector('input');
+    // Click anywhere on the row to toggle
+    item.addEventListener('click', function(e) {
+      e.stopPropagation();
+      const wasChecked = cb.checked;
+      if (!wasChecked) {
+        if (selectedAuthors.length >= 8) return;
+        cb.checked = true;
+        const nextColor = HISTORY_COLORS[selectedAuthors.length % HISTORY_COLORS.length];
+        selectedAuthors.push({ name: cname, raw: r, color: nextColor });
+      } else {
+        cb.checked = false;
+        selectedAuthors = selectedAuthors.filter(a => a.name !== cname);
+      }
+      updateDropdownLabel();
+      buildCheckboxList(filter);
+      drawHistoryChart();
+    });
+    list.appendChild(item);
+  });
+}
+
+function updateDropdownLabel() {
+  document.getElementById('author-dropdown-label').textContent =
+    selectedAuthors.length + ' selected';
+}
+
+function drawHistoryChart() {
+  const canvas = document.getElementById('history-canvas');
+  const ctx    = canvas.getContext('2d');
+  const wrap   = canvas.parentElement;
+
+  // Set canvas size
+  const dpr = window.devicePixelRatio || 1;
+  const W = wrap.clientWidth - 32;
+  const H = 420;
+  canvas.width  = W * dpr;
+  canvas.height = H * dpr;
+  canvas.style.width  = W + 'px';
+  canvas.style.height = H + 'px';
+  ctx.scale(dpr, dpr);
+  ctx.clearRect(0, 0, W, H);
+
+  if (!selectedAuthors.length) {
+    ctx.fillStyle = 'rgba(150,160,180,0.4)';
+    ctx.font = '15px system-ui'; ctx.textAlign = 'center';
+    ctx.fillText('Select researchers from the dropdown above', W/2, H/2);
+    return;
+  }
+
+  const PAD_R = 24, PAD_T = 20, PAD_B = 44;
+  const n  = ALL_YEARS.length;
+
+  // Build series data
+  const series = selectedAuthors.map(a => ({
+    ...a,
+    data: buildAuthorSeries(a.raw),
+  }));
+
+  const allVals = series.flatMap(s => ALL_YEARS.map(yr => s.data[yr] || 0));
+  const maxVal  = Math.max(...allVals, 1);
+
+  // Measure y-label width dynamically so PAD_L fits snugly
+  ctx.font = '14px monospace';
+  const PAD_L = Math.ceil(ctx.measureText(String(Math.round(maxVal))).width) + 16;
+  const cW = W - PAD_L - PAD_R;
+  const cH = H - PAD_T - PAD_B;
+
+  // Y gridlines
+  const steps = 5;
+  ctx.strokeStyle = 'rgba(255,255,255,0.06)';
+  ctx.lineWidth   = 1;
+  for (let i = 0; i <= steps; i++) {
+    const y = PAD_T + cH - (i / steps) * cH;
+    ctx.beginPath(); ctx.moveTo(PAD_L, y); ctx.lineTo(W - PAD_R, y); ctx.stroke();
+    ctx.fillStyle = 'rgba(180,190,210,0.5)';
+    ctx.font = '14px monospace'; ctx.textAlign = 'right';
+    ctx.fillText(Math.round(maxVal * i / steps), PAD_L - 8, y + 5);
+  }
+
+  // X axis labels
+  const labelStep = Math.ceil(n / 10);
+  ctx.fillStyle = 'rgba(180,190,210,0.5)';
+  ctx.font = '14px monospace'; ctx.textAlign = 'center';
+  ALL_YEARS.forEach((yr, xi) => {
+    if (xi % labelStep === 0 || xi === n - 1) {
+      const slotWX = cW / n;
+      const x = PAD_L + slotWX * 0.5 + xi * slotWX;
+      ctx.fillText(yr, x, H - PAD_B + 20);
+    }
+  });
+
+  // Draw lines for both views
+  if (historyView === 'peryear') {
+    // Per-year as line plot with dots on non-zero years
+    const slotWD = cW / n;
+    series.forEach(s => {
+      ctx.strokeStyle = s.color;
+      ctx.lineWidth   = 2;
+      ctx.lineJoin    = 'round';
+      ctx.beginPath();
+      let started = false;
+      ALL_YEARS.forEach((yr, xi) => {
+        const x = PAD_L + slotWD * 0.5 + xi * slotWD;
+        const y = PAD_T + cH - ((s.data[yr] || 0) / maxVal) * cH;
+        if (!started) { ctx.moveTo(x, y); started = true; }
+        else ctx.lineTo(x, y);
+      });
+      ctx.stroke();
+      // Dots on years with papers
+      ALL_YEARS.forEach((yr, xi) => {
+        if (!(s.data[yr] || 0)) return;
+        const x = PAD_L + slotWD * 0.5 + xi * slotWD;
+        const y = PAD_T + cH - (s.data[yr] / maxVal) * cH;
+        ctx.fillStyle = s.color;
+        ctx.beginPath(); ctx.arc(x, y, 3, 0, Math.PI * 2); ctx.fill();
+      });
+    })
+  } else {
+    const slotWC = cW / n;
+    series.forEach(s => {
+      ctx.strokeStyle = s.color;
+      ctx.lineWidth   = 2.5;
+      ctx.lineJoin    = 'round';
+      ctx.beginPath();
+      ALL_YEARS.forEach((yr, xi) => {
+        const x = PAD_L + slotWC * 0.5 + xi * slotWC;
+        const y = PAD_T + cH - ((s.data[yr] || 0) / maxVal) * cH;
+        xi === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+      });
+      ctx.stroke();
+      // Dots on every year
+      ALL_YEARS.forEach((yr, xi) => {
+        const x = PAD_L + slotWC * 0.5 + xi * slotWC;
+        const y = PAD_T + cH - ((s.data[yr] || 0) / maxVal) * cH;
+        ctx.fillStyle = s.color;
+        ctx.beginPath(); ctx.arc(x, y, 3, 0, Math.PI * 2); ctx.fill();
+      });
+    });
+  }
+
+  // Store series for tooltip
+  canvas._series  = series;
+  canvas._params  = { PAD_L, PAD_R, PAD_T, PAD_B, cW, cH, n, maxVal };
+  // Save dpr for tooltip hit detection
+  canvas._dpr = window.devicePixelRatio || 1;
+
+  // Legend
+  const legend = document.getElementById('history-legend');
+  legend.innerHTML = '';
+  series.forEach(s => {
+    const el = document.createElement('span');
+    el.style.cssText = 'display:flex;align-items:center;gap:8px';
+    el.innerHTML =
+      '<span style="display:inline-block;width:24px;height:3px;background:' + s.color +
+      ';border-radius:2px"></span>' + escHtml(s.name);
+    legend.appendChild(el);
+  });
+}
+
+// Tooltip
+document.getElementById('history-canvas').addEventListener('mousemove', function(e) {
+  const canvas  = this;
+  const series  = canvas._series;
+  const params  = canvas._params;
+  const tooltip = document.getElementById('history-tooltip');
+
+  if (!series || !series.length) { tooltip.style.display = 'none'; return; }
+
+  const rect = canvas.getBoundingClientRect();
+  const mx   = (e.clientX - rect.left) * (canvas.width / rect.width) / (window.devicePixelRatio || 1);
+  const { PAD_L, PAD_R, cW, n } = params;
+
+  // Use slot-based mapping to match how bars/lines are drawn
+  const slotW = cW / n;
+  const xi  = Math.round((mx - PAD_L - slotW * 0.5) / slotW);
+  if (xi < 0 || xi >= n) { tooltip.style.display = 'none'; return; }
+  const yr  = ALL_YEARS[xi];
+
+  document.getElementById('tt-year').textContent = yr;
+  const rows = document.getElementById('tt-rows');
+  rows.innerHTML = '';
+  series
+    .map(s => ({ name: s.name, val: s.data[yr] || 0, color: s.color }))
+    .sort((a,b) => b.val - a.val)
+    .forEach(({name, val, color}) => {
+      const d = document.createElement('div');
+      d.className = 'history-tooltip-row';
+      d.style.cssText = 'display:flex;align-items:center;gap:6px;margin-top:3px';
+      d.innerHTML =
+        '<span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:' +
+        color + '"></span>' + escHtml(name) + ': <strong style="color:var(--text)">' + val + '</strong>';
+      rows.appendChild(d);
+    });
+
+  const tx = Math.min(e.clientX - rect.left + 12, rect.width - 180);
+  const ty = Math.max(e.clientY - rect.top - 10, 0);
+  tooltip.style.left    = tx + 'px';
+  tooltip.style.top     = ty + 'px';
+  tooltip.style.display = 'block';
+});
+
+document.getElementById('history-canvas').addEventListener('mouseleave', function() {
+  document.getElementById('history-tooltip').style.display = 'none';
+});
+
+// ── Tab switching ─────────────────────────────────────────────────────────────
+document.getElementById('tab-overview').addEventListener('click', function() {
+  document.getElementById('tab-overview').classList.add('active');
+  document.getElementById('tab-history').classList.remove('active');
+  document.getElementById('overview-panel').classList.remove('hidden');
+  document.getElementById('history-panel').classList.remove('active');
+});
+
+document.getElementById('tab-history').addEventListener('click', function() {
+  document.getElementById('tab-history').classList.add('active');
+  document.getElementById('tab-overview').classList.remove('active');
+  document.getElementById('overview-panel').classList.add('hidden');
+  document.getElementById('history-panel').classList.add('active');
+  drawHistoryChart();
+});
+
+// ── Author dropdown ───────────────────────────────────────────────────────────
+document.getElementById('author-dropdown-btn').addEventListener('click', function(e) {
+  e.stopPropagation();
+  document.getElementById('author-dropdown-menu').classList.toggle('open');
+  if (document.getElementById('author-dropdown-menu').classList.contains('open')) {
+    buildCheckboxList();
+    document.getElementById('author-search-input').focus();
+  }
+});
+document.addEventListener('click', function() {
+  document.getElementById('author-dropdown-menu').classList.remove('open');
+});
+document.getElementById('author-dropdown-menu').addEventListener('click', function(e) {
+  e.stopPropagation();
+});
+document.getElementById('author-search-input').addEventListener('input', function() {
+  buildCheckboxList(this.value);
+});
+
+// ── History venue toggles ─────────────────────────────────────────────────────
+// History venue toggles — JS is the single source of truth for active state
+function syncHVenueButtons() {
+  document.querySelectorAll('[data-hvenue]').forEach(function(label) {
+    if (activeHVenues.has(label.dataset.hvenue)) {
+      label.classList.add('active');
+    } else {
+      label.classList.remove('active');
+    }
+  });
+}
+document.querySelectorAll('[data-hvenue]').forEach(function(label) {
+  label.addEventListener('click', function(e) {
+    e.preventDefault();
+    const v = label.dataset.hvenue;
+    if (activeHVenues.has(v)) {
+      if (activeHVenues.size === 1) return;
+      activeHVenues.delete(v);
+    } else {
+      activeHVenues.add(v);
+    }
+    syncHVenueButtons();
+    drawHistoryChart();
+  });
+});
+
+// ── Cumulative / Per-year toggle ──────────────────────────────────────────────
+document.getElementById('btn-cumulative').addEventListener('click', function() {
+  historyView = 'cumulative';
+  this.classList.add('active');
+  document.getElementById('btn-peryear').classList.remove('active');
+  drawHistoryChart();
+});
+document.getElementById('btn-peryear').addEventListener('click', function() {
+  historyView = 'peryear';
+  this.classList.add('active');
+  document.getElementById('btn-cumulative').classList.remove('active');
+  drawHistoryChart();
+});
+
+// ── Init history ──────────────────────────────────────────────────────────────
+initDefaultAuthors();
+updateDropdownLabel();
+syncHVenueButtons();  // sync venue button visual state on page load
+
 // ── Init ─────────────────────────────────────────────────────────────────────
 if (typeof LAST_UPDATED !== 'undefined') {
-  document.getElementById('last-updated').textContent = 'Updated: ' + LAST_UPDATED;
+  document.getElementById('last-updated').textContent = 'Updated: ' + LAST_UPDATED + '  (refreshed monthly)';
   document.getElementById('footer-updated').textContent = 'Last updated: ' + LAST_UPDATED;
 }
 

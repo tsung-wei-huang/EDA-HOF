@@ -10,7 +10,7 @@ all-time publication records across the four premier EDA venues:
 | [TCAD](https://dblp.org/db/journals/tcad/) | IEEE Transactions on Computer-Aided Design | Journal | `journals/tcad` |
 | [TODAES](https://dblp.org/db/journals/todaes/) | ACM Transactions on Design Automation of Electronic Systems | Journal | `journals/todaes` |
 
-**Live site:** https://tsung-wei-huang.github.io/EDA-HOF/index.html
+**Live site:** https://tsung-wei-huang.github.io/EDA-HOF
 
 **GitHub:** https://github.com/tsung-wei-huang/EDA-HOF
 
@@ -178,6 +178,39 @@ python run.py --skip-fetch --skip-enrich
 | Same person appears twice | Name variant with no DBLP PID | See author disambiguation below |
 | Affiliation shows blank | Not yet in `AFFILIATION_OVERRIDES` | Add it manually (see Affiliations section) |
 | Site shows placeholder data | `data.js` is the stub file | Run `python run.py` |
+
+---
+
+## Testing
+
+The pipeline logic is covered by a unit test suite under `tests/`.
+
+### Setup
+
+```bash
+pip install pytest
+```
+
+### Run
+
+```bash
+make test          # full suite (verbose)
+make test-fast     # stop on first failure
+pytest tests/ -v   # equivalent to make test
+```
+
+### What is tested
+
+| Test class | What it covers |
+|---|---|
+| `TestProcessPapers` | Paper counting, dedup by record key, author dedup within a paper, yearly breakdown |
+| `TestBuildResearcherTable` | Threshold filtering, PID merging, `NAME_OVERRIDES`, `AFFILIATION_OVERRIDES`, sort order |
+| `TestHofQualifyingPids` | Qualifying logic, cross-venue summing, `NAME_OVERRIDES` consistency |
+| `TestNameOverrides` | D. F. Wong / Martin D. F. Wong end-to-end merge |
+| `TestThresholdConfig` | Threshold value, boundary conditions, venue set |
+
+When you add a new `NAME_OVERRIDES` or `AFFILIATION_OVERRIDES` entry, add a
+corresponding test to catch regressions on future pipeline changes.
 
 ---
 
