@@ -10,7 +10,7 @@ all-time publication records across the four premier EDA venues:
 | [TCAD](https://dblp.org/db/journals/tcad/) | IEEE Transactions on Computer-Aided Design | Journal | `journals/tcad` |
 | [TODAES](https://dblp.org/db/journals/todaes/) | ACM Transactions on Design Automation of Electronic Systems | Journal | `journals/todaes` |
 
-**Live site:** https://tsung-wei-huang.github.io/EDA-HOF
+**Live site:** https://tsung-wei-huang.github.io/EDA-HOF/index.html
 
 **GitHub:** https://github.com/tsung-wei-huang/EDA-HOF
 
