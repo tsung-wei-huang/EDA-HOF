@@ -86,7 +86,7 @@ AFFILIATION_OVERRIDES: dict[str, str] = {
     "Haoxing Ren":                        "NVIDIA",
     "Huawei Li":                          "Chinese Academy of Sciences",
     "Huazhong Yang":                      "Tsinghua University",
-    "Igor L. Markov": "Synopsys",
+    "Igor L. Markov":                     "Synopsys",
     "Iris Hui-Ru Jiang":                  "National Taiwan University",
     "Irith Pomeranz":                     "Purdue University",
     "Jacob A. Abraham":                   "University of Texas at Austin",
@@ -101,6 +101,7 @@ AFFILIATION_OVERRIDES: dict[str, str] = {
     "John P. Hayes":                      "University of Michigan",
     "Jordi Cortadella":                   "Universitat Politècnica de Catalunya",
     "Jörg Henkel":                   "Karlsruhe Institute of Technology",
+    "Mehdi Baradaran Tahoori":       "Karlsruhe Institute of Technology",
     "Kaushik Roy":                        "Purdue University",
     "Krishnendu Chakrabarty":             "Arizona State University",
     "Kurt Keutzer":                       "University of California, Berkeley",
@@ -193,6 +194,8 @@ NAME_OVERRIDES: dict[str, str] = {
     "D. F. Wong 0001":   "w/MartinDFWong",
     "D.F. Wong":         "w/MartinDFWong",
     "Martin D. F. Wong": "w/MartinDFWong",
+    "Mehdi Baradaran Tahoori": "55/3589",
+    "Mehdi B. Tahoori":        "55/3589",
 }
 
 # dblp_path must match the path under https://dblp.org/db/
