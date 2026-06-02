@@ -1,0 +1,37 @@
+name: Monthly Data Refresh
+
+on:
+  schedule:
+    # Runs at 02:00 UTC on the first day of every month.
+    - cron: '0 2 1 * *'
+  workflow_dispatch:  # Allow manual trigger from the Actions tab
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install lxml
+
+      - name: Run pipeline
+        run: python run.py
+
+      - name: Commit updated data.js
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data.js
+          # Only commit if data.js actually changed
+          git diff --cached --quiet || git commit -m "chore: monthly data refresh $(date +%Y-%m-%d)"
+          git push
