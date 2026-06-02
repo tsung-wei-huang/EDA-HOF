@@ -903,12 +903,11 @@ function buildAuthorSeries(r) {
 }
 
 function initDefaultAuthors() {
-  // Top 5 by current activeHVenues total
+  // Top 5 by overall total (same ranking as the Overview tab)
   const top5 = (RESEARCHERS || [])
-    .map(r => ({r, total: ALL_YEARS.reduce((s,yr) => s + authorYearCount(r,yr), 0)}))
+    .slice()
     .sort((a,b) => b.total - a.total)
-    .slice(0, 5)
-    .map(x => x.r);
+    .slice(0, 5);
   selectedAuthors = top5.map((r, i) => ({
     name:  cleanName(r.name),
     raw:   r,
