@@ -170,6 +170,7 @@ AFFILIATION_OVERRIDES: dict[str, str] = {
     "Yuan-Hao Chang":                     "National Yang Ming Chiao Tung University",
     "Yun Liang":                          "Peking University",
     "Yuzhe Ma":                           "Hong Kong University of Science and Technology",
+    "Partha Pratim Pande":                "Washington State University"
 }
 
 # ── Manual name overrides ─────────────────────────────────────────────────────

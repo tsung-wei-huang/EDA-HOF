@@ -18575,7 +18575,7 @@ const RESEARCHERS = [
     "todaes": 12,
     "hindex": 0,
     "citations": 0,
-    "affiliation": "",
+    "affiliation": "Washington State University",
     "years": {
       "2020": {
         "dac": 2,
