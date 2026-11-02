@@ -13,6 +13,7 @@ const AC_RATE_DATA = {
     { year: 2023, submitted: 1156, accepted: 263, rate: 22.75 },
     { year: 2024, submitted: 1545, accepted: 337, rate: 21.81 },
     { year: 2025, submitted: 1862, accepted: 420, rate: 22.56 },
+    { year: 2026, submitted: 2170, accepted: 484, rate: 22.30 },
   ],
   iccad: [
     { year: 2013, submitted: 354,  accepted: 92,  rate: 25.99 },
@@ -28,5 +29,6 @@ const AC_RATE_DATA = {
     { year: 2023, submitted: 750,  accepted: 172, rate: 22.93 },
     { year: 2024, submitted: 802,  accepted: 195, rate: 24.31 },
     { year: 2025, submitted: 1078, accepted: 266, rate: 24.68 },
+    { year: 2026, submitted: 1434, accepted: 341, rate: 23.78 },
   ],
 };
