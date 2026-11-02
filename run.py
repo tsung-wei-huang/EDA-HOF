@@ -65,6 +65,7 @@ AFFILIATION_OVERRIDES: dict[str, str] = {
     "Cheng-Kok Koh":                      "Purdue University",
     "Chun Jason Xue":                     "City University of Hong Kong",
     "Chung-Kuan Cheng":                   "University of California, San Diego",
+    "Changhao Yan":                       "Fudan University",
     "D. F. Wong":                         "Hong Kong Baptist University",
     "David T. Blaauw":                    "University of Michigan",
     "David Z. Pan":                       "University of Texas at Austin",
@@ -116,11 +117,13 @@ AFFILIATION_OVERRIDES: dict[str, str] = {
     "Malgorzata Marek-Sadowska":          "University of California, Santa Barbara",
     "Martin D. F. Wong":                  "Hong Kong Baptist University",
     "Massoud Pedram":                     "University of Southern California",
+    "Meng Li":                            "Peking University",
     "Miodrag Potkonjak":                  "University of California, Los Angeles",
     "Mohsen Imani":                       "University of California, Irvine",
     "Muhammad Shafique":                  "New York University Abu Dhabi",
     "Nikil D. Dutt":                      "University of California, Irvine",
     "Niraj K. Jha":                       "Princeton University",
+    "Nan Guan":                           "City University of Hong Kong",
     "Ozgur Sinanoglu":                    "New York University Abu Dhabi",
     "Peng Li": "University of California, Santa Barbara",
     "Puneet Gupta":                       "University of California, Los Angeles",
@@ -147,6 +150,7 @@ AFFILIATION_OVERRIDES: dict[str, str] = {
     "Sujit Dey":                          "University of California, San Diego",
     "Sung Kyu Lim": "University of Southern California",
     "Sung-Mo Kang":                       "University of California, Santa Cruz",
+    "Sri Parameswaran":                   "University of New South Wales",
     "Taewhan Kim":                        "Seoul National University",
     "Tei-Wei Kuo":                        "National Taiwan University",
     "Tsung-Wei Huang":                    "University of Wisconsin-Madison",
@@ -170,7 +174,10 @@ AFFILIATION_OVERRIDES: dict[str, str] = {
     "Yuan-Hao Chang":                     "National Yang Ming Chiao Tung University",
     "Yun Liang":                          "Peking University",
     "Yuzhe Ma":                           "Hong Kong University of Science and Technology",
-    "Partha Pratim Pande":                "Washington State University"
+    "Wenjian Yu":                         "Tsinghua University",
+    "Partha Pratim Pande":                "Washington State University",
+    "Xunzhao Yin":                        "Zhejiang University",
+    "Zhuo Feng":                          "Stevens Institute of Technology"
 }
 
 # ── Manual name overrides ─────────────────────────────────────────────────────
